@@ -2,10 +2,73 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face {
+    font-family: LotaBold;
+    src: url("/fonts/Los\ Andes\ Lota\ Grotesque\ Alt\ 2\ Bold.otf");
+  }
+  @font-face {
+    font-family: LotaSemiBold;
+    src: url("/fonts/Los\ Andes\ Lota\ Grotesque\ Alt\ 1\ Semi\ Bold.otf");
+  }
+  @font-face {
+    font-family: LotaBlack;
+    src: url("/fonts/Los\ Andes\ Lota\ Grotesque\ Alt\ 2\ Black.otf");
+  }
+  @font-face {
+    font-family: LotaRegular;
+    src: url("/fonts/Los\ Andes\ Lota\ Grotesque\ Alt\ 3\ Regular.otf");
+  }
+  @font-face {
+    font-family: LotaThin;
+    src: url("/fonts/Los\ Andes\ Lota\ Grotesque\ Alt\ 1\ Thin.otf");
+  }
+  @font-face {
+    font-family: LotaThinItalic;
+    src: url("/fonts/Los\ Andes\ Lota\ Grotesque\ Alt\ 1\ Thin\ Italic.otf");
+  }
+  @font-face {
+    font-family: SofiaBlack;
+    src: url("/fonts/Sofia\ Pro\ Black\ Az.otf");
+  }
+  @font-face {
+    font-family: SofiaBold;
+    src: url("/fonts/Sofia\ Pro\ Bold\ Az.otf");
+  }
+  @font-face {
+    font-family: SofiaSemiBold;
+    src: url("/fonts/Sofia\ Pro\ Semi\ Bold\ Az.otf");
+  }
+  @font-face {
+    font-family: SofiaMedium;
+    src: url("/fonts/Sofia\ Pro\ Medium\ Az.otf");
+  }
+  @font-face {
+    font-family: SofiaRegular;
+    src: url("/fonts/Sofia\ Pro\ Regular\ Az.otf");
+  }
+  @font-face {
+    font-family: SofiaLight;
+    src: url("/fonts/Sofia\ Pro\ Light\ Az.otf");
+  }
+  @font-face {
+    font-family: SofiaExtraLight;
+    src: url("/fonts/Sofia\ Pro\ ExtraLight\ Az.otf");
+  }
+  @font-face {
+    font-family: SofiaUltraLight;
+    src: url("/fonts/Sofia\ Pro\ UltraLight\ Az.otf");
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+}
+
+.moon {
+  border-radius: 42px, 29px, 46px, 214px;
 }
 
 @media (prefers-color-scheme: dark) {

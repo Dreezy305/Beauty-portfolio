@@ -1,18 +1,52 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      sm: "480px",
+      md: "768px",
+      lg: "1280px",
+      xl: "1440px",
+    },
+    fontFamily: {
+      LotaBold: "LotaBold",
+      LotaBlack: "LotaBlack",
+      LotaSemiBold: "LotaSemiBold",
+      LotaRegular: "LotaRegular",
+      LotaThin: "LotaThin",
+      LotaThinItalic: "LotaThinItalic",
+      SofiaBlack: "SofiaBlack",
+      SofiaBold: "SofiaBold",
+      SofiaSemiBold: "SofiaSemiBold",
+      SofiaMedium: "SofiaMedium",
+      SofiaRegular: "SofiaRegular",
+      SofiaLight: "SofiaLight",
+      SofiaExtraLight: "SofiaExtraLight",
+      SofiaUltraLight: "SofiaUltraLight",
+    },
     extend: {
+      colors: {
+        BeautyLightBlue: "#00F0FF",
+        BeautyLightYellow: "#FFCE00",
+        BeautyLightBrown: "#F25F11",
+        BeautyWhite: "#FFFFFF",
+        BeautyBlack: "#000000",
+        BeautyDeepBlue: "#4A47FF",
+        BeautyDeepGreen: "#AEDC93",
+        BeautyDeepGrey: "#2A95AB",
+        BeautyDeepPurple: "#D85EEC",
+        BeautyDarkPurple: "#1D1E2C",
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
   },
   plugins: [],
-}
+};
