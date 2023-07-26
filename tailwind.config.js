@@ -40,6 +40,7 @@ module.exports = {
         BeautyDeepGrey: "#2A95AB",
         BeautyDeepPurple: "#D85EEC",
         BeautyDarkPurple: "#1D1E2C",
+        BeautyGrey: "#9AA9B180",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

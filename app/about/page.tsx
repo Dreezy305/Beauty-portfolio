@@ -1,7 +1,9 @@
 import React from "react";
 import BeautyLayout from "../components/Layout/Beauty";
-import "./about.css"
+import "./about.css";
 import Image from "next/image";
+import Accordion from "../components/Accordion/Accordion";
+import { work_experience } from "../../data/experience";
 
 export default function About(): JSX.Element {
   return (
@@ -39,8 +41,22 @@ export default function About(): JSX.Element {
             </div>
           </div>
 
-          <div className="flex flex-col space-y-6">
-            <h5 className="font-SofiaBold font-bold text-2xl leading-6">My Work Experience</h5>
+          <div className="flex flex-col space-y-12 mb-8 pb-8 pt-7">
+            <h5 className="font-SofiaBold font-bold text-2xl leading-6">
+              My Work Experience
+            </h5>
+
+            {work_experience.map((i: any, index: any) => {
+              return (
+                <div key={index}>
+                  <Accordion data={i} />
+                </div>
+              );
+            })}
+
+            <h5 className="font-SofiaBold font-bold text-3xl leading-6">
+            My Expertise
+            </h5>
           </div>
         </div>
       </section>
