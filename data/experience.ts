@@ -77,7 +77,35 @@ export const work_experience = [
       `Working with clients, briefing and advising them with regard to design style, format, print production and time scales.
         `,
       `Developing concepts, graphics and layouts for product`,
-      `Determining size and arrangement of copy and illustrative material, as well as font style and size `
+      `Determining size and arrangement of copy and illustrative material, as well as font style and size `,
     ],
   },
 ];
+
+export const design = [
+  "Concept Development",
+  "Ideating, sketching",
+  "Wireframing",
+  "Prototyping",
+  "Interaction Design",
+];
+
+export const research = [
+  "User Flow Development",
+  "User Journey Mapping",
+  "User Research",
+  "Googling",
+  "Interaction Design",
+];
+
+export const strength = [
+  "Strategic Planning",
+  "Collaboration",
+  "Leadership",
+  "Critical Thinking",
+  "Strategic Planning",
+  "Collaboration",
+  "Problem Solving",
+];
+
+export const tools = ["Figma", "Adobe XD", "Protopie", "Axure RP", "Click up", "Jira", "Photoshop", "Webflow", "Airtable", "Miro"];

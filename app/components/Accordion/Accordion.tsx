@@ -9,9 +9,6 @@ type Props = {
 
 function Accordion({ data }: Props): JSX.Element {
   const [show, setShow] = useState<boolean>(false);
-
-  console.log(data, "data");
-
   return (
     <div className="rounded-[30px] bg-BeautyDarkPurple h-auto px-12 py-6">
       <div className="flex flex-row items-center justify-end">

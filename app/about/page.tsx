@@ -4,6 +4,7 @@ import "./about.css";
 import Image from "next/image";
 import Accordion from "../components/Accordion/Accordion";
 import { work_experience } from "../../data/experience";
+import Card from "../components/Card/Card";
 
 export default function About(): JSX.Element {
   return (
@@ -57,6 +58,8 @@ export default function About(): JSX.Element {
             <h5 className="font-SofiaBold font-bold text-3xl leading-6">
             My Expertise
             </h5>
+
+            <Card/>
           </div>
         </div>
       </section>
