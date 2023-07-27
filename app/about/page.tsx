@@ -8,7 +8,7 @@ import Card from "../components/Card/Card";
 
 export default function About(): JSX.Element {
   return (
-    <BeautyLayout active={"about"}>
+    <BeautyLayout active={"about"} location="others">
       <section className="overflow-hidden">
         <div className="container mx-auto mt-20 flex flex-col space-y-12">
           <div className="flex flex-row items-center justify-between">
@@ -55,7 +55,7 @@ export default function About(): JSX.Element {
               );
             })}
 
-            <h5 className="font-SofiaBold font-bold text-3xl leading-6">
+            <h5 className="font-SofiaBold font-bold text-3xl leading-6 pt-10">
             My Expertise
             </h5>
 
