@@ -10,7 +10,7 @@ module.exports = {
       sm: "480px",
       md: "768px",
       lg: "1280px",
-      xl: "1440px",
+      xl: "1500px",
     },
     fontFamily: {
       LotaBold: "LotaBold",
