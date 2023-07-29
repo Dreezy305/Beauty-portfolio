@@ -29,8 +29,8 @@ export default function Portfolio(): JSX.Element {
           </div>
 
           <Link
-            href="#"
-            className="flex flex-row items-center space-x-2 absolute view"
+            href="/portfolio/fara"
+            className="flex flex-row items-center space-x-2 absolute view cursor-pointer"
           >
             <span className="font-LotaRegular text-base font-normal leading-6">
               View Case Study
