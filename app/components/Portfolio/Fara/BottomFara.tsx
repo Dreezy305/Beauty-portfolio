@@ -174,8 +174,66 @@ function BottomFara(): JSX.Element {
         payments online or at POS terminals.
       </p>
 
-      <div className="rounded-lg px-5 py-6">
-        <h5 className="font-LotaRegular">Do you use financial Platforms?</h5>
+      <div className="rounded-lg px-5 py-8 bg-BeautyDark">
+        <h5 className="font-LotaRegular text-3xl leading-7 pb-8">
+          Do you use financial Platforms?
+        </h5>
+
+        <div className="grid grid-cols-2 gap-6">
+          <div className="rounded-lg py-6 px-4 bg-BeautyDarkPurple">
+            <p className="font-LotaRegular font-normal text-lg leading-7">
+              IF YES: <br />
+              what app do you use? <br />
+              Do you identify as the banked or unbanked? <br />
+              What do you look out for before choose an app for financing?
+              <br />
+              is there something you wish this app would do better?
+              <br />
+            </p>
+          </div>
+
+          <div className="rounded-lg py-6 px-4 bg-BeautyDarkPurple">
+            <p className="font-LotaRegular font-normal text-lg leading-7">
+              IF NO:
+              <br />
+              Why use financial platforms?
+              <br />
+              Have you ever tried using any inclusive financial app?
+              <br />
+              Why did you stop using that app?
+              <br />
+              What does fininacial platform has to provide so that you would
+              want to use it?
+              <br />
+            </p>
+          </div>
+
+          <div className="rounded-lg py-6 px-4 bg-BeautyDarkPurple relative">
+            <p className="font-LotaRegular font-normal text-lg leading-7">
+              Yes I use financial platforms, I use piggy vest and I really
+              love it because of how easy it is to save and
+              withdraw my money.
+            </p>
+          </div>
+
+          <div className="rounded-lg py-6 px-4 bg-BeautyDarkPurple relative h-auto">
+            <p className="font-LotaRegular font-normal text-lg leading-7 w-full">
+            No, I don't trust financial platforms. I'll rather keep my money with me or at  home where it's safe.
+            </p>
+          </div>
+
+          <div className="rounded-lg py-6 px-4 bg-BeautyDarkPurple relative h-auto">
+            <p className="font-LotaRegular font-normal text-lg leading-7 w-full">
+            Yes I use financial platforms, and use a financial app but I am not really happy with it because the app  doesn't have a  alert feature so most times I am unable  to target a specific amount that was debited from my  account.
+            </p>
+          </div>
+
+          <div className="rounded-lg py-6 px-4 bg-BeautyDarkPurple relative h-auto">
+            <p className="font-LotaRegular font-normal text-lg leading-7 w-full">
+            Yes, I one tried using a financial platforms, but it was just too complex for me to understand so I gave up and never went back to it.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
