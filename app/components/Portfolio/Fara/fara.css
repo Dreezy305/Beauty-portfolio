@@ -4,3 +4,21 @@
   background-position: right top;
   background-position-y: -9%;
 }
+
+.top-left {
+    position: absolute;
+    left: -1%;
+    top: -7%;
+}
+
+.top-right {
+    position: absolute;
+    right: -1%;
+    top: -7%
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: -7%;
+    right: -2%
+}

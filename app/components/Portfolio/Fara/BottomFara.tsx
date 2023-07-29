@@ -4,6 +4,10 @@ import Groupfara from "../../../../public/Groupfara.png";
 import Group1855 from "../../../../public/Group1855.png";
 import MaskGroup from "../../../../public/MaskGroup.png";
 import MaskGroup1 from "../../../../public/MaskGroup1.png";
+import MaskGroup2 from "../../../../public/MaskGroup2.png";
+import MaskGroup3 from "../../../../public/MaskGroup3.png";
+import MaskGroup4 from "../../../../public/MaskGroup4.png";
+import MaskGroup5 from "../../../../public/MaskGroup5.png";
 import "./fara.css";
 
 function BottomFara(): JSX.Element {
@@ -179,7 +183,7 @@ function BottomFara(): JSX.Element {
           Do you use financial Platforms?
         </h5>
 
-        <div className="grid grid-cols-2 gap-6">
+        <div className="grid grid-cols-2 gap-x-8 gap-y-12">
           <div className="rounded-lg py-6 px-4 bg-BeautyDarkPurple">
             <p className="font-LotaRegular font-normal text-lg leading-7">
               IF YES: <br />
@@ -210,28 +214,61 @@ function BottomFara(): JSX.Element {
 
           <div className="rounded-lg py-6 px-4 bg-BeautyDarkPurple relative">
             <p className="font-LotaRegular font-normal text-lg leading-7">
-              Yes I use financial platforms, I use piggy vest and I really
-              love it because of how easy it is to save and
-              withdraw my money.
+              Yes I use financial platforms, I use piggy vest and I really love
+              it because of how easy it is to save and withdraw my money.
             </p>
+            <Image
+              src={MaskGroup2}
+              height={30}
+              width={30}
+              alt="mask"
+              className="absolute top-left"
+            />
           </div>
 
           <div className="rounded-lg py-6 px-4 bg-BeautyDarkPurple relative h-auto">
             <p className="font-LotaRegular font-normal text-lg leading-7 w-full">
-            No, I don't trust financial platforms. I'll rather keep my money with me or at  home where it's safe.
+              No, I don't trust financial platforms. I'll rather keep my money
+              with me or at home where it's safe.
             </p>
+            <Image
+              src={MaskGroup3}
+              height={30}
+              width={30}
+              alt="mask"
+              className="absolute bottom-right"
+            />
           </div>
 
           <div className="rounded-lg py-6 px-4 bg-BeautyDarkPurple relative h-auto">
             <p className="font-LotaRegular font-normal text-lg leading-7 w-full">
-            Yes I use financial platforms, and use a financial app but I am not really happy with it because the app  doesn't have a  alert feature so most times I am unable  to target a specific amount that was debited from my  account.
+              Yes I use financial platforms, and use a financial app but I am
+              not really happy with it because the app doesn't have a alert
+              feature so most times I am unable to target a specific amount that
+              was debited from my account.
             </p>
+            <Image
+              src={MaskGroup4}
+              height={30}
+              width={30}
+              alt="mask"
+              className="absolute top-right"
+            />
           </div>
 
           <div className="rounded-lg py-6 px-4 bg-BeautyDarkPurple relative h-auto">
             <p className="font-LotaRegular font-normal text-lg leading-7 w-full">
-            Yes, I one tried using a financial platforms, but it was just too complex for me to understand so I gave up and never went back to it.
+              Yes, I one tried using a financial platforms, but it was just too
+              complex for me to understand so I gave up and never went back to
+              it.
             </p>
+            <Image
+              src={MaskGroup5}
+              height={30}
+              width={30}
+              alt="mask"
+              className="absolute bottom-right"
+            />
           </div>
         </div>
       </div>
