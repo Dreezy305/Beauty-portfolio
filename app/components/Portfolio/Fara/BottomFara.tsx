@@ -1,6 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import Groupfara from "../../../../public/Groupfara.png";
+import Group1855 from "../../../../public/Group1855.png";
+import MaskGroup from "../../../../public/MaskGroup.png";
+import MaskGroup1 from "../../../../public/MaskGroup1.png";
 import "./fara.css";
 
 function BottomFara(): JSX.Element {
@@ -111,6 +114,69 @@ function BottomFara(): JSX.Element {
         <br />
         Other goals for the design include:
       </p>
+
+      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12 text-center">
+        The Approach
+      </h5>
+
+      <p className="font-LotaRegular font-normal text-xl leading-8">
+        The Basics - Starting from ground ZERO <br />
+        What is a Financial Platform?
+      </p>
+      <p className="font-LotaRegular font-normal text-xl leading-8 py-5 mt-8">
+        A platform is an online service that allows financial advisers to manage
+        their clients' investment portfolios. . is an online service that allows
+        financial advisers to manage their clients' investment portfolios. Some
+        platforms can be used by customers directly (Fara money is used by the
+        Agent for the customer.) <br />
+        <br />
+        At the end of the 78th day of the nationwide Covid-19 lockdown, the
+        feeling of uncertain economic and financial future has gripped majority
+        of the citizens. This was revealed in a survey carried out by
+        competitor's platform, a digital financial platform earlier this month.
+        The nationwide survey of nearly 5,000 respondents threw up no surprises:
+        94 per cent said they would have to be extra careful about how they
+        spend their money in the next few months; 84 per cent said they were
+        cutting back on spending; and 90 per cent expressed concern about their
+        savings and financial future. <br />
+        <br />
+        One of the goals of this project is to bring inclusive services for
+        everyday people in a way that will shape the future of banking in
+        emerging economies.
+        <br />
+        <br />
+      </p>
+
+      <Image src={Group1855} alt="group" className="w-full" priority />
+
+      <p className="font-LotaRegular font-normal text-xl leading-8">
+        The Fara Card - An easy way to access and use financial platforms.
+        <br />
+        <br />
+        One of the major challenge of customer relations team during customer
+        conversion is that potential users do not trust the idea of Agent savers{" "}
+        <br /> <br />
+        To solve this problem of trust, Fara Money has decided to create a
+        customer assess card and add the feature to this version of the web
+        application. The major intention of this decision was to allow users
+        have full security over their money.
+      </p>
+
+      <div className="flex flex-row space-x-4 pt-9">
+        <Image src={MaskGroup} alt="group" className="w-1/2" priority />
+        <Image src={MaskGroup1} alt="group" className="w-1/2" priority />
+      </div>
+
+      <p className="font-LotaRegular font-normal text-xl leading-8 py-5 mt-8">
+        This debit card would work exactly how traditional debit cards work,
+        only that instead of spending fiat currency like dollars of pounds,
+        crypto will be spent. The card can be used to withdraw at ATMs, make
+        payments online or at POS terminals.
+      </p>
+
+      <div className="rounded-lg px-5 py-6">
+        <h5 className="font-LotaRegular">Do you use financial Platforms?</h5>
+      </div>
     </div>
   );
 }
