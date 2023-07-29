@@ -290,7 +290,7 @@ function BottomFara(): JSX.Element {
           <div className="w-1/3 bg-BeautyLightGrey rounded-tl-2xl rounded-tr-none rounded-bl-2xl rounded-br-none px-5 py-5 flex flex-col space-y-7">
             <div className="flex flex-col space-y-3">
               <Image src={MaskGroup6} alt="group" className="w-full" priority />
-              <p className="font-SofiRegular font-normal text-lg text-BeautyWhite">
+              <p className="font-SofiLight font-normal text-lg text-BeautyWhite">
                 Madeline June
               </p>
             </div>
@@ -344,10 +344,51 @@ function BottomFara(): JSX.Element {
               })}
             </ul>
           </div>
-          <div className="w-2/3 bg-BeautyDark rounded-tr-2xl rounded-tl-none rounded-bl-none rounded-br-2xl px-5 py-5 space-y-5">
-            <h6 className="font-SofiRegular font-normal text-lg text-BeautyWhite">
-              Bio
-            </h6>
+          <div className="w-2/3 bg-BeautyDark rounded-tr-2xl rounded-tl-none rounded-bl-none rounded-br-2xl px-5 py-5 space-y-8 flex flex-col">
+            <div className="flex flex-col space-y-4">
+              <h6 className="font-SofiRegular font-normal text-base text-BeautyWhite">
+                Bio
+              </h6>
+              <p className="font-SofiaLight text-lg font-light">
+                Madeline populary know as “Madam M”is a trader in ilupeju
+                market,she was been in business for 15years and sent all her
+                children abroad for studies.she saves her access cash at home
+                since she does’nt trust anyone with her money.
+              </p>
+            </div>
+
+            <div className="flex flex-col space-y-4">
+              <h6 className="font-SofiRegular font-normal text-base text-BeautyWhite">
+                Goals
+              </h6>
+              <p className="font-SofiaLight text-lg font-light">
+                She wants to save money easily
+              </p>
+            </div>
+
+            <div className="flex flex-col space-y-4">
+              <h6 className="font-SofiRegular font-normal text-base text-BeautyWhite">
+                Frustrations
+              </h6>
+              <p className="font-SofiaLight text-lg font-light">
+                Trust
+                <br />
+                Unwise investment choices
+                <br />
+                Inexperience in finance inclusion <br /> service
+              </p>
+            </div>
+
+            <div className="flex flex-col space-y-4">
+              <h6 className="font-SofiRegular font-normal text-base text-BeautyWhite">
+                Motivations
+              </h6>
+              <p className="font-SofiaLight text-lg font-light">
+              Security of Funds<br/>
+Special offers<br/>
+Savings over expenses<br/>
+              </p>
+            </div>
           </div>
         </div>
 
@@ -397,16 +438,18 @@ function BottomFara(): JSX.Element {
               <li className="font-SofiaRegular text-xl font-normal py-2">
                 Brands
               </li>
-              {["facebook", "toyota", "whatsapp"].map((i: string, index: any) => {
-                return (
-                  <li
-                    key={index + i}
-                    className="font-SofiaRegular font-normal text-lg capitalize py-1"
-                  >
-                    {i}
-                  </li>
-                );
-              })}
+              {["facebook", "toyota", "whatsapp"].map(
+                (i: string, index: any) => {
+                  return (
+                    <li
+                      key={index + i}
+                      className="font-SofiaRegular font-normal text-lg capitalize py-1"
+                    >
+                      {i}
+                    </li>
+                  );
+                }
+              )}
             </ul>
           </div>
           <div className="w-2/3 bg-BeautyDark rounded-tr-2xl rounded-tl-none rounded-bl-none rounded-br-2xl px-5 py-5 space-y-5">
