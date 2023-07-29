@@ -1,6 +1,6 @@
 import React from 'react'
 
-function BottomFara()JSX.Element {
+function BottomFara(): JSX.Element {
   return (
     <div className="">BottomFara</div>
   )
