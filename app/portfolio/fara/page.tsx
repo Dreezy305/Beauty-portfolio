@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowDownCircle } from "tabler-icons-react";
 import BeautyLayout from "@/app/components/Layout/Beauty";
 import TopFara from "@/app/components/Portfolio/Fara/TopFara";
+import BottomFara from "@/app/components/Portfolio/Fara/BottomFara";
 
 function Fara(): JSX.Element {
   return (
@@ -24,6 +25,7 @@ function Fara(): JSX.Element {
 
           <div className="rounded-[30px] h-auto">
             <TopFara/>
+            <BottomFara/>
           </div>
         </div>
       </section>
