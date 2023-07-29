@@ -6,19 +6,29 @@
 }
 
 .top-left {
-    position: absolute;
-    left: -1%;
-    top: -7%;
+  position: absolute;
+  left: -1%;
+  top: -7%;
 }
 
 .top-right {
-    position: absolute;
-    right: -1%;
-    top: -7%
+  position: absolute;
+  right: -1%;
+  top: -7%;
 }
 
 .bottom-right {
-    position: absolute;
-    bottom: -7%;
-    right: -2%
+  position: absolute;
+  bottom: -7%;
+  right: -2%;
+}
+
+.split {
+  background: linear-gradient(
+    to right,
+    #292d32 0%,
+    #292d32 35%,
+    #070b0d 35%,
+    #070b0d 100%
+  );
 }

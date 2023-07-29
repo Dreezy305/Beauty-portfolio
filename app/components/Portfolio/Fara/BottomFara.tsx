@@ -8,6 +8,8 @@ import MaskGroup2 from "../../../../public/MaskGroup2.png";
 import MaskGroup3 from "../../../../public/MaskGroup3.png";
 import MaskGroup4 from "../../../../public/MaskGroup4.png";
 import MaskGroup5 from "../../../../public/MaskGroup5.png";
+import MaskGroup6 from "../../../../public/MaskGroup6.png";
+import MaskGroup7 from "../../../../public/MaskGroup7.png";
 import "./fara.css";
 
 function BottomFara(): JSX.Element {
@@ -269,6 +271,148 @@ function BottomFara(): JSX.Element {
               alt="mask"
               className="absolute bottom-right"
             />
+          </div>
+        </div>
+      </div>
+
+      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12 text-center">
+        User Persona
+      </h5>
+
+      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8">
+        I created some User Personas to help uncover the different ways people
+        may interface with the product or a similar product, so I can focus my
+        efforts on improving the experience for real people and use cases.
+      </p>
+
+      <div className="grid grid-cols-2 gap-x-6">
+        <div className=" py-5 rounded-2xl flex flex-row">
+          <div className="w-1/3 bg-BeautyLightGrey rounded-tl-2xl rounded-tr-none rounded-bl-2xl rounded-br-none px-5 py-5 flex flex-col space-y-7">
+            <div className="flex flex-col space-y-3">
+              <Image src={MaskGroup6} alt="group" className="w-full" priority />
+              <p className="font-SofiRegular font-normal text-lg text-BeautyWhite">
+                Madeline June
+              </p>
+            </div>
+
+            <ul className="list-none">
+              {["32", "trader", "married", "nigeria"].map(
+                (i: string, index: any) => {
+                  return (
+                    <li
+                      key={index + i}
+                      className="font-SofiaRegular font-normal text-lg capitalize py-1"
+                    >
+                      {i}
+                    </li>
+                  );
+                }
+              )}
+            </ul>
+
+            <ul className="list-none">
+              <li className="font-SofiaRegular text-xl font-normal py-2">
+                Personality
+              </li>
+              {["family", "extrovert", "beauty", "entertainment"].map(
+                (i: string, index: any) => {
+                  return (
+                    <li
+                      key={index + i}
+                      className="font-SofiaRegular font-normal text-lg capitalize py-1"
+                    >
+                      {i}
+                    </li>
+                  );
+                }
+              )}
+            </ul>
+
+            <ul className="list-none pb-7">
+              <li className="font-SofiaRegular text-xl font-normal py-2">
+                Brands
+              </li>
+              {["facebook", "whatsapp"].map((i: string, index: any) => {
+                return (
+                  <li
+                    key={index + i}
+                    className="font-SofiaRegular font-normal text-lg capitalize py-1"
+                  >
+                    {i}
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+          <div className="w-2/3 bg-BeautyDark rounded-tr-2xl rounded-tl-none rounded-bl-none rounded-br-2xl px-5 py-5 space-y-5">
+            <h6 className="font-SofiRegular font-normal text-lg text-BeautyWhite">
+              Bio
+            </h6>
+          </div>
+        </div>
+
+        <div className=" py-5 rounded-2xl flex flex-row">
+          <div className="w-1/3 bg-BeautyLightGrey rounded-tl-2xl rounded-tr-none rounded-bl-2xl rounded-br-none px-5 py-5 space-y-5">
+            <div className="flex flex-col space-y-3">
+              <Image src={MaskGroup7} alt="group" className="w-full" priority />
+              <p className="font-SofiRegular font-normal text-lg text-BeautyWhite">
+                Femi Ajala
+              </p>
+            </div>
+
+            <ul className="list-none">
+              {["31", "auto dealer", "single", "lagos"].map(
+                (i: string, index: any) => {
+                  return (
+                    <li
+                      key={index + i}
+                      className="font-SofiaRegular font-normal text-lg capitalize py-1"
+                    >
+                      {i}
+                    </li>
+                  );
+                }
+              )}
+            </ul>
+
+            <ul className="list-none">
+              <li className="font-SofiaRegular text-xl font-normal py-2">
+                Personality
+              </li>
+              {["business", "extrovert", "luxury", "sport"].map(
+                (i: string, index: any) => {
+                  return (
+                    <li
+                      key={index + i}
+                      className="font-SofiaRegular font-normal text-lg capitalize py-1"
+                    >
+                      {i}
+                    </li>
+                  );
+                }
+              )}
+            </ul>
+
+            <ul className="list-none pb-7">
+              <li className="font-SofiaRegular text-xl font-normal py-2">
+                Brands
+              </li>
+              {["facebook", "toyota", "whatsapp"].map((i: string, index: any) => {
+                return (
+                  <li
+                    key={index + i}
+                    className="font-SofiaRegular font-normal text-lg capitalize py-1"
+                  >
+                    {i}
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+          <div className="w-2/3 bg-BeautyDark rounded-tr-2xl rounded-tl-none rounded-bl-none rounded-br-2xl px-5 py-5 space-y-5">
+            <h6 className="font-SofiRegular font-normal text-lg text-BeautyWhite">
+              Bio
+            </h6>
           </div>
         </div>
       </div>
