@@ -27,6 +27,11 @@ module.exports = {
       SofiaLight: "SofiaLight",
       SofiaExtraLight: "SofiaExtraLight",
       SofiaUltraLight: "SofiaUltraLight",
+      GraphikBold: "GraphikBold",
+      GraphikRegular: "GraphikRegular",
+      GraphikMedium: "GraphikMedium",
+      GraphikBlack: "GraphikBlack",
+      GraphikLight: "GraphikLight"
     },
     extend: {
       colors: {

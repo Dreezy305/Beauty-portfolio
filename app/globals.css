@@ -59,6 +59,26 @@
     font-family: SofiaUltraLight;
     src: url("/fonts/Sofia\ Pro\ UltraLight\ Az.otf");
   }
+  @font-face{
+    font-family: GraphikBold;
+    src: url("/fonts/GraphikBold.otf");
+  }
+  @font-face{
+    font-family: GraphikRegular;
+    src: url("/fonts/GraphikRegular.otf");
+  }
+  @font-face {
+    font-family: GraphikMedium;
+    src: url("/fonts/GraphikMedium.otf")
+  }
+  @font-face {
+    font-family: GraphikBlack;
+    src: url("/fonts/GraphikBlack.otf")
+  }
+  @font-face {
+    font-family: GraphikLight;
+    src: url("/fonts/GraphikLight.otf")
+  }
 }
 
 :root {

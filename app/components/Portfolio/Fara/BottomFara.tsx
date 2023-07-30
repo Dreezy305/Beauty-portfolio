@@ -10,7 +10,16 @@ import MaskGroup4 from "../../../../public/MaskGroup4.png";
 import MaskGroup5 from "../../../../public/MaskGroup5.png";
 import MaskGroup6 from "../../../../public/MaskGroup6.png";
 import MaskGroup7 from "../../../../public/MaskGroup7.png";
+import MaskGroup8 from "../../../../public/MaskGroup8.png";
+import MaskGroup9 from "../../../../public/MaskGroup9.png";
+import MaskGroup10 from "../../../../public/MaskGroup10.png";
+import MaskGroup11 from "../../../../public/MaskGroup11.png";
+import BankylyDashboard from "../../../../public/banklydash.png";
+import One from "../../../../public/1.png";
+import Two from "../../../../public/2.png";
+import Three from "../../../../public/3.png";
 import "./fara.css";
+import { insight_fara } from "@/data/experience";
 
 function BottomFara(): JSX.Element {
   return (
@@ -384,9 +393,12 @@ function BottomFara(): JSX.Element {
                 Motivations
               </h6>
               <p className="font-SofiaLight text-lg font-light">
-              Security of Funds<br/>
-Special offers<br/>
-Savings over expenses<br/>
+                Security of Funds
+                <br />
+                Special offers
+                <br />
+                Savings over expenses
+                <br />
               </p>
             </div>
           </div>
@@ -453,12 +465,185 @@ Savings over expenses<br/>
             </ul>
           </div>
           <div className="w-2/3 bg-BeautyDark rounded-tr-2xl rounded-tl-none rounded-bl-none rounded-br-2xl px-5 py-5 space-y-5">
-            <h6 className="font-SofiRegular font-normal text-lg text-BeautyWhite">
-              Bio
-            </h6>
+            <div className="flex flex-col space-y-4">
+              <h6 className="font-SofiRegular font-normal text-base text-BeautyWhite">
+                Bio
+              </h6>
+              <p className="font-SofiaLight text-lg font-light">
+                Femi is an Auto Dealer in Lagos, his favourite brands are
+                Toyota, Instagram and Whatsapp He saves his excess cash in the
+                bank and he is scared of agency banking. Femi has for sometime
+                been considering and alternative form of banking.
+              </p>
+            </div>
+
+            <div className="flex flex-col space-y-4">
+              <h6 className="font-SofiRegular font-normal text-base text-BeautyWhite">
+                Goals
+              </h6>
+              <p className="font-SofiaLight text-lg font-light">
+                He wants to have a stable income and a good and reliable
+                platform to savehis excess cash.
+              </p>
+            </div>
+
+            <div className="flex flex-col space-y-4">
+              <h6 className="font-SofiRegular font-normal text-base text-BeautyWhite">
+                Frustrations
+              </h6>
+              <p className="font-SofiaLight text-lg font-light">
+                Loss of money
+                <br />
+                Unwise investment choices
+                <br />
+                Fraud
+              </p>
+            </div>
+
+            <div className="flex flex-col space-y-4">
+              <h6 className="font-SofiRegular font-normal text-base text-BeautyWhite">
+                Motivations
+              </h6>
+              <p className="font-SofiaLight text-lg font-light">
+                Security of Funds
+                <br />
+                Brand integrity
+                <br />
+                Luxury
+                <br />
+              </p>
+            </div>
           </div>
         </div>
       </div>
+
+      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12 text-center">
+        Competitive Analysis - Compareing Exisiting solutions
+      </h5>
+
+      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8">
+        Bankly
+        <br />
+        <br /> user dashboard is a really good, it gives the user a lot of
+        information and insights on their account. But a major challenge with
+        this dashboard is that it is difficult to access agent dashboard
+      </p>
+
+      <div className="rounded-lg px-5 py-8 bg-BeautyDark">
+        <div className="mx-auto flex flex-col space-y-5">
+          <h6 className="text-center font-GraphikLight text-lg font-light">
+            Bankly dashboard
+          </h6>
+          <Image
+            src={BankylyDashboard}
+            alt="group"
+            className="mx-auto text-center"
+            priority
+          />
+        </div>
+      </div>
+
+      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12 text-center">
+        User Flow
+      </h5>
+
+      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+        The application is designed so that users can easily find every feature
+        and use it intuitively. It takes only a few clicks to go from homepage
+        to the transaction pages, wallet and other important screens. The layout
+        design is also transparent and user friendly.
+      </p>
+
+      <div className="rounded-lg px-5 py-8 bg-BeautyDark flex flex-col space-y-4">
+        <h6 className="text-center font-GraphikLight text-lg font-light">
+          User Flow
+        </h6>
+        <div className="flex flex-row space-x-4 justify-center items-center">
+          <Image src={One} alt="group" className="" priority />
+          <Image src={Two} alt="group" className="" priority />
+          <Image src={Three} alt="group" className="" priority />
+        </div>
+      </div>
+
+      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12 text-center">
+        Main Insights & Takeaways
+      </h5>
+
+      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+        After my research, I was able to note down some important points that
+        will guide how the designs will be produced. Some of the things I learnt
+        are:
+      </p>
+
+      <div className="rounded-lg px-5 py-5 bg-BeautyDark flex flex-col space-y-4 px-8">
+        <ul className="py-2 list-disc">
+          {insight_fara.map((i: string, index: any) => {
+            return (
+              <li
+                className="font-GraphikRegular font-normal text-lg leading-7 text-BeautyWhite py-2"
+                key={index + i}
+              >
+                {i}
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+
+      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12 text-center">
+        Design Process
+      </h5>
+
+      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+        I started competitive analysis by trying competitor apps and reading app
+        reviews, conducted user interviews with existing users and potential
+        users. I also created user personas to get further insights into the
+        users.
+        <br />
+        <br />
+        I then went on to studying the existing app-specific flows and
+        interactions to accurately understand the product itself and the reasons
+        behind <br />
+        <br />
+        I then started comparing the existing flows with the new design
+        requirements, goals and functionality needed for a crypto payment web
+        application and collated this information into a user flow diagram on
+        Miro that was then represented in the web app’s wireframes on Figma.
+        These wireframes then became the main reference for me and helped me
+        share preliminary ideas for design with the Patricia team. The
+        wireframes also served as the perfect guidelines to build new
+        app-specific flows and interactions.
+        <br />
+        <br />I then used these wireframes to create a high fidelity version of
+        the design and at this stage, most of the work was done.
+      </p>
+
+      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12 text-center">
+        Low Fidelity Wireframes
+      </h5>
+
+      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+        The wireframes created helped to quickly test the interface ideas and
+        generate feedback from stakeholders.
+      </p>
+
+      <div className="rounded-lg px-5 py-8 bg-BeautyDark flex flex-col space-y-4">
+        <h6 className="text-center font-GraphikLight text-sm font-light">
+          User Flow
+        </h6>
+        <div className="mx-auto grid grid-cols-2 gap-3">
+          <Image src={MaskGroup8} alt="group" className="" priority />
+          <Image src={MaskGroup9} alt="group" className="" priority />
+          <Image src={MaskGroup10} alt="group" className="" priority />
+          <Image src={MaskGroup11} alt="group" className="" priority />
+        </div>
+      </div>
+
+      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12 text-center">
+        The Solution
+      </h5>
+
+      <div className="rounded-lg px-5 py-8 bg-BeautyDark flex flex-col space-y-4"></div>
     </div>
   );
 }
