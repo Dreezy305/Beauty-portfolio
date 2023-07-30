@@ -15,12 +15,15 @@ import MaskGroup9 from "../../../../public/MaskGroup9.png";
 import MaskGroup10 from "../../../../public/MaskGroup10.png";
 import MaskGroup11 from "../../../../public/MaskGroup11.png";
 import BankylyDashboard from "../../../../public/banklydash.png";
+import Dashboard11 from "../../../../public/Dashboard11.png";
 import SignUp from "../../../../public/SignUp.png";
 import SignIn from "../../../../public/SignIn.png";
 import PasswordRecovery from "../../../../public/PasswordRecovery.png";
 import One from "../../../../public/1.png";
 import Two from "../../../../public/2.png";
 import Three from "../../../../public/3.png";
+import DashboardWallets1 from "../../../../public/DashboardWallets1.png";
+import DashboardWallets2 from "../../../../public/DashboardWallets2.png";
 import "./fara.css";
 import { insight_fara } from "@/data/experience";
 
@@ -652,6 +655,32 @@ function BottomFara(): JSX.Element {
         <Image src={PasswordRecovery} alt="group" className="" priority />
         <Image src={SignUp} alt="group" className="mt-4" priority />
         </div>
+      </div>
+
+      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12">
+        Dashboard
+      </h5>
+
+      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+      The user experience in the application is designed so that the agent,  will be able to use the full functionality. <br/><br/>
+
+Based on feedback, I ensured the wallet balance, Loan, Savings, Withdrawal and Transaction History  are accessible from the dashboard.
+      </p>
+
+      <div className="rounded-lg px-5 py-8 bg-BeautyDark flex flex-col space-y-4">
+      <Image src={Dashboard11} alt="group" className="mx-auto text-center" priority />
+      </div>
+
+      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12">
+        Wallets
+      </h5>
+
+      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+      The major wallets is the Agent wallets. One major need for the agent was ease of accessibility of funds and to fulfil this customer’s need, the request for overdrafts or topup are accessible through USSD or Bank Receipt
+      </p>
+      <div className="rounded-lg px-5 py-8 bg-BeautyCream flex flex-row space-x-4 justify-between">
+      <Image src={DashboardWallets1} alt="group" className="w-1/2" priority />
+      <Image src={DashboardWallets2} alt="group" className="w-1/2" priority/>
       </div>
     </div>
   );
