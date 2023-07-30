@@ -15,6 +15,9 @@ import MaskGroup9 from "../../../../public/MaskGroup9.png";
 import MaskGroup10 from "../../../../public/MaskGroup10.png";
 import MaskGroup11 from "../../../../public/MaskGroup11.png";
 import BankylyDashboard from "../../../../public/banklydash.png";
+import SignUp from "../../../../public/SignUp.png";
+import SignIn from "../../../../public/SignIn.png";
+import PasswordRecovery from "../../../../public/PasswordRecovery.png";
 import One from "../../../../public/1.png";
 import Two from "../../../../public/2.png";
 import Three from "../../../../public/3.png";
@@ -643,7 +646,13 @@ function BottomFara(): JSX.Element {
         The Solution
       </h5>
 
-      <div className="rounded-lg px-5 py-8 bg-BeautyDark flex flex-col space-y-4"></div>
+      <div className="rounded-lg px-5 py-8 bg-BeautyDark flex flex-col space-y-4">
+        <div className="flex flex-row px-4 flex-wrap justify-center space-x-3">
+        <Image src={SignIn} alt="group" className="" priority />
+        <Image src={PasswordRecovery} alt="group" className="" priority />
+        <Image src={SignUp} alt="group" className="mt-4" priority />
+        </div>
+      </div>
     </div>
   );
 }
