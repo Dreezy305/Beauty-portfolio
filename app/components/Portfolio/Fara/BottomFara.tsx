@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { World } from "tabler-icons-react";
 import Groupfara from "../../../../public/Groupfara.png";
 import Group1855 from "../../../../public/Group1855.png";
 import MaskGroup from "../../../../public/MaskGroup.png";
@@ -24,6 +25,12 @@ import Two from "../../../../public/2.png";
 import Three from "../../../../public/3.png";
 import DashboardWallets1 from "../../../../public/DashboardWallets1.png";
 import DashboardWallets2 from "../../../../public/DashboardWallets2.png";
+import DashboardTrxn1 from "../../../../public/DashboardTrxn1.png";
+import DashboardTrxn from "../../../../public/DashboardTrxn.png";
+import DashboardNairaWallet from "../../../../public/DashboardNairaWallet.png";
+import DashboardBtcWallet from "../../../../public/DashboardBtcWallet.png";
+import Teller1 from "../../../../public/Teller1.png";
+import Teller2 from "../../../../public/Teller2.png";
 import "./fara.css";
 import { insight_fara } from "@/data/experience";
 
@@ -651,9 +658,9 @@ function BottomFara(): JSX.Element {
 
       <div className="rounded-lg px-5 py-8 bg-BeautyDark flex flex-col space-y-4">
         <div className="flex flex-row px-4 flex-wrap justify-center space-x-3">
-        <Image src={SignIn} alt="group" className="" priority />
-        <Image src={PasswordRecovery} alt="group" className="" priority />
-        <Image src={SignUp} alt="group" className="mt-4" priority />
+          <Image src={SignIn} alt="group" className="" priority />
+          <Image src={PasswordRecovery} alt="group" className="" priority />
+          <Image src={SignUp} alt="group" className="mt-4" priority />
         </div>
       </div>
 
@@ -662,13 +669,20 @@ function BottomFara(): JSX.Element {
       </h5>
 
       <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
-      The user experience in the application is designed so that the agent,  will be able to use the full functionality. <br/><br/>
-
-Based on feedback, I ensured the wallet balance, Loan, Savings, Withdrawal and Transaction History  are accessible from the dashboard.
+        The user experience in the application is designed so that the agent,
+        will be able to use the full functionality. <br />
+        <br />
+        Based on feedback, I ensured the wallet balance, Loan, Savings,
+        Withdrawal and Transaction History are accessible from the dashboard.
       </p>
 
       <div className="rounded-lg px-5 py-8 bg-BeautyDark flex flex-col space-y-4">
-      <Image src={Dashboard11} alt="group" className="mx-auto text-center" priority />
+        <Image
+          src={Dashboard11}
+          alt="group"
+          className="mx-auto text-center"
+          priority
+        />
       </div>
 
       <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12">
@@ -676,11 +690,106 @@ Based on feedback, I ensured the wallet balance, Loan, Savings, Withdrawal and T
       </h5>
 
       <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
-      The major wallets is the Agent wallets. One major need for the agent was ease of accessibility of funds and to fulfil this customer’s need, the request for overdrafts or topup are accessible through USSD or Bank Receipt
+        The major wallets is the Agent wallets. One major need for the agent was
+        ease of accessibility of funds and to fulfil this customer’s need, the
+        request for overdrafts or topup are accessible through USSD or Bank
+        Receipt
       </p>
       <div className="rounded-lg px-5 py-8 bg-BeautyCream flex flex-row space-x-4 justify-between">
-      <Image src={DashboardWallets1} alt="group" className="w-1/2" priority />
-      <Image src={DashboardWallets2} alt="group" className="w-1/2" priority/>
+        <Image src={DashboardWallets1} alt="group" className="w-1/2" priority />
+        <Image src={DashboardWallets2} alt="group" className="w-1/2" priority />
+      </div>
+
+      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12">
+        Transactions
+      </h5>
+
+      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+        Transaction page provides insights of financial history to the agent and
+        shows a record of their transactions over a period of time.
+      </p>
+
+      <div className="rounded-lg px-5 py-8 bg-BeautyDark flex flex-row space-x-4 justify-between">
+        <Image src={DashboardTrxn} alt="group" className="w-1/2" priority />
+        <Image src={DashboardTrxn1} alt="group" className="w-1/2" priority />
+      </div>
+
+      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12">
+        Fara Loans
+      </h5>
+
+      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+        For an agent to access loans for his or her customer a T&C document was
+        created to ensure that the agent has carried out a proper KYC on that
+        particular customer before requesting for loan.
+      </p>
+
+      <div className="rounded-lg px-5 py-8 bg-BeautyDark flex flex-row space-x-4 justify-between">
+        <Image
+          src={DashboardBtcWallet}
+          alt="group"
+          className="w-1/2"
+          priority
+        />
+        <Image
+          src={DashboardNairaWallet}
+          alt="group"
+          className="w-1/2"
+          priority
+        />
+      </div>
+
+      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12">
+        Teller
+      </h5>
+
+      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+        These are people incharge of funding the agent wallet,every agent is
+        assigned to a teller,for disbursment.
+      </p>
+
+      <div className="rounded-lg px-5 py-8 bg-BeautyDark flex flex-row space-x-4 justify-between">
+        <Image src={Teller1} alt="group" className="w-1/2" priority />
+        <Image src={Teller2} alt="group" className="w-1/2" priority />
+      </div>
+
+      <div className="flex flex-row items-start justify-between space-x-8">
+        <h5 className="w-1/4 font-LotaRegular font-normal text-2xl leading-7">
+          The Impact
+        </h5>
+        <div className="flex flex-col space-y-3 font-LotaThin font-thin text-lg leading-7">
+          The Fara Money web app was appreciated by the client, particularly due
+          to the care taken to ensure workflows and processes were interesting
+          and intuitive to Financial users <br />
+          <br />
+          The uncertainty and fears around financial inclusive platforms is
+          gradually fading off as new users are provided instructional materials
+          to educate then on what financial platforms is and how to use the app.
+          <br />
+          <br />
+          The app was functional without compromising on a modern, attractive
+          touch. This harmony created an app that was loved by both existing and
+          new users for its visual and functional appeal.
+        </div>
+      </div>
+
+      <div className="flex flex-row items-center justify-between space-x-3 mt-7">
+        <div className="flex flex-row items-center justify-start w-1/4">
+          <h5 className="font-LotaRegular font-normal text-2xl leading-7">
+            Link & References
+          </h5>
+        </div>
+        <div className="w-3/4 flex flex-row items-center justify-between space-x-8">
+        <div className="bg-BeautyDark rounded-2xl flex flex-row items-center px-6 h-14 space-x-3 w-1/2">
+          <World size={24} strokeWidth={1.5} color={"#00F0FF"} />
+          <a href="/https://www.bankly.ng/" className="font-GraphikLight font-thin underline text-lg cursor-pointer" target="_blank">https://www.bankly.ng/</a>
+        </div>
+        <div className="bg-BeautyDark rounded-2xl flex flex-row items-center px-6 h-14 space-x-3 w-1/2">
+        <World size={24} strokeWidth={1.5} color={"#00F0FF"} />
+          <a href="https://www.myfara.org/" className="font-GraphikLight font-thin underline text-lg cursor-pointer" target="_blank">https://www.myfara.org/</a>
+        </div>
+        </div>
+        
       </div>
     </div>
   );
