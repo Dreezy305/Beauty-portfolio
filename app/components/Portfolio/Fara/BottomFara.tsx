@@ -28,10 +28,10 @@ import DashboardWallets2 from "../../../../public/DashboardWallets2.png";
 import DashboardTrxn1 from "../../../../public/DashboardTrxn1.png";
 import DashboardTrxn from "../../../../public/DashboardTrxn.png";
 import DashboardNairaWallet from "../../../../public/DashboardNairaWallet.png";
-import DashboardBtcWallet from "../../../../public/DashboardBtcWallet.png";
+import DashboardBtcWallet from "../../../../public/DashboardBTCWallet.png";
 import Teller1 from "../../../../public/Teller1.png";
 import Teller2 from "../../../../public/Teller2.png";
-import "./fara.css";
+import "./fara.css";Ï
 import { insight_fara } from "@/data/experience";
 
 function BottomFara(): JSX.Element {
@@ -773,7 +773,7 @@ function BottomFara(): JSX.Element {
         </div>
       </div>
 
-      <div className="flex flex-row items-center justify-between space-x-3 mt-7">
+      <div className="flex flex-row items-center justify-between space-x-3 mt-7 mb-8">
         <div className="flex flex-row items-center justify-start w-1/4">
           <h5 className="font-LotaRegular font-normal text-2xl leading-7">
             Link & References
