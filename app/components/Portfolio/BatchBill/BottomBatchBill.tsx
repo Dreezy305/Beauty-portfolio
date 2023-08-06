@@ -8,6 +8,10 @@ import BillOne from "../../../../public/bill1.png";
 import BillTwo from "../../../../public/bill2.png";
 import BillThree from "../../../../public/bill3.png";
 import BillFour from "../../../../public/bill4.png";
+import MaskGroup2 from "../../../../public/MaskGroup2.png";
+import MaskGroup3 from "../../../../public/MaskGroup3.png";
+import MaskGroup4 from "../../../../public/MaskGroup4.png";
+import MaskGroup5 from "../../../../public/MaskGroup5.png";
 import { insight_batch } from "@/data/experience";
 
 function BottomBatchBill(): JSX.Element {
@@ -297,13 +301,93 @@ function BottomBatchBill(): JSX.Element {
       <div className="rounded-lg px-8 bg-BeautyDark">
         <ul className="py-2 list-disc">
           <li className="font-GraphikRegular font-normal text-lg leading-7 text-BeautyWhite py-5">
-            Coporate: the one who wants to ship a parcel 
+            Coporate: the one who wants to ship a parcel
           </li>
           <li className="font-GraphikRegular font-normal text-lg leading-7 text-BeautyWhite py-5">
-          Indiviuals: the service
-            provider
+            Indiviuals: the service provider
           </li>
         </ul>
+      </div>
+
+      <h5 className="font-LotaThin font-thin text-3xl leading-7 pt-12 text-center">
+        User Interview
+      </h5>
+
+      <div className="rounded-lg py-6 px-12 bg-BeautyDark flex flex-col space-y-5">
+        <p className="font-LotaRegular text-3xl font-normal py-2 w-full">
+          How often, why, when and how they paybill,buy airtime or data?
+        </p>
+
+        <p className="font-LotaRegular text-3xl font-normal py-2">
+          Why would you choose one online payment platform to another?
+        </p>
+
+        <p className="font-LotaRegular text-4xl font-normal py-2">
+          What was your experience using online payment platforms?
+        </p>
+
+        <p className="font-LotaRegular text-4xl font-normal py-2">
+          Have you ever sent something of high value through online payment?
+        </p>
+
+        <div className="flex flex-row items-center justify-between space-x-4">
+          <div className="rounded-lg py-4 h-auto w-1/2 px-4 bg-BeautyDarkPurple relative">
+            <p className="font-LotaRegular font-normal text-lg leading-7">
+              I don't use online bill payment.
+            </p>
+            <Image
+              src={MaskGroup2}
+              height={30}
+              width={30}
+              alt="mask"
+              className="absolute top-left"
+            />
+          </div>
+
+          <div className="rounded-lg py-6 px-4 w-1/2 bg-BeautyDarkPurple relative h-auto">
+            <p className="font-LotaRegular font-normal text-lg leading-7 w-full">
+              I use online bill payment every other week, I use a waybill
+              service most times though.
+            </p>
+            <Image
+              src={MaskGroup3}
+              height={30}
+              width={30}
+              alt="mask"
+              className="absolute bottom-right"
+            />
+          </div>
+        </div>
+        <div className="flex flex-row items-center justify-between space-x-4">
+          <div className="rounded-lg py-6 px-4 w-1/2 bg-BeautyDarkPurple relative h-auto">
+            <p className="font-LotaRegular font-normal text-lg leading-7 w-full">
+              I am a retailer and I sell Airtime & recharge data for my
+              customers everyday, i will like to my account to be credited with
+              airtime so my customers doesnt have to wait for me to recharge
+              when my call card get exhausted.
+            </p>
+            <Image
+              src={MaskGroup4}
+              height={30}
+              width={30}
+              alt="mask"
+              className="absolute top-right"
+            />
+          </div>
+
+          <div className="rounded-lg py-6 px-4 w-1/2 bg-BeautyDarkPurple relative h-auto">
+            <p className="font-LotaRegular font-normal text-lg leading-7 w-full">
+              I would like to be notified for bill payments.
+            </p>
+            <Image
+              src={MaskGroup5}
+              height={30}
+              width={30}
+              alt="mask"
+              className="absolute bottom-right"
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
