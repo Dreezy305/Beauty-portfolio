@@ -68,7 +68,7 @@ export default function Portfolio(): JSX.Element {
           </div>
 
           <Link
-            href="#"
+            href="/portfolio/batchbill"
             className="flex flex-row items-center space-x-2 absolute view"
           >
             <span className="font-LotaRegular text-base font-normal leading-6">
@@ -106,7 +106,7 @@ export default function Portfolio(): JSX.Element {
           </div>
 
           <Link
-            href="#"
+            href="/portfolio/shuut"
             className="flex flex-row items-center space-x-2 absolute view"
           >
             <span className="font-LotaRegular text-base font-normal leading-6 text-BeautyBlack">
