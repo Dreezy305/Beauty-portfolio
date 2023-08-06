@@ -6,6 +6,8 @@ import Map from "../../../../public/map.svg";
 import People from "../../../../public/people.svg";
 import BillOne from "../../../../public/bill1.png";
 import BillTwo from "../../../../public/bill2.png";
+import BillThree from "../../../../public/bill3.png";
+import BillFour from "../../../../public/bill4.png";
 import { insight_batch } from "@/data/experience";
 
 function BottomBatchBill(): JSX.Element {
@@ -201,8 +203,92 @@ function BottomBatchBill(): JSX.Element {
       </div>
 
       <p className="font-LotaRegular font-normal text-lg leading-7">
-      Some apps provide an option to schedule payments at a later date. You can always use the Batchnbill schedule option when your bill due date isn't in the near future but you want to set up a payment in advance so that you don't forget it later. 
+        Some apps provide an option to schedule payments at a later date. You
+        can always use the Batchnbill schedule option when your bill due date
+        isn't in the near future but you want to set up a payment in advance so
+        that you don't forget it later.
       </p>
+
+      <div className="flex flex-row items-center justify-between space-x-5">
+        <Image src={BillThree} alt="group" className="w-1/2" priority />
+        <Image src={BillFour} alt="group" className="w-1/2" priority />
+      </div>
+
+      <p className="font-LotaRegular font-normal text-lg leading-8 mt-8">
+        or one time payment, this is the payment you issue a single time. This
+        option makes sense for services you use infrequently.
+      </p>
+
+      <p className="font-LotaRegular font-normal text-xl leading-8 mt-8">
+        Concerns with online bill payment vis-à-vis Covid-19 virus outbreak
+      </p>
+
+      <p className="font-LotaRegular font-normal text-lg leading-8 mt-8">
+        The Covid-19 pandemic has disrupted every aspect of how societies
+        function, forcing governments, businesses, educators, and regular
+        citizens to adapt to a “new normal” way of conducting daily activities.
+        More specifically, the current health crisis has accelerated the digital
+        transformation already taking place across geographies in areas such as
+        e-government, remittances, and e-commerce. Stay-at-home orders and
+        social distancing measures forced brick-and-mortar retailers to close or
+        reduce their activity, accelerating e-commerce sales. In the United
+        States, online retailers that relied on digital payments raked in
+        billions: Amazon and Walmart, the country’s two largest companies,
+        together earned an extra $10.7 billion in 2020—a 56 percent increase in
+        profits compared to 2019.
+      </p>
+
+      <p className="font-LotaRegular font-normal text-xl leading-8 mt-8">
+        Some statictics on package delivery <br />
+        Source: Perficient
+      </p>
+
+      <div className="flex flex-row justify-center space-x-6 py-5">
+        <div className="grid grid-cols-2 gap-x-6 gap-y-10">
+        <div className="flex flex-col space-y-4 border-l border-l-BeautyGold pl-6 pt-2">
+          <h6 className="text-start font-GraphikLight font-light text-3xl leading-6 text-BeautyGold">
+            54%
+          </h6>
+          <p className="font-GraphikRegular font-normal text-base leading-7">
+            Consumers prefer window shopping
+          </p>
+        </div>
+
+        <div className="flex flex-col space-y-4 border-l border-l-BeautyGold pl-6 pt-2">
+          <h6 className="text-start font-GraphikLight font-light text-3xl leading-6 text-BeautyGold">
+            41%
+          </h6>
+          <p className="font-GraphikRegular font-normal text-base leading-7">
+            Prefer to do so in the comnfort of there homes.
+          </p>
+        </div>
+
+        <div className="flex flex-col space-y-4 border-l border-l-BeautyGold pl-6 pt-2">
+          <h6 className="text-start font-GraphikLight font-light text-3xl leading-6 text-BeautyGold">
+            53%
+          </h6>
+          <p className="font-GraphikRegular font-normal text-base leading-7">
+            Reported spends more than 15 minutes
+            <br />
+            browsing for a single reason.
+          </p>
+        </div>
+
+        <div className="flex flex-col space-y-4 border-l border-l-BeautyGold pl-6 pt-2">
+          <h6 className="text-start font-GraphikLight font-light text-3xl leading-6 text-BeautyGold">
+            200 Billion
+          </h6>
+          <p className="font-GraphikRegular font-normal text-base leading-7">
+            parcel volume is expected to rise to 200
+            <br /> billion by the year 2025
+          </p>
+        </div>
+        </div>
+      </div>
+      
+      <div className="flex flex-row justify-center space-x-6 py-5">
+        
+      </div>
     </div>
   );
 }

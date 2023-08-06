@@ -151,45 +151,55 @@ function BottomFara(): JSX.Element {
       <div className="grid grid-cols-4">
         <div className="border-r border-r-BeautyWhite">
           <div className="mx-auto flex flex-col space-y-5">
-          <Image src={BrokenLink}
-            alt="group"
-            className="mx-auto text-center"
-            priority/>
+            <Image
+              src={BrokenLink}
+              alt="group"
+              className="mx-auto text-center"
+              priority
+            />
             <p className="w-2/3 font-LotaSemiBold text-center mx-auto">
-            Designing the application to be user friendly to both illterates and non-illiterates.
+              Designing the application to be user friendly to both illterates
+              and non-illiterates.
             </p>
           </div>
         </div>
         <div className="border-r border-r-BeautyWhite">
           <div className="mx-auto flex flex-col space-y-5">
-          <Image src={Map}
-            alt="group"
-            className="mx-auto text-center"
-            priority/>
- <p className="w-2/3 font-LotaSemiBold text-center mx-auto">
- Ensuring it was responsive acreoss diffrent screens especially on mobile devices.
+            <Image
+              src={Map}
+              alt="group"
+              className="mx-auto text-center"
+              priority
+            />
+            <p className="w-2/3 font-LotaSemiBold text-center mx-auto">
+              Ensuring it was responsive acreoss diffrent screens especially on
+              mobile devices.
             </p>
           </div>
         </div>
         <div className="border-r border-r-BeautyWhite">
-        <div className="mx-auto flex flex-col space-y-5">
-          <Image src={People}
-            alt="group"
-            className="mx-auto text-center"
-            priority/>
-             <p className="w-2/3 font-LotaSemiBold text-center mx-auto">
-             Communicating Fara’s brand identity and ideals through the design.
+          <div className="mx-auto flex flex-col space-y-5">
+            <Image
+              src={People}
+              alt="group"
+              className="mx-auto text-center"
+              priority
+            />
+            <p className="w-2/3 font-LotaSemiBold text-center mx-auto">
+              Communicating Fara’s brand identity and ideals through the design.
             </p>
           </div>
         </div>
         <div className="flex flex-col space-y-5">
-        <div className="mx-auto flex flex-col space-y-5">
-          <Image src={Refresh}
-            alt="group"
-            className="mx-auto text-center"
-            priority/>
-             <p className="w-2/3 font-LotaSemiBold text-center mx-auto">
-             To improve readability of the application on web and mobile.
+          <div className="mx-auto flex flex-col space-y-5">
+            <Image
+              src={Refresh}
+              alt="group"
+              className="mx-auto text-center"
+              priority
+            />
+            <p className="w-2/3 font-LotaSemiBold text-center mx-auto">
+              To improve readability of the application on web and mobile.
             </p>
           </div>
         </div>
