@@ -245,49 +245,65 @@ function BottomBatchBill(): JSX.Element {
 
       <div className="flex flex-row justify-center space-x-6 py-5">
         <div className="grid grid-cols-2 gap-x-6 gap-y-10">
-        <div className="flex flex-col space-y-4 border-l border-l-BeautyGold pl-6 pt-2">
-          <h6 className="text-start font-GraphikLight font-light text-3xl leading-6 text-BeautyGold">
-            54%
-          </h6>
-          <p className="font-GraphikRegular font-normal text-base leading-7">
-            Consumers prefer window shopping
-          </p>
-        </div>
+          <div className="flex flex-col space-y-4 border-l border-l-BeautyGold pl-6 pt-2">
+            <h6 className="text-start font-GraphikLight font-light text-3xl leading-6 text-BeautyGold">
+              54%
+            </h6>
+            <p className="font-GraphikRegular font-normal text-base leading-7">
+              Consumers prefer window shopping
+            </p>
+          </div>
 
-        <div className="flex flex-col space-y-4 border-l border-l-BeautyGold pl-6 pt-2">
-          <h6 className="text-start font-GraphikLight font-light text-3xl leading-6 text-BeautyGold">
-            41%
-          </h6>
-          <p className="font-GraphikRegular font-normal text-base leading-7">
-            Prefer to do so in the comnfort of there homes.
-          </p>
-        </div>
+          <div className="flex flex-col space-y-4 border-l border-l-BeautyGold pl-6 pt-2">
+            <h6 className="text-start font-GraphikLight font-light text-3xl leading-6 text-BeautyGold">
+              41%
+            </h6>
+            <p className="font-GraphikRegular font-normal text-base leading-7">
+              Prefer to do so in the comnfort of there homes.
+            </p>
+          </div>
 
-        <div className="flex flex-col space-y-4 border-l border-l-BeautyGold pl-6 pt-2">
-          <h6 className="text-start font-GraphikLight font-light text-3xl leading-6 text-BeautyGold">
-            53%
-          </h6>
-          <p className="font-GraphikRegular font-normal text-base leading-7">
-            Reported spends more than 15 minutes
-            <br />
-            browsing for a single reason.
-          </p>
-        </div>
+          <div className="flex flex-col space-y-4 border-l border-l-BeautyGold pl-6 pt-2">
+            <h6 className="text-start font-GraphikLight font-light text-3xl leading-6 text-BeautyGold">
+              53%
+            </h6>
+            <p className="font-GraphikRegular font-normal text-base leading-7">
+              Reported spends more than 15 minutes
+              <br />
+              browsing for a single reason.
+            </p>
+          </div>
 
-        <div className="flex flex-col space-y-4 border-l border-l-BeautyGold pl-6 pt-2">
-          <h6 className="text-start font-GraphikLight font-light text-3xl leading-6 text-BeautyGold">
-            200 Billion
-          </h6>
-          <p className="font-GraphikRegular font-normal text-base leading-7">
-            parcel volume is expected to rise to 200
-            <br /> billion by the year 2025
-          </p>
-        </div>
+          <div className="flex flex-col space-y-4 border-l border-l-BeautyGold pl-6 pt-2">
+            <h6 className="text-start font-GraphikLight font-light text-3xl leading-6 text-BeautyGold">
+              200 Billion
+            </h6>
+            <p className="font-GraphikRegular font-normal text-base leading-7">
+              parcel volume is expected to rise to 200
+              <br /> billion by the year 2025
+            </p>
+          </div>
         </div>
       </div>
-      
-      <div className="flex flex-row justify-center space-x-6 py-5">
-        
+
+      <p className="font-LotaRegular font-normal text-lg pt-4">
+        The category of Users
+      </p>
+
+      <p className="font-LotaRegular font-normal text-base">
+        These are the user categories encountered during the research:
+      </p>
+
+      <div className="rounded-lg px-8 bg-BeautyDark">
+        <ul className="py-2 list-disc">
+          <li className="font-GraphikRegular font-normal text-lg leading-7 text-BeautyWhite py-5">
+            Coporate: the one who wants to ship a parcel 
+          </li>
+          <li className="font-GraphikRegular font-normal text-lg leading-7 text-BeautyWhite py-5">
+          Indiviuals: the service
+            provider
+          </li>
+        </ul>
       </div>
     </div>
   );
