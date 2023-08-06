@@ -31,6 +31,10 @@ import DashboardNairaWallet from "../../../../public/DashboardNairaWallet.png";
 import DashboardBtcWallet from "../../../../public/DashboardBTCWallet.png";
 import Teller1 from "../../../../public/Teller1.png";
 import Teller2 from "../../../../public/Teller2.png";
+import BrokenLink from "../../../../public/brokenlink.svg";
+import Map from "../../../../public/map.svg";
+import People from "../../../../public/people.svg";
+import Refresh from "../../../../public/refresh.svg";
 import "./fara.css";
 import { insight_fara } from "@/data/experience";
 
@@ -142,6 +146,54 @@ function BottomFara(): JSX.Element {
         <br />
         Other goals for the design include:
       </p>
+
+      {/* GOALS GRID */}
+      <div className="grid grid-cols-4">
+        <div className="border-r border-r-BeautyWhite">
+          <div className="mx-auto flex flex-col space-y-5">
+          <Image src={BrokenLink}
+            alt="group"
+            className="mx-auto text-center"
+            priority/>
+            <p className="w-2/3 font-LotaSemiBold text-center mx-auto">
+            Designing the application to be user friendly to both illterates and non-illiterates.
+            </p>
+          </div>
+        </div>
+        <div className="border-r border-r-BeautyWhite">
+          <div className="mx-auto flex flex-col space-y-5">
+          <Image src={Map}
+            alt="group"
+            className="mx-auto text-center"
+            priority/>
+ <p className="w-2/3 font-LotaSemiBold text-center mx-auto">
+ Ensuring it was responsive acreoss diffrent screens especially on mobile devices.
+            </p>
+          </div>
+        </div>
+        <div className="border-r border-r-BeautyWhite">
+        <div className="mx-auto flex flex-col space-y-5">
+          <Image src={People}
+            alt="group"
+            className="mx-auto text-center"
+            priority/>
+             <p className="w-2/3 font-LotaSemiBold text-center mx-auto">
+             Communicating Fara’s brand identity and ideals through the design.
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-col space-y-5">
+        <div className="mx-auto flex flex-col space-y-5">
+          <Image src={Refresh}
+            alt="group"
+            className="mx-auto text-center"
+            priority/>
+             <p className="w-2/3 font-LotaSemiBold text-center mx-auto">
+             To improve readability of the application on web and mobile.
+            </p>
+          </div>
+        </div>
+      </div>
 
       <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12 text-center">
         The Approach
@@ -773,23 +825,34 @@ function BottomFara(): JSX.Element {
         </div>
       </div>
 
-      <div className="flex flex-row items-center justify-between space-x-3 mt-7 mb-8">
+      <div className="flex flex-row items-center justify-between space-x-3 mt-7 mb-8 pt-8 pb-8">
         <div className="flex flex-row items-center justify-start w-1/4">
           <h5 className="font-LotaRegular font-normal text-2xl leading-7">
             Link & References
           </h5>
         </div>
         <div className="w-3/4 flex flex-row items-center justify-between space-x-8">
-        <div className="bg-BeautyDark rounded-2xl flex flex-row items-center px-6 h-14 space-x-3 w-1/2">
-          <World size={24} strokeWidth={1.5} color={"#00F0FF"} />
-          <a href="/https://www.bankly.ng/" className="font-GraphikLight font-thin underline text-lg cursor-pointer" target="_blank">https://www.bankly.ng/</a>
+          <div className="bg-BeautyDark rounded-2xl flex flex-row items-center px-6 h-14 space-x-3 w-1/2">
+            <World size={24} strokeWidth={1.5} color={"#00F0FF"} />
+            <a
+              href="/https://www.bankly.ng/"
+              className="font-GraphikLight font-thin underline text-lg cursor-pointer"
+              target="_blank"
+            >
+              https://www.bankly.ng/
+            </a>
+          </div>
+          <div className="bg-BeautyDark rounded-2xl flex flex-row items-center px-6 h-14 space-x-3 w-1/2">
+            <World size={24} strokeWidth={1.5} color={"#00F0FF"} />
+            <a
+              href="https://www.myfara.org/"
+              className="font-GraphikLight font-thin underline text-lg cursor-pointer"
+              target="_blank"
+            >
+              https://www.myfara.org/
+            </a>
+          </div>
         </div>
-        <div className="bg-BeautyDark rounded-2xl flex flex-row items-center px-6 h-14 space-x-3 w-1/2">
-        <World size={24} strokeWidth={1.5} color={"#00F0FF"} />
-          <a href="https://www.myfara.org/" className="font-GraphikLight font-thin underline text-lg cursor-pointer" target="_blank">https://www.myfara.org/</a>
-        </div>
-        </div>
-        
       </div>
     </div>
   );
