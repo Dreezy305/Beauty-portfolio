@@ -31,7 +31,7 @@ import DashboardNairaWallet from "../../../../public/DashboardNairaWallet.png";
 import DashboardBtcWallet from "../../../../public/DashboardBTCWallet.png";
 import Teller1 from "../../../../public/Teller1.png";
 import Teller2 from "../../../../public/Teller2.png";
-import "./fara.css";Ï
+import "./fara.css";
 import { insight_fara } from "@/data/experience";
 
 function BottomFara(): JSX.Element {
