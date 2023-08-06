@@ -121,3 +121,5 @@ export const insight_fara = ["Most respondents admitted that a convenient financ
 "The application interface should be accessible and clear, not requiring any user skill or knowledge.",
 
 "To enable new users trust the solution, there needs to be resources to help them learn and understand what crypto is and the interface should replicate patterns of behaviour that are already familiar to the users."]
+
+export const insight_batch = ["Payments can be set up for one-time, future, or automatic recurring transactions","Always be sure you have enough money in your account to cover any payments you make online.","To use this service, you will need to create an online account with your bank or service provider and provide your payment information."]
