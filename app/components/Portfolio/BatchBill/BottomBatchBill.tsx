@@ -12,6 +12,8 @@ import MaskGroup2 from "../../../../public/MaskGroup2.png";
 import MaskGroup3 from "../../../../public/MaskGroup3.png";
 import MaskGroup4 from "../../../../public/MaskGroup4.png";
 import MaskGroup5 from "../../../../public/MaskGroup5.png";
+import MaskGroup6 from "../../../../public/batchpicture.png";
+import Kite from "../../../../public/b.svg";
 import { insight_batch } from "@/data/experience";
 
 function BottomBatchBill(): JSX.Element {
@@ -146,6 +148,9 @@ function BottomBatchBill(): JSX.Element {
       </p>
 
       {/* KITE HERE */}
+      <div className="w-full px-5">
+        <Image src={Kite} priority alt="kite" className="mx-auto w-full" />
+      </div>
 
       <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12 text-center">
         The Approach
@@ -330,7 +335,7 @@ function BottomBatchBill(): JSX.Element {
           Have you ever sent something of high value through online payment?
         </p>
 
-        <div className="flex flex-row items-center justify-between space-x-4">
+        <div className="flex flex-row items-center justify-between space-x-4 pt-6">
           <div className="rounded-lg py-4 h-auto w-1/2 px-4 bg-BeautyDarkPurple relative">
             <p className="font-LotaRegular font-normal text-lg leading-7">
               I don't use online bill payment.
@@ -358,7 +363,7 @@ function BottomBatchBill(): JSX.Element {
             />
           </div>
         </div>
-        <div className="flex flex-row items-center justify-between space-x-4">
+        <div className="flex flex-row items-center justify-between space-x-4 pb-6">
           <div className="rounded-lg py-6 px-4 w-1/2 bg-BeautyDarkPurple relative h-auto">
             <p className="font-LotaRegular font-normal text-lg leading-7 w-full">
               I am a retailer and I sell Airtime & recharge data for my
@@ -388,6 +393,57 @@ function BottomBatchBill(): JSX.Element {
             />
           </div>
         </div>
+      </div>
+
+      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12 text-center">
+        User Persona
+      </h5>
+
+      <p className="font-LotaRegular font-normal text-base">
+        I created a User Personas to help uncover the different ways people may
+        interface with the product or a similar product, so I can focus my
+        efforts on improving the experience for real people and use cases.
+      </p>
+
+      <div className=" py-5 rounded-2xl flex flex-row w-full">
+        <div className="w-1/3 bg-BeautyLightGrey rounded-tl-2xl rounded-tr-none rounded-bl-2xl rounded-br-none px-5 py-5 flex flex-col space-y-7">
+          <div className="flex flex-col space-y-3 px-6 w-full">
+            <Image src={MaskGroup6} alt="group" className="" priority />
+            <div className="flex flex-row items-center space-x-4 w-0">
+            <ul className="list-none">
+              {["29", "single", "married", "nigeria"].map(
+                (i: string, index: any) => {
+                  return (
+                    <li
+                      key={index + i}
+                      className="font-SofiaRegular font-normal text-lg capitalize py-1"
+                    >
+                      {i}
+                    </li>
+                  );
+                }
+              )}
+            </ul>
+
+            <ul className="list-none">
+              {["32", "trader", "married", "nigeria"].map(
+                (i: string, index: any) => {
+                  return (
+                    <li
+                      key={index + i}
+                      className="font-SofiaRegular font-normal text-lg capitalize py-1"
+                    >
+                      {i}
+                    </li>
+                  );
+                }
+              )}
+            </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="w-2/3 bg-BeautyDark rounded-tr-2xl rounded-tl-none rounded-bl-none rounded-br-2xl px-5 py-5 space-y-8 flex flex-col"></div>
       </div>
     </div>
   );
