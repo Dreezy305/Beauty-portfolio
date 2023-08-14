@@ -177,3 +177,14 @@ export const takeways = [
   { image: shield, title: "Accountability", desc: "Option to identify individual for coporate users" },
   { image: code, title: "Excellence", desc: "Option to specify bulk and single payment" },
 ];
+
+export const insight_batchbill = [
+  "I started by doing a competitive analysis using competitor applications and reading app reviews.",
+"Conducted user interviews with users who make online bills payment often.",
+"I created and posted user surveys online to get more insights about the users.",
+"I created user personas.",
+"I participated in UI sketching and ideation.",
+"I created user flow diagrams in Miro.",
+"I created low-fidelity screens in Figma.",
+"I created high fidelity designs in Figma also."
+]

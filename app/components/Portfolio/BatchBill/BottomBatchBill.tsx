@@ -16,12 +16,15 @@ import Image99 from "../../../../public/image99.png";
 import Image100 from "../../../../public/image100.png";
 import Frame9 from "../../../../public/Frame9.png";
 import Kite from "../../../../public/b.svg";
-import fast from "../../../../public/icons/flash.svg";
-import forward from "../../../../public/icons/forward.svg";
-import people from "../../../../public/icons/people.svg";
-import code from "../../../../public/icons/code.svg";
-import shield from "../../../../public/icons/shield.svg";
-import { goals, insight_batch, motivations, takeways } from "@/data/experience";
+import Login from "../../../../public/icons/batchlogin.png";
+import Reset from "../../../../public/icons/batchrecovery.png";
+import {
+  goals,
+  insight_batch,
+  motivations,
+  takeways,
+  insight_batchbill,
+} from "@/data/experience";
 
 function BottomBatchBill(): JSX.Element {
   return (
@@ -644,6 +647,34 @@ function BottomBatchBill(): JSX.Element {
         inteviews in order to gain as mucn insights as possible into the real
         life users motivations, situations and use cases:
       </p>
+
+      <div className="rounded-lg py-5 bg-BeautyDark flex flex-col space-y-4 px-12">
+        <ul className="py-2 list-disc">
+          {insight_batchbill.map((i: string, index: any) => {
+            return (
+              <li
+                className="font-GraphikRegular font-normal text-lg leading-7 text-BeautyWhite py-2"
+                key={index + i}
+              >
+                {i}
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+
+      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+      In order to maintain brand consistency and make the app delightful, vibrant and visually compelling to users, I used batchbill's existing brand guidelines to choose colours blue and green as the primary colors, t Neutral colours like black and white were used for in-app text conversations and text backgrounds. The impact of the colours used paired well with the modern, energetic appeal of Batchbill's visual identity.
+      </p>
+
+      <h5 className="font-LotaRegular font-normal text-4xl leading-7 pt-12 text-center">
+        The Solution
+      </h5>
+
+      <div className="rounded-lg py-5 bg-BeautyDark flex flex-row space-x-4 px-5">
+          <Image src={Login} className="w-1/2" priority/>
+          <Image src={Reset} className="w-1/2" priority/>
+      </div>
     </div>
   );
 }
