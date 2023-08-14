@@ -16,7 +16,12 @@ import Image99 from "../../../../public/image99.png";
 import Image100 from "../../../../public/image100.png";
 import Frame9 from "../../../../public/Frame9.png";
 import Kite from "../../../../public/b.svg";
-import { goals, insight_batch, motivations } from "@/data/experience";
+import fast from "../../../../public/icons/flash.svg";
+import forward from "../../../../public/icons/forward.svg";
+import people from "../../../../public/icons/people.svg";
+import code from "../../../../public/icons/code.svg";
+import shield from "../../../../public/icons/shield.svg";
+import { goals, insight_batch, motivations, takeways } from "@/data/experience";
 
 function BottomBatchBill(): JSX.Element {
   return (
@@ -604,6 +609,41 @@ function BottomBatchBill(): JSX.Element {
       </p>
 
       <Image src={Frame9} priority className="w-full" alt="image 100" />
+
+      <h5 className="font-LotaThin font-light text-4xl leading-7 pt-12 text-center">
+        Main Insights & Takeaways
+      </h5>
+
+      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+        After my research, I was able to note some important points that would
+        guide me through the design process. Some of the things I learnt are:
+      </p>
+
+      <div className="grid grid-cols-3 gap-y-14">
+        {takeways.map((i) => {
+          return (
+            <div className="flex flex-row items-center space-x-4">
+              <Image src={i.image} priority alt="" />
+              <div className="flex flex-col space-y-2">
+                <h5 className="font-LotaRegular font-normal text-base">
+                  {i.title}
+                </h5>
+                <p className="font-LotaRegular font-normal text-sm">{i.desc}</p>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      <h5 className="font-LotaRegular font-normal text-4xl leading-7 pt-12 text-center">
+        Design Process
+      </h5>
+
+      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+        My deisgn process for this project was intensive on research and user
+        inteviews in order to gain as mucn insights as possible into the real
+        life users motivations, situations and use cases:
+      </p>
     </div>
   );
 }

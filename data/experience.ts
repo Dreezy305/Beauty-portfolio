@@ -1,3 +1,9 @@
+import fast from "../public/icons/flash.svg";
+import forward from "../public/icons/forward.svg";
+import people from "../public/icons/people.svg";
+import code from "../public/icons/code.svg";
+import shield from "../public/icons/shield.svg";
+
 export const work_experience = [
   {
     id: "1",
@@ -157,4 +163,17 @@ export const motivations = [
   "-Always willing to make the customer happy",
   "-Drive to head the marketing and communications department",
   "-Improved Income",
+];
+
+export const takeways = [
+  { image: fast, title: "We take ownership", desc: "Option to edit schedule" },
+  {
+    image: fast,
+    title: "Time Management",
+    desc: "Online payment should take as little time as possible",
+  },
+  { image: people, title: "Total commitment", desc: "Option to pause schedule" },
+  { image: forward, title: "Agility", desc: "Option to cancel schedule" },
+  { image: shield, title: "Accountability", desc: "Option to identify individual for coporate users" },
+  { image: code, title: "Excellence", desc: "Option to specify bulk and single payment" },
 ];
