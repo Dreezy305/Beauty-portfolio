@@ -672,8 +672,8 @@ function BottomBatchBill(): JSX.Element {
       </h5>
 
       <div className="rounded-lg py-5 bg-BeautyDark flex flex-row space-x-4 px-5">
-          <Image src={Login} className="w-1/2" priority/>
-          <Image src={Reset} className="w-1/2" priority/>
+          <Image src={Login} className="w-1/2" priority alt="login"/>
+          <Image src={Reset} className="w-1/2" priority alt="recovery"/>
       </div>
     </div>
   );
