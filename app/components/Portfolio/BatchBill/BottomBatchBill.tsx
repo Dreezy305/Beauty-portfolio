@@ -12,7 +12,9 @@ import MaskGroup2 from "../../../../public/MaskGroup2.png";
 import MaskGroup3 from "../../../../public/MaskGroup3.png";
 import MaskGroup4 from "../../../../public/MaskGroup4.png";
 import MaskGroup5 from "../../../../public/MaskGroup5.png";
-import MaskGroup6 from "../../../../public/batchpicture.png";
+import Image99 from "../../../../public/image99.png";
+import Image100 from "../../../../public/image100.png";
+import Frame9 from "../../../../public/Frame9.png";
 import Kite from "../../../../public/b.svg";
 import { goals, insight_batch, motivations } from "@/data/experience";
 
@@ -436,7 +438,9 @@ function BottomBatchBill(): JSX.Element {
               </ul>
 
               <ul className="list-none">
-              <li className="font-light font-LotaThin text-lg">Personality</li>
+                <li className="font-light font-LotaThin text-lg">
+                  Personality
+                </li>
                 {["techie", "extrovert", "academics", "party goer"].map(
                   (i: string, index: any) => {
                     return (
@@ -452,7 +456,7 @@ function BottomBatchBill(): JSX.Element {
               </ul>
 
               <ul className="list-none">
-              <li className="font-light font-LotaThin text-lg">Brands</li>
+                <li className="font-light font-LotaThin text-lg">Brands</li>
                 {["apple", "lyft", "McDolands", "FedEx"].map(
                   (i: string, index: any) => {
                     return (
@@ -525,7 +529,9 @@ function BottomBatchBill(): JSX.Element {
                 </ul>
               </div>
               <div className="flex flex-col space-y-5">
-                <h6 className="font-LotaThin font-light text-lg leading-6">Motivations</h6>
+                <h6 className="font-LotaThin font-light text-lg leading-6">
+                  Motivations
+                </h6>
                 <ul className="list-none">
                   {motivations.map((i) => {
                     return (
@@ -543,6 +549,61 @@ function BottomBatchBill(): JSX.Element {
           </div>
         </div>
       </div>
+
+      <h5 className="font-LotaThin font-light text-4xl leading-7 pt-12 text-center">
+        Competitive Analysis - Comparing Existing solutions
+      </h5>
+
+      <h5 className="font-LotaThin font-light text-3xl leading-7 pt-12">
+        Payloader
+      </h5>
+
+      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+        It offers personal digital airtime & data recharge payment And
+        businesses can sign up with Payloader to receive and process online
+        payments from customers through a website or by email.
+      </p>
+
+      <div className="rounded-lg px-5 py-8 bg-BeautyDark">
+        <Image src={Image99} priority className="w-full" alt="image 99" />
+      </div>
+
+      <h5 className="font-LotaThin font-light text-3xl leading-7 pt-12">
+        Remita
+      </h5>
+
+      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+        Remita is a multi-device platform that allows you to view all your bank
+        balances – from different banks – on a single screen, easily transfer
+        money to one or more beneficiaries, pay bills, view detailed transaction
+        reports on-the-go and many others.
+      </p>
+
+      <div className="rounded-lg px-5 py-8 bg-BeautyDark flex flex-row justify-center items-center">
+        <Image src={Image100} priority className="" alt="image 100" />
+      </div>
+
+      <h5 className="font-LotaThin font-light text-4xl leading-7 pt-12 text-center">
+        User Flow
+      </h5>
+
+      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+        A client chooses the start and end points of his or her bill payment.
+        After all obligatory details have been provided, the service
+        automatically generate a inflow & outflow tracker of all expense spent
+        on bill payment, Airtime Data.
+        <br />
+        <br />
+        The clients can also edit,cancel,or pause payment at anytime of their
+        choice.
+        <br />
+        <br />
+        The application is designed so that users can easily find every feature
+        and use it intuitively. The layout design is also transparent and user
+        friendly.
+      </p>
+
+      <Image src={Frame9} priority className="w-full" alt="image 100" />
     </div>
   );
 }
