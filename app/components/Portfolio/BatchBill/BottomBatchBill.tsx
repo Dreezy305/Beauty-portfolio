@@ -14,7 +14,7 @@ import MaskGroup4 from "../../../../public/MaskGroup4.png";
 import MaskGroup5 from "../../../../public/MaskGroup5.png";
 import MaskGroup6 from "../../../../public/batchpicture.png";
 import Kite from "../../../../public/b.svg";
-import { insight_batch } from "@/data/experience";
+import { goals, insight_batch, motivations } from "@/data/experience";
 
 function BottomBatchBill(): JSX.Element {
   return (
@@ -405,45 +405,143 @@ function BottomBatchBill(): JSX.Element {
         efforts on improving the experience for real people and use cases.
       </p>
 
-      <div className=" py-5 rounded-2xl flex flex-row w-full">
-        <div className="w-1/3 bg-BeautyLightGrey rounded-tl-2xl rounded-tr-none rounded-bl-2xl rounded-br-none px-5 py-5 flex flex-col space-y-7">
+      <div className=" py-5 rounded-2xl flex flex-row items-start w-full">
+        <div className="w-1/4 bg-BeautyLightGrey rounded-tl-2xl rounded-tr-none rounded-bl-2xl rounded-br-none px-5 py-7 flex flex-row items-center justify-center space-y-7 h-[675px]">
           <div className="flex flex-col space-y-3 px-6 w-full">
-            <Image src={MaskGroup6} alt="group" className="" priority />
-            <div className="flex flex-row items-center space-x-4 w-0">
-            <ul className="list-none">
-              {["29", "single", "married", "nigeria"].map(
-                (i: string, index: any) => {
-                  return (
-                    <li
-                      key={index + i}
-                      className="font-SofiaRegular font-normal text-lg capitalize py-1"
-                    >
-                      {i}
-                    </li>
-                  );
-                }
-              )}
-            </ul>
+            <div className="w-48">
+              <Image
+                src={"/batchpicture.png"}
+                alt="group"
+                className=""
+                priority
+                width={156}
+                height={156}
+              />
+            </div>
+            <div className="grid grid-cols-2 gap-x-5 gap-y-8 pt-3">
+              <ul className="list-none">
+                <li className="font-light font-LotaThin text-lg">Jane Cole</li>
+                {["29", "student", "single", "lagos"].map(
+                  (i: string, index: any) => {
+                    return (
+                      <li
+                        key={index + i}
+                        className="font-SofiaRegular font-normal text-base capitalize py-2"
+                      >
+                        {i}
+                      </li>
+                    );
+                  }
+                )}
+              </ul>
 
-            <ul className="list-none">
-              {["32", "trader", "married", "nigeria"].map(
-                (i: string, index: any) => {
-                  return (
-                    <li
-                      key={index + i}
-                      className="font-SofiaRegular font-normal text-lg capitalize py-1"
-                    >
-                      {i}
-                    </li>
-                  );
-                }
-              )}
-            </ul>
+              <ul className="list-none">
+              <li className="font-light font-LotaThin text-lg">Personality</li>
+                {["techie", "extrovert", "academics", "party goer"].map(
+                  (i: string, index: any) => {
+                    return (
+                      <li
+                        key={index + i}
+                        className="font-SofiaRegular font-normal text-base capitalize py-2"
+                      >
+                        {i}
+                      </li>
+                    );
+                  }
+                )}
+              </ul>
+
+              <ul className="list-none">
+              <li className="font-light font-LotaThin text-lg">Brands</li>
+                {["apple", "lyft", "McDolands", "FedEx"].map(
+                  (i: string, index: any) => {
+                    return (
+                      <li
+                        key={index + i}
+                        className="font-SofiaRegular font-normal text-base capitalize py-2"
+                      >
+                        {i}
+                      </li>
+                    );
+                  }
+                )}
+              </ul>
             </div>
           </div>
         </div>
 
-        <div className="w-2/3 bg-BeautyDark rounded-tr-2xl rounded-tl-none rounded-bl-none rounded-br-2xl px-5 py-5 space-y-8 flex flex-col"></div>
+        <div className="w-3/4 bg-BeautyDark rounded-tr-2xl rounded-tl-none rounded-bl-none rounded-br-2xl px-7 py-7 space-y-8 flex flex-col h-[675px]">
+          <div className="grid grid-cols-2 gap-x-10">
+            <div className="flex flex-col space-y-12">
+              <div className="flex flex-col space-y-5">
+                <h6 className="font-LotaThin font-light text-lg leading-6">
+                  Bio
+                </h6>
+                <p className="flex flex-col space-y-5">
+                  <p className="font-LotaRegular leading-7 text-base">
+                    Lucy is a goal driven marketing lead, always concerned about
+                    helping clients build a solid bridge between them and their
+                    customers, by using experiential national consumer
+                    promotion. She has vast experience in the industry and has
+                    carried out different consumer promo for different
+                    industries mostly FMCG.
+                  </p>
+                  <p className="font-LotaRegular leading-7 text-base">
+                    She previously led the marketing team that was in charge of
+                    a promo with La Casera, in which over 1,800,000 entries were
+                    recorded from consumers and about 900,000 participants were
+                    rewarded with airtime.
+                  </p>
+                </p>
+              </div>
+
+              <div className="flex flex-col space-y-5">
+                <h6 className="font-LotaThin font-light text-lg leading-6">
+                  Frustrations
+                </h6>
+                <p className="font-LotaRegular leading-7 text-base">
+                  Getting a stable data and airtime vendor that can scale for
+                  huge volume of customers has always been a challenge
+                </p>
+              </div>
+            </div>
+
+            <div className="flex flex-col space-y-12">
+              <div className="flex flex-col space-y-5">
+                <h6 className="font-LotaThin font-light text-lg leading-6">
+                  Goals
+                </h6>
+                <ul className="list-none">
+                  {goals.map((i) => {
+                    return (
+                      <li
+                        key={i}
+                        className="font-LotaRegular leading-7 text-base py-1"
+                      >
+                        {i}
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+              <div className="flex flex-col space-y-5">
+                <h6 className="font-LotaThin font-light text-lg leading-6">Motivations</h6>
+                <ul className="list-none">
+                  {motivations.map((i) => {
+                    return (
+                      <li
+                        key={i}
+                        className="font-LotaRegular leading-7 text-base py-1"
+                      >
+                        {i}
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -108,18 +108,53 @@ export const strength = [
   "Problem Solving",
 ];
 
-export const tools = ["Figma", "Adobe XD", "Protopie", "Axure RP", "Click up", "Jira", "Photoshop", "Webflow", "Airtable", "Miro"];
+export const tools = [
+  "Figma",
+  "Adobe XD",
+  "Protopie",
+  "Axure RP",
+  "Click up",
+  "Jira",
+  "Photoshop",
+  "Webflow",
+  "Airtable",
+  "Miro",
+];
 
-export const values_content = ["I will always refer to myself as a curious cat!! that’s why i Embrace the growth mindset and a commitment to continuous learning. This helps me stay up-to-date with design trends and emerging technologies, seeking feedback and constructive criticism, and constantly improving skills and knowledge.", "Over the years i have effectively honed the skill of collaboration and communication with cross-functional teams, stakeholders, and clients. This includes myself actively listening, sharing ideas, and fostering a collaborative environment to ensure the best possible outcomes", "Valuing precision and attention to detail in all aspects of the design process. This includes meticulousness in visual design, interaction design, and ensuring the overall quality and polish of the product.", "Recognizing the importance of understanding the business goals, market dynamics, and constraints within which the product operates. This involves aligning design decisions with business objectives and considering the viability and scalability of design solutions.",]
+export const values_content = [
+  "I will always refer to myself as a curious cat!! that’s why i Embrace the growth mindset and a commitment to continuous learning. This helps me stay up-to-date with design trends and emerging technologies, seeking feedback and constructive criticism, and constantly improving skills and knowledge.",
+  "Over the years i have effectively honed the skill of collaboration and communication with cross-functional teams, stakeholders, and clients. This includes myself actively listening, sharing ideas, and fostering a collaborative environment to ensure the best possible outcomes",
+  "Valuing precision and attention to detail in all aspects of the design process. This includes meticulousness in visual design, interaction design, and ensuring the overall quality and polish of the product.",
+  "Recognizing the importance of understanding the business goals, market dynamics, and constraints within which the product operates. This involves aligning design decisions with business objectives and considering the viability and scalability of design solutions.",
+];
 
-export const insight_fara = ["Most respondents admitted that a convenient financial platforms application with a simple and clear UX causes more confidence in the company.",
+export const insight_fara = [
+  "Most respondents admitted that a convenient financial platforms application with a simple and clear UX causes more confidence in the company.",
 
-"A good number of respondents confirmed that low fees that guarantees more profit for them is very valuable to them.",
+  "A good number of respondents confirmed that low fees that guarantees more profit for them is very valuable to them.",
 
-"Existing customers of Rouzo have a good knowledge of Financial platform but most new respondents(potential customers) are skeptical about putting money in Financial platform as they do not understand how it works or how to use Financial platform.",
+  "Existing customers of Rouzo have a good knowledge of Financial platform but most new respondents(potential customers) are skeptical about putting money in Financial platform as they do not understand how it works or how to use Financial platform.",
 
-"The application interface should be accessible and clear, not requiring any user skill or knowledge.",
+  "The application interface should be accessible and clear, not requiring any user skill or knowledge.",
 
-"To enable new users trust the solution, there needs to be resources to help them learn and understand what crypto is and the interface should replicate patterns of behaviour that are already familiar to the users."]
+  "To enable new users trust the solution, there needs to be resources to help them learn and understand what crypto is and the interface should replicate patterns of behaviour that are already familiar to the users.",
+];
 
-export const insight_batch = ["Payments can be set up for one-time, future, or automatic recurring transactions","Always be sure you have enough money in your account to cover any payments you make online.","To use this service, you will need to create an online account with your bank or service provider and provide your payment information."]
+export const insight_batch = [
+  "Payments can be set up for one-time, future, or automatic recurring transactions",
+  "Always be sure you have enough money in your account to cover any payments you make online.",
+  "To use this service, you will need to create an online account with your bank or service provider and provide your payment information.",
+];
+
+export const goals = [
+  "-To help build the reputation of her company as one of the top agencies that provide top-notch customer royalty.",
+  "-Improve patronage to the company’s client's products and hence revenue generation.",
+  "-Improve customers' experience and quality of word of mouth on brand’s products.",
+];
+
+export const motivations = [
+  "-Hunger for growth",
+  "-Always willing to make the customer happy",
+  "-Drive to head the marketing and communications department",
+  "-Improved Income",
+];
