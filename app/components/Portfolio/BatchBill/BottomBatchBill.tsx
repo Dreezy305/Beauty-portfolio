@@ -23,7 +23,7 @@ import {
   insight_batch,
   motivations,
   takeways,
-  insight_batchbill,
+  insight_batchbill,batchbill_grid
 } from "@/data/experience";
 
 function BottomBatchBill(): JSX.Element {
@@ -664,16 +664,56 @@ function BottomBatchBill(): JSX.Element {
       </div>
 
       <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
-      In order to maintain brand consistency and make the app delightful, vibrant and visually compelling to users, I used batchbill's existing brand guidelines to choose colours blue and green as the primary colors, t Neutral colours like black and white were used for in-app text conversations and text backgrounds. The impact of the colours used paired well with the modern, energetic appeal of Batchbill's visual identity.
+        In order to maintain brand consistency and make the app delightful,
+        vibrant and visually compelling to users, I used batchbill's existing
+        brand guidelines to choose colours blue and green as the primary colors,
+        t Neutral colours like black and white were used for in-app text
+        conversations and text backgrounds. The impact of the colours used
+        paired well with the modern, energetic appeal of Batchbill's visual
+        identity.
       </p>
 
       <h5 className="font-LotaRegular font-normal text-4xl leading-7 pt-12 text-center">
         The Solution
       </h5>
 
-      <div className="rounded-lg py-5 bg-BeautyDark flex flex-row space-x-4 px-5">
-          <Image src={Login} className="w-1/2" priority alt="login"/>
-          <Image src={Reset} className="w-1/2" priority alt="recovery"/>
+      <div className="rounded-lg py-7 bg-BeautyDark flex flex-row space-x-4 px-5">
+        <Image src={Login} className="w-1/2" priority alt="login" />
+        <Image src={Reset} className="w-1/2" priority alt="recovery" />
+      </div>
+
+      <h5 className="font-LotaRegular font-normal text-4xl leading-7 pt-12 text-left">
+        Hi Fidelity Design
+      </h5>
+
+      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+      Authentication (Fast User Verification)
+      <br/><br/>
+      The authentication process is hassle free and straight to the point.is created for Indiviuals and Coporate users.
+      </p>
+
+      <div className="rounded-lg py-7 bg-BeautyDark px-5">
+        <div className="grid grid-cols-2 gap-x-12 gap-y-7">
+          {batchbill_grid.map((i)=> {return <div key={i.id}>
+            <Image src={i.image} priority alt={i.id} className="w-full" />
+          </div>})}
+        </div>
+      </div>
+
+      <h5 className="font-LotaRegular font-normal text-4xl leading-7 pt-12 text-left">
+      Top-up (Single & Bulk, Airtime & Data) Screens
+      </h5>
+
+      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+      Users are able to choose if they want to use bulk or single transaction to purchase either airtime or data, they can schedule payment or set transaction pin if they have not done that.
+      </p>
+
+      <div className="rounded-lg py-7 bg-BeautyDark px-5">
+        <div className="grid grid-cols-2 gap-x-4 gap-y-6">
+          {batchbill_grid.map((i)=> {return <div key={i.id}>
+            <Image src={i.image} priority alt={i.id} className="w-full" />
+          </div>})}
+        </div>
       </div>
     </div>
   );

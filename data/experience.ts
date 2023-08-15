@@ -3,6 +3,10 @@ import forward from "../public/icons/forward.svg";
 import people from "../public/icons/people.svg";
 import code from "../public/icons/code.svg";
 import shield from "../public/icons/shield.svg";
+import BatchbillSignin from "../public/batchbills/Sign In.png";
+import BatchbillPasswordRecovery from "../public/batchbills/Password-Recovery.png";
+import BatchbillSignup from "../public/batchbills/SignUp.png";
+import BatchbillCreateAcc from "../public/batchbills/SignUp1.png";
 
 export const work_experience = [
   {
@@ -172,19 +176,45 @@ export const takeways = [
     title: "Time Management",
     desc: "Online payment should take as little time as possible",
   },
-  { image: people, title: "Total commitment", desc: "Option to pause schedule" },
+  {
+    image: people,
+    title: "Total commitment",
+    desc: "Option to pause schedule",
+  },
   { image: forward, title: "Agility", desc: "Option to cancel schedule" },
-  { image: shield, title: "Accountability", desc: "Option to identify individual for coporate users" },
-  { image: code, title: "Excellence", desc: "Option to specify bulk and single payment" },
+  {
+    image: shield,
+    title: "Accountability",
+    desc: "Option to identify individual for coporate users",
+  },
+  {
+    image: code,
+    title: "Excellence",
+    desc: "Option to specify bulk and single payment",
+  },
 ];
 
 export const insight_batchbill = [
   "I started by doing a competitive analysis using competitor applications and reading app reviews.",
-"Conducted user interviews with users who make online bills payment often.",
-"I created and posted user surveys online to get more insights about the users.",
-"I created user personas.",
-"I participated in UI sketching and ideation.",
-"I created user flow diagrams in Miro.",
-"I created low-fidelity screens in Figma.",
-"I created high fidelity designs in Figma also."
-]
+  "Conducted user interviews with users who make online bills payment often.",
+  "I created and posted user surveys online to get more insights about the users.",
+  "I created user personas.",
+  "I participated in UI sketching and ideation.",
+  "I created user flow diagrams in Miro.",
+  "I created low-fidelity screens in Figma.",
+  "I created high fidelity designs in Figma also.",
+];
+
+export const batchbill_grid = [
+  { image: BatchbillSignin, id: "1" },
+  { image: BatchbillPasswordRecovery, id: "2" },
+  { image: BatchbillSignup, id: "3" },
+  { image: BatchbillCreateAcc, id: "4" },
+];
+
+export const batchbill_top_up = [
+  { image: "", id: "1" },
+  { image: "", id: "2" },
+  { image: "", id: "3" },
+  { image: "", id: "4" },
+];
