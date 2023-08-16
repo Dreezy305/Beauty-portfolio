@@ -717,7 +717,7 @@ function BottomBatchBill(): JSX.Element {
       </div>
 
       <div className="rounded-lg py-7 bg-BeautyDark px-5 mt-8">
-        <div className="grid grid-cols-2 gap-x-4 gap-y-6">
+        <div className="grid grid-cols-2 gap-x-8 gap-y-6">
           {batchbill_top_up_one.map((i)=> {return <div key={i.id}>
             <Image src={i.image} priority alt={i.id} className="w-full" />
           </div>})}
@@ -725,7 +725,7 @@ function BottomBatchBill(): JSX.Element {
       </div>
 
       <div className="rounded-lg py-7 bg-BeautyDark px-5 mt-8">
-        <div className="grid grid-cols-2 gap-x-4 gap-y-6">
+        <div className="grid grid-cols-2 gap-x-8 gap-y-6">
           {batchbill_top_up_two.map((i)=> {return <div key={i.id}>
             <Image src={i.image} priority alt={i.id} className="w-full" />
           </div>})}
