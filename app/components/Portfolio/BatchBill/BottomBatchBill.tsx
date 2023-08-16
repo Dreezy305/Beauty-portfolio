@@ -23,7 +23,7 @@ import {
   insight_batch,
   motivations,
   takeways,
-  insight_batchbill,batchbill_grid
+  insight_batchbill,batchbill_grid,batchbill_top_up,batchbill_top_up_one, batchbill_top_up_two
 } from "@/data/experience";
 
 function BottomBatchBill(): JSX.Element {
@@ -710,7 +710,23 @@ function BottomBatchBill(): JSX.Element {
 
       <div className="rounded-lg py-7 bg-BeautyDark px-5">
         <div className="grid grid-cols-2 gap-x-4 gap-y-6">
-          {batchbill_grid.map((i)=> {return <div key={i.id}>
+          {batchbill_top_up.map((i)=> {return <div key={i.id}>
+            <Image src={i.image} priority alt={i.id} className="w-full" />
+          </div>})}
+        </div>
+      </div>
+
+      <div className="rounded-lg py-7 bg-BeautyDark px-5 mt-8">
+        <div className="grid grid-cols-2 gap-x-4 gap-y-6">
+          {batchbill_top_up_one.map((i)=> {return <div key={i.id}>
+            <Image src={i.image} priority alt={i.id} className="w-full" />
+          </div>})}
+        </div>
+      </div>
+
+      <div className="rounded-lg py-7 bg-BeautyDark px-5 mt-8">
+        <div className="grid grid-cols-2 gap-x-4 gap-y-6">
+          {batchbill_top_up_two.map((i)=> {return <div key={i.id}>
             <Image src={i.image} priority alt={i.id} className="w-full" />
           </div>})}
         </div>

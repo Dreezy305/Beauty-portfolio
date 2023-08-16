@@ -3,10 +3,18 @@ import forward from "../public/icons/forward.svg";
 import people from "../public/icons/people.svg";
 import code from "../public/icons/code.svg";
 import shield from "../public/icons/shield.svg";
-import BatchbillSignin from "../public/batchbills/Sign In.png";
+import BatchbillSignin from "../public/batchbills/SignIn.png";
 import BatchbillPasswordRecovery from "../public/batchbills/Password-Recovery.png";
 import BatchbillSignup from "../public/batchbills/SignUp.png";
 import BatchbillCreateAcc from "../public/batchbills/SignUp1.png";
+import One from "../public/batchbills/1.png"
+import Two from "../public/batchbills/2.png"
+import Three from "../public/batchbills/3.png"
+import Four from "../public/batchbills/4.png"
+import Five from "../public/batchbills/5.png"
+import Six from "../public/batchbills/6.png"
+import Seven from "../public/batchbills/7.png"
+import Eight from "../public/batchbills/8.png"
 
 export const work_experience = [
   {
@@ -213,8 +221,18 @@ export const batchbill_grid = [
 ];
 
 export const batchbill_top_up = [
-  { image: "", id: "1" },
-  { image: "", id: "2" },
-  { image: "", id: "3" },
-  { image: "", id: "4" },
+  { image: One, id: "1" },
+  { image: Two, id: "2" },
+  { image: Three, id: "3" },
+  { image: Four, id: "4" },
+];
+
+export const batchbill_top_up_one = [
+  { image: Five, id: "6" },
+  { image: Six, id: "2" },
+];
+
+export const batchbill_top_up_two = [
+  { image: Seven, id: "6" },
+  { image: Eight, id: "2" },
 ];
