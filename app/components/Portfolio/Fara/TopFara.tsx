@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import "./fara.css"
+import "./fara.css";
 
 function TopFara(): JSX.Element {
   return (
@@ -14,8 +14,10 @@ function TopFara(): JSX.Element {
           priority
         />
         <div>
-            <p className="font-LotaRegular font-normal text-lg leading-8 text-BeautyWhite">The faster & easier  way people are able to accesss <br/>
-essentials digital services, to better theri quality of life.</p>
+          <p className="font-LotaRegular font-normal text-lg leading-8 text-BeautyWhite">
+            The faster & easier way people are able to accesss <br />
+            essentials digital services, to better theri quality of life.
+          </p>
         </div>
       </div>
     </div>
