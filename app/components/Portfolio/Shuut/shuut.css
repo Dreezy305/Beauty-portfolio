@@ -7,9 +7,9 @@
 }
 
 .shuut-iphone-bg {
-    /* background-image: url("/iPhone14Pro.png"); */
-    /* background-repeat: no-repeat; */
-    /* background-position: center left; */
-    /* background-position-y: -5%; */
-    /* background-position-x: 20%; */
+  background-image: url("/iPhone14Pro.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  /* background-position-y: -5%; */
+  /* background-position-x: 20%; */
 }
