@@ -183,19 +183,21 @@ function BottomShuut(): JSX.Element {
       <div className="rounded-lg px-12 bg-BeautyDark py-12 flex flex-col space-y-12">
         <div className="grid grid-cols-2 gap-x-12 gap-y-12">
           <>
-          {shuut_grid_two.map((i) => {
-            return (
-              <div key={i.id}>
-                <Image src={i.image} priority alt={i.id} className="w-full" />
-              </div>
-            );
-          })}
+            {shuut_grid_two.map((i) => {
+              return (
+                <div key={i.id}>
+                  <Image src={i.image} priority alt={i.id} className="w-full" />
+                </div>
+              );
+            })}
           </>
           <div className="text-left">
-            <h5 className="font-LotaRegular font-normal text-2xl leading-7">Links</h5>
+            <h5 className="font-LotaRegular font-normal text-2xl leading-7">
+              Links
+            </h5>
           </div>
           <div className="text-left bg-BeautyDarkPurple rounded-2xl flex flex-row space-x-5 items-center px-6 h-14 w-80">
-          <World size={24} strokeWidth={1.5} color={"#00F0FF"} />
+            <World size={24} strokeWidth={1.5} color={"#00F0FF"} />
             <a
               href="https://www.shuut.co/"
               target="_blank"

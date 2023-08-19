@@ -5,7 +5,6 @@ import { ArrowNarrowRight } from "tabler-icons-react";
 import "./portfolio.css";
 
 export default function Portfolio(): JSX.Element {
-
   const CaseStudies = () => {
     return (
       <div className="w-full h-[300px] rounded-[30px] flex flex-row">
@@ -144,7 +143,7 @@ export default function Portfolio(): JSX.Element {
           </div>
 
           <Link
-            href="#"
+            href="/portfolio/development"
             className="flex flex-row items-center space-x-2 absolute view"
           >
             <span className="font-LotaRegular text-base font-normal leading-6">
@@ -169,11 +168,13 @@ export default function Portfolio(): JSX.Element {
           <div className="flex flex-col space-y-14 text-left">
             {/* CASE STUDIES */}
             <div className="flex flex-col space-y-10">
-              <h5 className="font-LotaBold font-bold text-7xl leading-10">Case Studies</h5>
+              <h5 className="font-LotaBold font-bold text-7xl leading-10">
+                Case Studies
+              </h5>
 
               <p className="font-LotaRegular font-normal text-xl leading-9">
-                Oh yes, i've been busy. Here's a glimpse of what i've<br/> been
-                working on.
+                Oh yes, i've been busy. Here's a glimpse of what i've
+                <br /> been working on.
               </p>
             </div>
 
