@@ -13,3 +13,21 @@
   /* background-position-y: -5%; */
   /* background-position-x: 20%; */
 }
+
+.top-left {
+  position: absolute;
+  left: -1%;
+  top: -7%;
+}
+
+.top-right {
+  position: absolute;
+  right: -1%;
+  top: -7%;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: -7%;
+  right: -2%;
+}
