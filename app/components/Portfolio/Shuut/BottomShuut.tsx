@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import "./shuut.css";
+import { World } from "tabler-icons-react";
 import ShuutLanding from "../../../../public/shuut/ShuutLandingPage.png";
 import MaskGroup2 from "../../../../public/MaskGroup2.png";
 import MaskGroup3 from "../../../../public/MaskGroup3.png";
@@ -193,7 +194,8 @@ function BottomShuut(): JSX.Element {
           <div className="text-left">
             <h5 className="font-LotaRegular font-normal text-2xl leading-7">Links</h5>
           </div>
-          <div className="text-left bg-BeautyDarkPurple rounded-2xl flex flex-row items-center px-6 h-14 w-80">
+          <div className="text-left bg-BeautyDarkPurple rounded-2xl flex flex-row space-x-5 items-center px-6 h-14 w-80">
+          <World size={24} strokeWidth={1.5} color={"#00F0FF"} />
             <a
               href="https://www.shuut.co/"
               target="_blank"
