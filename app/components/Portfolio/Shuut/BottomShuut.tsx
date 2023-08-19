@@ -6,6 +6,12 @@ import MaskGroup2 from "../../../../public/MaskGroup2.png";
 import MaskGroup3 from "../../../../public/MaskGroup3.png";
 import MaskGroup4 from "../../../../public/MaskGroup4.png";
 import MaskGroup5 from "../../../../public/MaskGroup5.png";
+import ShuutOne from "@/public/shuut/1.png";
+import ShuutTwo from "@/public/shuut/2.png";
+import ShuutThree from "@/public/shuut/3.png"
+import ShuutFour from "@/public/shuut/4.png"
+import ShuutFive from "@/public/shuut/5.png"
+import { shuut_grid } from "@/data/experience";
 
 function BottomShuut(): JSX.Element {
   return (
@@ -156,6 +162,20 @@ function BottomShuut(): JSX.Element {
               className="absolute bottom-right"
             />
           </div>
+        </div>
+      </div>
+
+      <div className="rounded-lg px-12 bg-BeautyDark py-12 flex flex-col space-y-12">
+        <div className="flex flex-row space-x-8 w-full justify-between">
+          <Image src={ShuutOne} alt="" priority className="w-1/2" />
+          <Image src={ShuutTwo} alt="" priority className="w-1/2"/>
+        </div>
+        <div className="flex flex-row space-x-8 w-full justify-between">
+          <Image src={ShuutThree} alt="" priority className="w-1/2" />
+          <Image src={ShuutFour} alt="" priority className="w-1/2"/>
+        </div>
+        <div className="flex flex-row">
+        <Image src={ShuutFive} alt="" priority className="w-full"/>
         </div>
       </div>
     </div>

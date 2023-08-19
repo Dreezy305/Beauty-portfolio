@@ -7,14 +7,18 @@ import BatchbillSignin from "../public/batchbills/SignIn.png";
 import BatchbillPasswordRecovery from "../public/batchbills/Password-Recovery.png";
 import BatchbillSignup from "../public/batchbills/SignUp.png";
 import BatchbillCreateAcc from "../public/batchbills/SignUp1.png";
-import One from "../public/batchbills/1.png"
-import Two from "../public/batchbills/2.png"
-import Three from "../public/batchbills/3.png"
-import Four from "../public/batchbills/4.png"
-import Five from "../public/batchbills/5.png"
-import Six from "../public/batchbills/6.png"
-import Seven from "../public/batchbills/7.png"
-import Eight from "../public/batchbills/8.png"
+import One from "../public/batchbills/1.png";
+import Two from "../public/batchbills/2.png";
+import Three from "../public/batchbills/3.png";
+import Four from "../public/batchbills/4.png";
+import Five from "../public/batchbills/5.png";
+import Six from "../public/batchbills/6.png";
+import Seven from "../public/batchbills/7.png";
+import Eight from "../public/batchbills/8.png";
+import ShuutOne from "@/public/shuut/1.png";
+import ShuutTwo from "@/public/shuut/2.png";
+import ShuutThree from "@/public/shuut/3.png";
+import ShuutFour from "@/public/shuut/4.png";
 
 export const work_experience = [
   {
@@ -235,4 +239,11 @@ export const batchbill_top_up_one = [
 export const batchbill_top_up_two = [
   { image: Seven, id: "6" },
   { image: Eight, id: "2" },
+];
+
+export const shuut_grid = [
+  { image: ShuutOne, id: "1" },
+  { image: ShuutTwo, id: "2" },
+  { image: ShuutThree, id: "3" },
+  { image: ShuutFour, id: "4" },
 ];
