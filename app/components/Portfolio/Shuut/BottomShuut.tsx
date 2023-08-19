@@ -53,19 +53,25 @@ function BottomShuut(): JSX.Element {
         })}
       </ol>
 
-
       <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12 text-center">
         Goals & Objectives
       </h5>
 
       <p className="font-LotaRegular font-normal text-xl leading-8 py-3 mt-8">
-      SHUUT plans to help people access equipment gears without owning them by renting them from people in your neighborhood in a few easy steps. with every equipment insured under top insurance country i the country, the risk of losing the product will be very low.
+        SHUUT plans to help people access equipment gears without owning them by
+        renting them from people in your neighborhood in a few easy steps. with
+        every equipment insured under top insurance country i the country, the
+        risk of losing the product will be very low.
       </p>
       <p className="font-LotaRegular font-normal text-xl leading-8 py-3 mt-8">
-      Renter has the option to extend more rent days  already rented equipments, and the owner has the option to accept or decline  proposal, SHUUT has a flexible and transparent process, that helps the users involves to see end to end process of the transaction.
+        Renter has the option to extend more rent days already rented
+        equipments, and the owner has the option to accept or decline proposal,
+        SHUUT has a flexible and transparent process, that helps the users
+        involves to see end to end process of the transaction.
       </p>
       <p className="font-LotaRegular font-normal text-xl leading-8 py-3 mt-8">
-      All users on the system are meticulously verified before transactions are allowed to take place.
+        All users on the system are meticulously verified before transactions
+        are allowed to take place.
       </p>
     </div>
   );
