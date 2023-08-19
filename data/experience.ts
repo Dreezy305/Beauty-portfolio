@@ -19,6 +19,12 @@ import ShuutOne from "@/public/shuut/1.png";
 import ShuutTwo from "@/public/shuut/2.png";
 import ShuutThree from "@/public/shuut/3.png";
 import ShuutFour from "@/public/shuut/4.png";
+import ShuutSix from "@/public/shuut/6.png";
+import ShuutSeven from "@/public/shuut/7.png";
+import ShuutEight from "@/public/shuut/8.png";
+import ShuutNine from "@/public/shuut/9.png";
+import ShuutTen from "@/public/shuut/10.png"
+import ShuutEleven from "@/public/shuut/11.png"
 
 export const work_experience = [
   {
@@ -246,4 +252,13 @@ export const shuut_grid = [
   { image: ShuutTwo, id: "2" },
   { image: ShuutThree, id: "3" },
   { image: ShuutFour, id: "4" },
+];
+
+export const shuut_grid_two = [
+  { image: ShuutSix, id: "1" },
+  { image: ShuutSeven, id: "2" },
+  { image: ShuutEight, id: "3" },
+  { image: ShuutNine, id: "4" },
+  { image: ShuutTen, id: "5" },
+  { image: ShuutEleven, id: "6" },
 ];

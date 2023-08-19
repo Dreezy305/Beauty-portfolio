@@ -23,7 +23,11 @@ import {
   insight_batch,
   motivations,
   takeways,
-  insight_batchbill,batchbill_grid,batchbill_top_up,batchbill_top_up_one, batchbill_top_up_two
+  insight_batchbill,
+  batchbill_grid,
+  batchbill_top_up,
+  batchbill_top_up_one,
+  batchbill_top_up_two,
 } from "@/data/experience";
 
 function BottomBatchBill(): JSX.Element {
@@ -687,48 +691,70 @@ function BottomBatchBill(): JSX.Element {
       </h5>
 
       <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
-      Authentication (Fast User Verification)
-      <br/><br/>
-      The authentication process is hassle free and straight to the point.is created for Indiviuals and Coporate users.
+        Authentication (Fast User Verification)
+        <br />
+        <br />
+        The authentication process is hassle free and straight to the point.is
+        created for Indiviuals and Coporate users.
       </p>
 
       <div className="rounded-lg py-7 bg-BeautyDark px-5">
         <div className="grid grid-cols-2 gap-x-12 gap-y-7">
-          {batchbill_grid.map((i)=> {return <div key={i.id}>
-            <Image src={i.image} priority alt={i.id} className="w-full" />
-          </div>})}
+          {batchbill_grid.map((i) => {
+            return (
+              <div key={i.id}>
+                <Image src={i.image} priority alt={i.id} className="w-full" />
+              </div>
+            );
+          })}
         </div>
       </div>
 
       <h5 className="font-LotaRegular font-normal text-4xl leading-7 pt-12 text-left">
-      Top-up (Single & Bulk, Airtime & Data) Screens
+        Top-up (Single & Bulk, Airtime & Data) Screens
       </h5>
 
       <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
-      Users are able to choose if they want to use bulk or single transaction to purchase either airtime or data, they can schedule payment or set transaction pin if they have not done that.
+        Users are able to choose if they want to use bulk or single transaction
+        to purchase either airtime or data, they can schedule payment or set
+        transaction pin if they have not done that.
       </p>
 
       <div className="rounded-lg py-7 bg-BeautyDark px-5">
-        <div className="grid grid-cols-2 gap-x-4 gap-y-6">
-          {batchbill_top_up.map((i)=> {return <div key={i.id}>
-            <Image src={i.image} priority alt={i.id} className="w-full" />
-          </div>})}
+        <div className="grid grid-cols-2 gap-x-12 gap-y-12">
+          {batchbill_top_up.map((i) => {
+            return (
+              <div key={i.id}>
+                <Image src={i.image} priority alt={i.id} className="w-full" />
+              </div>
+            );
+          })}
         </div>
       </div>
 
       <div className="rounded-lg py-7 bg-BeautyDark px-5 mt-8">
         <div className="grid grid-cols-2 gap-x-8 gap-y-6">
-          {batchbill_top_up_one.map((i)=> {return <div key={i.id}>
-            <Image src={i.image} priority alt={i.id} className="w-full" />
-          </div>})}
+          {batchbill_top_up_one.map((i) => {
+            return (
+              <div key={i.id}>
+                <Image src={i.image} priority alt={i.id} className="w-full" />
+              </div>
+            );
+          })}
         </div>
       </div>
 
       <div className="rounded-lg py-7 bg-BeautyDark px-5 mt-8">
         <div className="grid grid-cols-2 gap-x-8 gap-y-6">
-          {batchbill_top_up_two.map((i)=> {return <div key={i.id}>
-            <Image src={i.image} priority alt={i.id} className="w-full" />
-          </div>})}
+          {batchbill_top_up_two.map((i) => {
+            return (
+              <div key={i.id}>
+                <Image src={i.image} priority alt={i.id} className="w-full" />
+              </div>
+            );
+          })}
+
+         
         </div>
       </div>
     </div>

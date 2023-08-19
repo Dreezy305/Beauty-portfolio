@@ -8,10 +8,10 @@ import MaskGroup4 from "../../../../public/MaskGroup4.png";
 import MaskGroup5 from "../../../../public/MaskGroup5.png";
 import ShuutOne from "@/public/shuut/1.png";
 import ShuutTwo from "@/public/shuut/2.png";
-import ShuutThree from "@/public/shuut/3.png"
-import ShuutFour from "@/public/shuut/4.png"
-import ShuutFive from "@/public/shuut/5.png"
-import { shuut_grid } from "@/data/experience";
+import ShuutThree from "@/public/shuut/3.png";
+import ShuutFour from "@/public/shuut/4.png";
+import ShuutFive from "@/public/shuut/5.png";
+import { shuut_grid_two } from "@/data/experience";
 
 function BottomShuut(): JSX.Element {
   return (
@@ -168,14 +168,41 @@ function BottomShuut(): JSX.Element {
       <div className="rounded-lg px-12 bg-BeautyDark py-12 flex flex-col space-y-12">
         <div className="flex flex-row space-x-8 w-full justify-between">
           <Image src={ShuutOne} alt="" priority className="w-1/2" />
-          <Image src={ShuutTwo} alt="" priority className="w-1/2"/>
+          <Image src={ShuutTwo} alt="" priority className="w-1/2" />
         </div>
         <div className="flex flex-row space-x-8 w-full justify-between">
           <Image src={ShuutThree} alt="" priority className="w-1/2" />
-          <Image src={ShuutFour} alt="" priority className="w-1/2"/>
+          <Image src={ShuutFour} alt="" priority className="w-1/2" />
         </div>
         <div className="flex flex-row">
-        <Image src={ShuutFive} alt="" priority className="w-full"/>
+          <Image src={ShuutFive} alt="" priority className="w-full" />
+        </div>
+      </div>
+
+      <div className="rounded-lg px-12 bg-BeautyDark py-12 flex flex-col space-y-12">
+        <div className="grid grid-cols-2 gap-x-12 gap-y-12">
+          <>
+          {shuut_grid_two.map((i) => {
+            return (
+              <div key={i.id}>
+                <Image src={i.image} priority alt={i.id} className="w-full" />
+              </div>
+            );
+          })}
+          </>
+          <div className="text-left">
+            <h5 className="font-LotaRegular font-normal text-2xl leading-7">Links</h5>
+          </div>
+          <div className="text-left bg-BeautyDarkPurple rounded-2xl flex flex-row items-center px-6 h-14 w-80">
+            <a
+              href="https://www.shuut.co/"
+              target="_blank"
+              rel="noreferrer"
+              className="font-GraphikLight font-thin underline text-lg cursor-pointer"
+            >
+              https://www.shuut.co/
+            </a>
+          </div>
         </div>
       </div>
     </div>
