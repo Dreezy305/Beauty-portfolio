@@ -103,7 +103,7 @@ function BottomShuut(): JSX.Element {
 
         <div className="flex flex-row items-center justify-between space-x-4 pt-6">
           <div className="rounded-lg py-4 h-auto w-1/2 px-4 bg-BeautyDarkPurple relative">
-            <p className="font-LotaRegular font-normal text-lg leading-7">
+            <p className="font-LotaRegular font-normal text-lg leading-7 px-3">
               Yes, i have
             </p>
             <Image
@@ -116,7 +116,7 @@ function BottomShuut(): JSX.Element {
           </div>
 
           <div className="rounded-lg py-6 px-4 w-1/2 bg-BeautyDarkPurple relative h-auto">
-            <p className="font-LotaRegular font-normal text-lg leading-7 w-full">
+            <p className="font-LotaRegular font-normal text-lg leading-7 w-full px-3">
               I choose to rent my equipment as another source of income to me
             </p>
             <Image
@@ -130,7 +130,7 @@ function BottomShuut(): JSX.Element {
         </div>
         <div className="flex flex-row items-center justify-between space-x-4 pb-6">
           <div className="rounded-lg py-6 px-4 w-1/2 bg-BeautyDarkPurple relative h-auto">
-            <p className="font-LotaRegular font-normal text-lg leading-7 w-full">
+            <p className="font-LotaRegular font-normal text-lg leading-7 w-full px-3">
               There have been good days and bad days when renting, as most
               customers don't have the knowledge of handling the equipments,
               thereby leading to malfunction of some parts
@@ -145,7 +145,7 @@ function BottomShuut(): JSX.Element {
           </div>
 
           <div className="rounded-lg py-6 px-4 w-1/2 bg-BeautyDarkPurple relative h-auto">
-            <p className="font-LotaRegular font-normal text-lg leading-7 w-full">
+            <p className="font-LotaRegular font-normal text-lg leading-7 w-full px-3">
               No, i have not
             </p>
             <Image
