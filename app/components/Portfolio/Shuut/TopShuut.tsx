@@ -24,7 +24,7 @@ function TopShuut(): JSX.Element {
           </p>
         </div>
       </div>
-      <Image src={Group} priority alt="shuut" className="absolute top-0" />
+      {/* <Image src={Group} priority alt="shuut" className="absolute top-0" /> */}
     </div>
   );
 }
