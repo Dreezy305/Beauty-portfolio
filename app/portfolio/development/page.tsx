@@ -1,12 +1,18 @@
-import React from 'react'
+import React from "react";
 import PortfolioLayout from "@/app/components/Portfolio/Layout/Layout";
+import Tab from "@/app/components/development/Tab";
+
 
 function Development(): JSX.Element {
+ 
+
   return (
     <PortfolioLayout>
-      <div className="rounded-[30px] bg-BeautyDarkPurple py-6 px-7 mt-8"></div>
+      <div className="rounded-[30px] bg-BeautyDarkPurple py-6 px-7 mt-8">
+       <Tab/>
+      </div>
     </PortfolioLayout>
-  )
+  );
 }
 
-export default Development
+export default Development;
