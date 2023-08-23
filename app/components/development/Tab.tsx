@@ -33,9 +33,14 @@ function Tab(): JSX.Element {
 
   return (
     <>
-      <Tabs defaultActiveKey="1" items={items} onChange={onChange} />
+      <Tabs
+        defaultActiveKey="1"
+        items={items}
+        onChange={onChange}
+        size="large"
+      />
     </>
-  )
+  );
 }
 
 export default Tab;
