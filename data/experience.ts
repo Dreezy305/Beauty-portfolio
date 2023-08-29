@@ -262,3 +262,8 @@ export const shuut_grid_two = [
   { image: ShuutTen, id: "5" },
   { image: ShuutEleven, id: "6" },
 ];
+
+export const tabItems  = [{id: "1", name: "unista", key: "unista", link: "unista"}, {id: "2", name: "uplands hunt", key: "uplands", link: "uplands_hunt"}, 
+{id: "3", name: "woodcore", key: "woodcore", link: "woodcore"},
+{id: "4", name: "quba", key: "quba", link: "quba"}
+]
