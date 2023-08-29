@@ -44,7 +44,7 @@ export default function Portfolio(): JSX.Element {
         </div>
 
         {/* 2 */}
-        <div className="h-full w-1/4 rounded-tl-none rounded-bl-none rounded-tr-none rounded-br-none bg-BeautyDeepPurple cursor-pointer relative flex flex-col py-6 px-8">
+        <div className="h-full w-1/4 rounded-tl-none rounded-bl-none rounded-tr-none rounded-br-none bg-[#D85EEC] cursor-pointer relative flex flex-col py-6 px-8">
           <div className="flex flex-row justify-between items-center">
             <span className="font-thin font-LotaThin text-base leading-6 uppercase">
               Bill Payment
