@@ -143,7 +143,7 @@ export default function Portfolio(): JSX.Element {
           </div>
 
           <Link
-            href="/portfolio/development"
+            href="/portfolio/development/unista"
             className="flex flex-row items-center space-x-2 absolute view"
           >
             <span className="font-LotaRegular text-base font-normal leading-6">
@@ -174,7 +174,7 @@ export default function Portfolio(): JSX.Element {
 
               <p className="font-LotaRegular font-normal text-xl leading-9">
                 Oh yes, i've been busy. Here's a glimpse of what i've
-                <br /> been working on.
+                <br /> been working onnnn.
               </p>
             </div>
 
