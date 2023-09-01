@@ -13,11 +13,11 @@ function Development({
   children?: React.ReactNode
 }): JSX.Element {
  
-
+// rounded-[30px] bg-BeautyDarkPurple
   return (
     <PortfolioLayout>
-      <div className="rounded-[30px] bg-BeautyDarkPurple py-6 px-7 mt-8">
-       <Tab activeTab={activeTab} children={<>{children}</>}/>
+      <div className=" py-6 px-7 mt-8">
+      <Tab activeTab={activeTab} children={<>{children}</>}/>
       </div>
     </PortfolioLayout>
   );

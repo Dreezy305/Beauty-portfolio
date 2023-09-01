@@ -25,7 +25,7 @@ function Tab({
   return (
     <>
       <ul
-        className="mb-5 flex list-none flex-row flex-wrap border-b-0 pl-0"
+        className="mb-5 flex list-none flex-row flex-wrap border-b-0  rounded-tl-[15px] rounded-tr-[15px] bg-BeautyDarkPurple"
         role="tablist"
         data-te-nav-ref
       >
