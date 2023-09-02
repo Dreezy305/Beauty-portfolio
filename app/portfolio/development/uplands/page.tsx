@@ -1,13 +1,15 @@
-import React from 'react'
-import Development from '../page'
-
+import React from "react";
+import Development from "../page";
+import TopUplands from "@/app/components/Portfolio/uplands/TopUplands";
+import BottomUplands from "@/app/components/Portfolio/uplands/BottomUplands";
 
 function Uplands() {
   return (
-    <Development activeTab='uplands'>
-        uplands
+    <Development activeTab="uplands">
+      <TopUplands />
+      <BottomUplands />
     </Development>
-  )
+  );
 }
 
-export default Uplands
+export default Uplands;

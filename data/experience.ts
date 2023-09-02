@@ -34,6 +34,20 @@ import UnistaFive from "@/public/development/unista5.png";
 import UnistaSix from "@/public/development/unista6.png";
 import UnistaSeven from "@/public/development/unista7.png";
 import UnistaEight from "@/public/development/unista8.png";
+import UplandsOne from "@/public/development/uplands1.png";
+import UplandsTwo from "@/public/development/uplands2.png";
+import UplandsThree from "@/public/development/uplands3.png";
+import UplandsFour from "@/public/development/uplands4.png";
+import UplandsFive from "@/public/development/uplands5.png";
+import UplandsSix from "@/public/development/uplands6.png";
+import UplandsWebOne from "@/public/development/uplandsweb1.png";
+import UplandsWebTwo from "@/public/development/uplandsweb2.png";
+import UplandsWebThree from "@/public/development/uplandsweb2.png";
+import UplandsWebFour from "@/public/development/uplandsweb4.png";
+import UplandsWebFive from "@/public/development/uplandsweb5.png";
+import UplandsWebSix from "@/public/development/uplandsweb6.png";
+import UplandsWebSeven from "@/public/development/uplandsweb7.png";
+import UplandsWebEight from "@/public/development/uplandsweb8.png";
 
 export const work_experience = [
   {
@@ -317,4 +331,23 @@ export const UnistaGrid = [
   { image: UnistaSix, id: "6" },
   { image: UnistaSeven, id: "7" },
   { image: UnistaEight, id: "8" },
+];
+
+export const UplandsMobileGrid = [
+  { image: UplandsOne, id: "1" },
+  { image: UplandsTwo, id: "2" },
+  { image: UplandsThree, id: "3" },
+  { image: UplandsFour, id: "4" },
+  { image: UplandsFive, id: "5" },
+  { image: UplandsSix, id: "6" },
+];
+
+export const UplandsWebGrid = [
+  { image: UplandsWebOne, id: "1" },
+  { image: UplandsWebTwo, id: "2" },
+  { image: UplandsWebThree, id: "3" },
+  { image: UplandsWebFour, id: "4" },
+  { image: UplandsWebFive, id: "5" },
+  { image: UplandsWebSix, id: "6" },
+  { image: UplandsWebSeven, id: "7" }, { image: UplandsWebEight, id: "8" },
 ];
