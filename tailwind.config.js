@@ -54,7 +54,8 @@ module.exports = {
         BeautyDeepPurple: "#4436AC",
         BeautyUnista: "#D70900",
         BeautyUplandsCream: "#FFCF81",
-        BeautyDeepBlue: "#002C79"
+        BeautyDeepBlue: "#002C79",
+        BeautyDeepGreen: "#089156"
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

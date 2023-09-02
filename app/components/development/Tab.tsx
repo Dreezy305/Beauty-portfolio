@@ -32,9 +32,9 @@ function Tab({
         <li role="presentation" className="flex-grow basis-0 text-center" onClick={() => router.push('/portfolio/development/unista')}>
           <Link
             href="/portfolio/development/unista"
-            className={`my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-white ${
+            className={`my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 font-medium capitalize leading-tight font-LotaRegular text-xl text-white ${
               activeTab === "unista"
-                ? "hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+                ? "hover:isolate hover:border-BeautyDeepGrey hover:bg-white focus:isolate focus:border-BeautyDeepGrey data-[te-nav-active]:border-BeautyDeepGrey data-[te-nav-active]:text-white dark:text-white dark:hover:border-BeautyDeepGrey dark:data-[te-nav-active]:border-BeautyDeepGrey dark:data-[te-nav-active]:text-white"
                 : ""
             }`}
             data-te-toggle="pill"
@@ -50,9 +50,9 @@ function Tab({
         <li role="presentation" className="flex-grow basis-0 text-center" onClick={() => router.push('/portfolio/development/uplands')}>
           <Link
             href="/portfolio/development/uplands"
-            className={`my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-white ${
+            className={`my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 font-medium capitalize leading-tight font-LotaRegular text-xl text-white ${
               activeTab === "uplands"
-                ? "hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+                ? "hover:isolate hover:border-BeautyDeepGrey hover:bg-white focus:isolate focus:border-BeautyDeepGrey data-[te-nav-active]:border-BeautyDeepGrey data-[te-nav-active]:text-white dark:text-white dark:hover:border-BeautyDeepGrey dark:data-[te-nav-active]:border-BeautyDeepGrey dark:data-[te-nav-active]:text-white"
                 : ""
             }`}
             data-te-toggle="pill"
@@ -68,9 +68,9 @@ function Tab({
         <li role="presentation" className="flex-grow basis-0 text-center" onClick={() => router.push('/portfolio/development/woodcore')}>
           <Link
             href="/portfolio/development/woodcore"
-            className={`my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-white ${
+            className={`my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 font-medium capitalize leading-tight font-LotaRegular text-xl text-white ${
               activeTab === "woodcore"
-                ? "hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+                ? "hover:isolate hover:border-BeautyDeepGrey hover:bg-white focus:isolate focus:border-BeautyDeepGrey data-[te-nav-active]:border-BeautyDeepGrey data-[te-nav-active]:text-white dark:text-white dark:hover:border-BeautyDeepGrey dark:data-[te-nav-active]:border-BeautyDeepGrey dark:data-[te-nav-active]:text-white"
                 : ""
             }`}
             data-te-toggle="pill"
@@ -86,9 +86,9 @@ function Tab({
         <li role="presentation" className="flex-grow basis-0 text-center" onClick={() => router.push('/portfolio/development/quba')}>
           <Link
             href="/portfolio/development/quba"
-            className={`my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-white ${
+            className={`my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 font-medium capitalize leading-tight font-LotaRegular text-xl text-white ${
               activeTab === "quba"
-                ? "hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+                ? "hover:isolate hover:border-BeautyDeepGrey hover:bg-white focus:isolate focus:border-BeautyDeepGrey data-[te-nav-active]:border-BeautyDeepGrey data-[te-nav-active]:text-white dark:text-white dark:hover:border-BeautyDeepGrey dark:data-[te-nav-active]:border-BeautyDeepGrey dark:data-[te-nav-active]:text-white"
                 : ""
             }`}
             passHref={true}
