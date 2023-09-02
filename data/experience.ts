@@ -23,8 +23,17 @@ import ShuutSix from "@/public/shuut/6.png";
 import ShuutSeven from "@/public/shuut/7.png";
 import ShuutEight from "@/public/shuut/8.png";
 import ShuutNine from "@/public/shuut/9.png";
-import ShuutTen from "@/public/shuut/10.png"
-import ShuutEleven from "@/public/shuut/11.png"
+import ShuutTen from "@/public/shuut/10.png";
+import ShuutEleven from "@/public/shuut/11.png";
+import Unistafast from "@/public/development/unistaflash.svg";
+import UnistaOne from "@/public/development/unista1.png";
+import UnistaTwo from "@/public/development/unista2.png";
+import UnistaThree from "@/public/development/unista3.png";
+import UnistaFour from "@/public/development/unista4.png";
+import UnistaFive from "@/public/development/unista5.png";
+import UnistaSix from "@/public/development/unista6.png";
+import UnistaSeven from "@/public/development/unista7.png";
+import UnistaEight from "@/public/development/unista8.png";
 
 export const work_experience = [
   {
@@ -263,7 +272,49 @@ export const shuut_grid_two = [
   { image: ShuutEleven, id: "6" },
 ];
 
-export const tabItems  = [{id: "1", name: "unista", key: "unista", link: "unista"}, {id: "2", name: "uplands hunt", key: "uplands", link: "uplands_hunt"}, 
-{id: "3", name: "woodcore", key: "woodcore", link: "woodcore"},
-{id: "4", name: "quba", key: "quba", link: "quba"}
-]
+export const tabItems = [
+  { id: "1", name: "unista", key: "unista", link: "unista" },
+  { id: "2", name: "uplands hunt", key: "uplands", link: "uplands_hunt" },
+  { id: "3", name: "woodcore", key: "woodcore", link: "woodcore" },
+  { id: "4", name: "quba", key: "quba", link: "quba" },
+];
+
+export const UnistaTakeways = [
+  {
+    image: Unistafast,
+    title: "User Research",
+   
+  },
+  {
+    image: Unistafast,
+    title: "Web Application",
+   
+  },
+  {
+    image: Unistafast,
+    title: "Mobile Application",
+   
+  },
+  { image: Unistafast, title: "Low Fidelity", desc: "" },
+  {
+    image: Unistafast,
+    title: "User Experience",
+   
+  },
+  {
+    image: Unistafast,
+    title: "High Fidelity",
+    
+  },
+];
+
+export const UnistaGrid = [
+  { image: UnistaOne, id: "1" },
+  { image: UnistaTwo, id: "2" },
+  { image: UnistaThree, id: "3" },
+  { image: UnistaFour, id: "4" },
+  { image: UnistaFive, id: "5" },
+  { image: UnistaSix, id: "6" },
+  { image: UnistaSeven, id: "7" },
+  { image: UnistaEight, id: "8" },
+];
