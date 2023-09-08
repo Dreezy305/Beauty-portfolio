@@ -11,7 +11,7 @@ export default function Header({ type, active }: { type: string; active?: string
   return (
     <header className="overflow-hidden">
       {type === "landing" && (
-        <nav className="container mx-auto relative py-7">
+        <nav className={`container mx-auto relative py-7 ${type="landing" ? "px-0 md:px-5 lg:px-5 xl:px-5" : ""}`}>
           <Link href="/">
             <Image
               src={"/Layer2.svg"}
