@@ -11,8 +11,8 @@ export default function About(): JSX.Element {
     <BeautyLayout active={"about"} location="others">
       <section className="overflow-hidden">
         <div className="container mx-auto mt-20 flex flex-col space-y-12">
-          <div className="flex flex-row items-center justify-between">
-            <div className="flex flex-col space-y-8 w-1/2">
+          <div className="flex flex-col space-y-16 md:flex md:flex-col md:space-y-16 lg:flex lg:flex-row lg:items-center lg:justify-between xl:flex xl:flex-row xl:items-center xl:justify-between">
+            <div className="flex flex-col space-y-12 lg:space-y-8 md:space-y-12 w-full md:w-full lg:w-1/2 xl:w-1/2">
               <div className="flex flex-row space-x-6 items-center">
                 <h4 className="font-LotaBold text-BeautyWhite text-7xl leading-9">
                   Hi there{" "}
@@ -26,12 +26,16 @@ export default function About(): JSX.Element {
                 />
               </div>
               <p className="font-SofiaRegular font-normal lg:w-[103%] xl:w-[90%] text-2xl leading-9">
-                My name is Ohia Beauty and i'm a product designer with 
-                experience designing and building digital products. In the past,i've collaboratively worked with teams to build
-                useable system in e-commerce, fintech, health-tech, agri-tech, real estate and emerging technologies, I specialize in Product design, UI, UX, AI design creative direction and design coaching.
+                My name is Ohia Beauty and i'm a product designer with
+                experience designing and building digital products. In the
+                past,i've collaboratively worked with teams to build useable
+                system in e-commerce, fintech, health-tech, agri-tech, real
+                estate and emerging technologies, I specialize in Product
+                design, UI, UX, AI design creative direction and design
+                coaching.
               </p>
             </div>
-            <div className="w-1/2 flex flex-row justify-end h-auto">
+            <div className="w-full md:w-full lg:w-1/2 lg:flex lg:flex-row lg:justify-end h-auto xl:w-1/2 xl:flex xl:flex-row xl:justify-end">
               <img src={"/beauty2.png"} alt="layer" />
             </div>
           </div>
@@ -50,10 +54,10 @@ export default function About(): JSX.Element {
             })}
 
             <h5 className="font-SofiaBold font-bold text-3xl leading-6 pt-10">
-            My Expertise
+              My Expertise
             </h5>
 
-            <Card/>
+            <Card />
           </div>
         </div>
       </section>

@@ -285,7 +285,7 @@ export default function Portfolio(): JSX.Element {
             <h5 className="font-bold font-LotaBold text-2xl leading-6">
               Development
             </h5>
-            <p className="font-thin font-LotaThin text-base leading-6 w-[93%]">
+            <p className="font-thin font-LotaThin text-base leading-6 w-[93%] md:w-full">
               Case studies & UI screens of previous works done so far.
             </p>
           </div>
