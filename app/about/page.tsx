@@ -25,16 +25,10 @@ export default function About(): JSX.Element {
                   priority
                 />
               </div>
-              <p className="font-SofiaRegular font-normal w-full text-2xl leading-9">
-                My name is Ohia Beauty and i'm a product designer with <br />{" "}
-                experience designing and building digital products. In the{" "}
-                <br /> past,i've collaboratively worked with teams to build
-                useable
-                <br /> system in e-commerce, fintech, health-tech, agri-tech,
-                real
-                <br /> estate and emerging technologies, I specialize in Product
-                <br /> design, UI, UX, AI design creative direction and design
-                <br /> coaching.
+              <p className="font-SofiaRegular font-normal lg:w-[103%] xl:w-[90%] text-2xl leading-9">
+                My name is Ohia Beauty and i'm a product designer with 
+                experience designing and building digital products. In the past,i've collaboratively worked with teams to build
+                useable system in e-commerce, fintech, health-tech, agri-tech, real estate and emerging technologies, I specialize in Product design, UI, UX, AI design creative direction and design coaching.
               </p>
             </div>
             <div className="w-1/2 flex flex-row justify-end h-auto">
