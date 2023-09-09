@@ -52,18 +52,18 @@ export default function Home() {
             <div className="flex flex-col w-full md:w-4/5 lg:w-1/2 xl:w-1/2 space-y-8">
               <h4 className="flex flex-col text-left space-y-1.5">
                 <span className="text-xl md:text-3xl lg:text-5xl xl:text-6xl font-thin flex flex-row leading-8">
-                  <span className="italic">a</span>&nbsp;
-                  <span className="font-LotaSemiBold font-semibold ">
+                  <span className="italic text-white">a</span>&nbsp;
+                  <span className="font-LotaSemiBold font-semibold text-white">
                     product designer,
                   </span>
                 </span>
                
-                <span className="font-LotaSemiBold font-semibold leading-8 text-xl md:text-3xl lg:text-5xl xl:text-6xl">
+                <span className="font-LotaSemiBold font-semibold leading-8 text-xl md:text-3xl lg:text-5xl xl:text-6xl text-white">
                   a minimalist.
                 </span>
               </h4>
 
-              <p className="font-SofiaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8">
+              <p className="font-SofiaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 text-white">
                 My name is Ohia Beauty, i'm a minimalist designer, with an adept
                 in communicating design decisions effectively, and advocating
                 for the user's perspective throughout the design process,
