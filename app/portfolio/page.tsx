@@ -7,7 +7,7 @@ import "./portfolio.css";
 export default function Portfolio(): JSX.Element {
   const CaseStudies = () => {
     return (
-      <div className="w-full h-[300px] rounded-[30px] flex flex-row">
+      <div className="w-full lg:h-[300px] xl:h-[320px] flex flex-col  md:flex md:flex-col lg:flex lg:flex-row xl:flex xl:flex-row">
         {/* 1 */}
         <div className="h-full w-1/4 rounded-tl-[30px] rounded-bl-[30px] rounded-tr-none rounded-br-none bg-BeautyDeepBlue cursor-pointer relative flex flex-col py-6 px-8">
           <div className="flex flex-row justify-between items-center">
@@ -21,9 +21,9 @@ export default function Portfolio(): JSX.Element {
 
           <div className="flex flex-col space-y-5 absolute content">
             <h5 className="font-bold font-LotaBold text-2xl leading-6">Fara</h5>
-            <p className="font-thin font-LotaThin text-base leading-6">
+            <p className="font-thin font-LotaThin text-base leading-6 lg:w-11/12 xl:w-4/5">
               An all-in-one financial platform created for
-              <br /> the world's underserved population in the informal sector.
+               the world's underserved population in the informal sector.
             </p>
           </div>
 
@@ -58,10 +58,9 @@ export default function Portfolio(): JSX.Element {
             <h5 className="font-bold font-LotaBold text-2xl leading-6 capitalize">
               Batchbill
             </h5>
-            <p className="font-thin font-LotaThin text-base leading-6">
+            <p className="font-thin font-LotaThin text-base leading-6  lg:w-11/12 xl:w-11/12">
               Batchbills intends to simplify the process of
-              <br />
-              paying bills ranging from airtime, data, etc &<br /> other bills
+              paying bills ranging from airtime, data, etc & other bills
               that can be paid currently in Africa.
             </p>
           </div>
@@ -97,10 +96,10 @@ export default function Portfolio(): JSX.Element {
             <h5 className="font-bold font-LotaBold text-2xl leading-6 uppercase text-BeautyBlack">
               SHUUT
             </h5>
-            <p className="font-thin font-LotaThin text-base leading-6 text-BeautyBlack">
+            <p className="font-thin font-LotaThin text-base leading-6 text-BeautyBlack lg:w-11/12 xl:w-11/12">
               SHUUT provides a safe application with
-              <br /> insurance for equipments rentage for people
-              <br /> within your community.
+               insurance for equipments rentage for people
+             within your community.
             </p>
           </div>
 
@@ -135,9 +134,8 @@ export default function Portfolio(): JSX.Element {
             <h5 className="font-bold font-LotaBold text-2xl leading-6">
               Development
             </h5>
-            <p className="font-thin font-LotaThin text-base leading-6">
+            <p className="font-thin font-LotaThin text-base leading-6 w-11/12">
               Case studies & UI screens of previous works
-              <br />
               done so far.
             </p>
           </div>
@@ -164,17 +162,17 @@ export default function Portfolio(): JSX.Element {
   return (
     <BeautyLayout active="portfolio">
       <section className="overflow-hidden">
-        <div className="container mx-auto relative pt-32">
+        <div className="container mx-auto relative pt-6 md:pt-6 lg:pt-24 xl:pt-32">
           <div className="flex flex-col space-y-14 text-left">
             {/* CASE STUDIES */}
-            <div className="flex flex-col space-y-10">
-              <h5 className="font-LotaBold font-bold text-7xl leading-10">
+            <div className="flex flex-col space-y-6 md:space-y-6 lg:space-y-8 xl:space-y-10 w-full md:w-4/5 lg:w-1/3 xl:w-1/3">
+              <h5 className="font-LotaBold font-bold text-2xl md:text-3xl lg:text-6xl xl:text-7xl leading-6 md:leading-8 lg:leading-10 xl:leading-10">
                 Case Studies
               </h5>
 
-              <p className="font-LotaRegular font-normal text-xl leading-9">
+              <p className="font-LotaRegular font-normal text-xl leading-8 md:leading-8 lg:leading-9 xl:leading-9">
                 Oh yes, i've been busy. Here's a glimpse of what i've
-                <br /> been working onnnn.
+               been working on.
               </p>
             </div>
 
