@@ -84,8 +84,8 @@ function BottomFara(): JSX.Element {
         transitions to name a few.
       </p>
 
-      <div className="flex flex-col space-y-7 pt-8">
-        <div className="flex flex-row justify-around py-5">
+      <div className="flex flex-col space-y-12 md:space-y-8 lg:space-y-7 xl:space-y-7 pt-4 md:pt-6 lg:pt-8 xl:pt-8">
+        <div className="flex flex-col space-y-8 md:flex md:flex-row md:justify-around md:items-center lg:flex lg:flex-row lg:justify-around lg:space-y-0 xl:flex xl:flex-row xl:justify-around xl:space-y-0 py-5">
           <div className="flex flex-col space-y-4">
             <h6 className="text-center font-LotaSemiBold font-semibold text-2xl leading-6">
               Outdated
@@ -106,7 +106,8 @@ function BottomFara(): JSX.Element {
           </div>
         </div>
       </div>
-      <div className="flex flex-row justify-around py-5">
+
+      <div className="flex flex-col space-y-8 md:flex md:flex-row md:justify-around lg:flex lg:flex-row lg:justify-around lg:space-y-0 xl:flex xl:flex-row xl:justify-around xl:space-y-0 py-5">
         <div className="flex flex-col space-y-4">
           <h6 className="text-center font-LotaSemiBold font-semibold text-2xl leading-6">
             Poor User Experience
