@@ -14,11 +14,11 @@ function HireMe(): JSX.Element {
     <BeautyLayout>
       <section className="overflow-hidden">
         <div className="container mx-auto">
-          <div className="container mx-auto mt-12 flex flex-col space-y-12">
-            <div className="flex flex-row items-center justify-between pt-12 mt-6">
-              <div className="flex flex-col space-y-8 w-1/2">
-                <div className="flex flex-row items-center">
-                  <h4 className="font-LotaBold text-BeautyWhite text-7xl leading-9">
+          <div className="container mx-auto mt-4 md:mt-8 lg:mt-12 xl:mt-12 flex flex-col space-y-12">
+            <div className="flex flex-col space-y-8 md:flex md:flex-col md:space-y-8 lg:flex lg:flex-row lg:items-center lg:justify-between xl:flex xl:flex-row xl:items-center xl:justify-between pt-12 mt-2 md:mt-4 lg:mt-6 xl:mt-6">
+              <div className="flex flex-col space-y-5 md:space-y-6 lg:space-y-8 xl:space-y-8 w-full md:w-full lg:w-1/2 xl:w-1/2">
+                <div className="flex flex-row items-center space-x-2 md;space-x-2 lg:space-x-0 xl:space-x-0">
+                  <h4 className="font-LotaBold text-BeautyWhite text-3xl md:text-4xl lg:text-7xl xl:text-7xl leading-9">
                     Say Hello.
                   </h4>
                   <Image
@@ -27,13 +27,22 @@ function HireMe(): JSX.Element {
                     width={70}
                     height={70}
                     priority
+                     className="hidden md:hidden lg:block xl:block"
+                  />
+                   <Image
+                    src={"/Dizzy.svg"}
+                    alt="layer"
+                    width={40}
+                    height={40}
+                    priority
+                    className="block md:block lg:hidden xl:hidden"
                   />
                 </div>
                 <p className="font-SofiaRegular font-normal w-full text-xl leading-9">
                   Let's have a chat over coffee.
                 </p>
 
-                <div className="flex flex-col space-y-3 bg-BeautyDarkPurple rounded-lg px-6 py-4 w-1/2">
+                <div className="flex flex-col space-y-3 bg-BeautyDarkPurple rounded-lg px-6 py-4 w-full md:w-full lg:w-1/2 xl:w-1/2">
                   <h5 className="font-SofiaRegular font-normal text-xl">
                     WANT TO EMAIL ME?
                   </h5>
@@ -42,7 +51,7 @@ function HireMe(): JSX.Element {
                   </p>
                 </div>
 
-                <div className="flex flex-col space-y-3 bg-BeautyDarkPurple rounded-lg px-6 py-4 w-1/2">
+                <div className="flex flex-col space-y-3 bg-BeautyDarkPurple rounded-lg px-6 py-4 w-full md:w-full lg:w-1/2 xl:w-1/2">
                   <h5 className="font-SofiaRegular font-normal text-xl">
                     WANT TO CALL ME?
                   </h5>
@@ -51,7 +60,7 @@ function HireMe(): JSX.Element {
                   </p>
                 </div>
 
-                <div className="flex flex-row items-center space-x-10">
+                <div className="flex flex-row items-center space-x-4 md:space-x-7 lg:space-x-10 xl:space-x-10">
                   <a
                     href="https://www.behance.net/ohiabeauty"
                     target="_blank"
@@ -121,7 +130,7 @@ function HireMe(): JSX.Element {
                   </a>
                 </div>
               </div>
-              <div className="w-1/2 flex flex-row justify-end h-auto">
+              <div className="w-full md:w-full lg:w-1/2 xl:w-1/2 flex flex-row justify-end h-auto">
                 <Image
                   src={"/hello.png"}
                   priority
