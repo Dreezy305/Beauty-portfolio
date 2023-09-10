@@ -10,11 +10,11 @@ export default function About(): JSX.Element {
   return (
     <BeautyLayout active={"about"} location="others">
       <section className="overflow-hidden">
-        <div className="container mx-auto mt-20 flex flex-col space-y-12">
+        <div className="container mx-auto mt-12 md:mt-20 lg:mt-20 xl:mt-20 flex flex-col space-y-12 px-0 md:px-4 lg:px-0 xl:px-0">
           <div className="flex flex-col space-y-16 md:flex md:flex-col md:space-y-16 lg:flex lg:flex-row lg:items-center lg:justify-between xl:flex xl:flex-row xl:items-center xl:justify-between">
-            <div className="flex flex-col space-y-12 lg:space-y-8 md:space-y-12 w-full md:w-full lg:w-1/2 xl:w-1/2">
+            <div className="flex flex-col space-y-6 lg:space-y-8 md:space-y-12 w-full md:w-full lg:w-1/2 xl:w-1/2">
               <div className="flex flex-row space-x-6 items-center">
-                <h4 className="font-LotaBold text-BeautyWhite text-7xl leading-9">
+                <h4 className="font-LotaBold text-BeautyWhite text-3xl md:text-4xl lg:text-7xl xl:text-7xl leading-9">
                   Hi there{" "}
                 </h4>
                 <Image
@@ -23,9 +23,11 @@ export default function About(): JSX.Element {
                   width={70}
                   height={70}
                   priority
+                  className="hidden md:hidden lg:block xl:block"
                 />
+                <Image src={"/waving_hand.svg"} alt="wave" width={40} height={40} priority className="block md:block lg:hidden xl:hidden" />
               </div>
-              <p className="font-SofiaRegular font-normal lg:w-[103%] xl:w-[90%] text-2xl leading-9">
+              <p className="font-SofiaRegular font-normal w-full md:w-[95%] lg:w-[103%] xl:w-[90%] text-base md:text-2xl lg:text-2xl xl:text:2xl leading-9">
                 My name is Ohia Beauty and i'm a product designer with
                 experience designing and building digital products. In the
                 past,i've collaboratively worked with teams to build useable
