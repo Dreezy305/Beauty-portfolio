@@ -14,7 +14,7 @@ function TopFara(): JSX.Element {
           priority
         />
         <div>
-          <p className="font-LotaRegular font-normal text-lg leading-8 text-BeautyWhite pb-8">
+          <p className="font-LotaRegular font-normal text-lg leading-8 text-BeautyWhite pb-8 hidden md:block lg:block xl:block">
             The faster & easier way people are able to accesss <br />
             essentials digital services, to better theri quality of life.
           </p>

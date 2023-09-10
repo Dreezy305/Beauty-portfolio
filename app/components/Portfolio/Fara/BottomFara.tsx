@@ -41,11 +41,11 @@ import { insight_fara } from "@/data/experience";
 function BottomFara(): JSX.Element {
   return (
     <div className="rounded-tl-none rounded-tr-none rounded-br-[30px] rounded-bl-[30px] py-6 px-7 w-full bg-BeautyDarkPurple flex flex-col space-y-8">
-      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-8 text-center">
+      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-8 text-center">
         Brand Overview
       </h5>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8 py-7">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7">
         Fara money previously know as Rouzo is an all-in-one financial platform
         created for the world's underserved population in the informal sector,
         Users get access to financial products in meeting their everyday needs
@@ -63,7 +63,7 @@ function BottomFara(): JSX.Element {
         The Problem
       </h5>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8">
         Based on research and findings from the previous web Application Rouzo,
         it was indicated that the rate of loan defaulters was very high, with
         reasons of health issues. the organization went back to structure a plan
@@ -85,12 +85,12 @@ function BottomFara(): JSX.Element {
       </p>
 
       <div className="flex flex-col space-y-12 md:space-y-8 lg:space-y-7 xl:space-y-7 pt-4 md:pt-6 lg:pt-8 xl:pt-8">
-        <div className="flex flex-col space-y-8 md:flex md:flex-row md:justify-around md:items-center lg:flex lg:flex-row lg:justify-around lg:space-y-0 xl:flex xl:flex-row xl:justify-around xl:space-y-0 py-5">
+        <div className="flex flex-col space-y-8 md:flex md:flex-row md:justify-around md:items-center lg:flex lg:flex-row lg:justify-around lg:items-start lg:space-y-0 xl:flex xl:flex-row xl:justify-around xl:items-start xl:space-y-0 py-5">
           <div className="flex flex-col space-y-4">
             <h6 className="text-center font-LotaSemiBold font-semibold text-2xl leading-6">
               Outdated
             </h6>
-            <p className="font-LotaRegular font-normal text-lg leading-7">
+            <p className="font-LotaRegular font-normal text-center md:text-center lg:text-center xl:text-center text-base md:text-base lg:text-lg xl:text-lg leading-7">
               The components in the application is outdated
             </p>
           </div>
@@ -107,7 +107,7 @@ function BottomFara(): JSX.Element {
         </div>
       </div>
 
-      <div className="flex flex-col space-y-8 md:flex md:flex-row md:justify-around lg:flex lg:flex-row lg:justify-around lg:space-y-0 xl:flex xl:flex-row xl:justify-around xl:space-y-0 py-5">
+      <div className="flex flex-col space-y-8 md:flex md:flex-row md:justify-around md:items-center lg:flex lg:flex-row lg:justify-around lg:items-start lg:space-y-0 xl:flex xl:flex-row xl:justify-around xl:items-start xl:space-y-0 py-5">
         <div className="flex flex-col space-y-4">
           <h6 className="text-center font-LotaSemiBold font-semibold text-2xl leading-6">
             Poor User Experience
