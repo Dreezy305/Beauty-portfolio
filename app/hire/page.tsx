@@ -14,8 +14,8 @@ function HireMe(): JSX.Element {
     <BeautyLayout>
       <section className="overflow-hidden">
         <div className="container mx-auto">
-          <div className="container mx-auto mt-4 md:mt-8 lg:mt-12 xl:mt-12 flex flex-col space-y-12">
-            <div className="flex flex-col space-y-8 md:flex md:flex-col md:space-y-8 lg:flex lg:flex-row lg:items-center lg:justify-between xl:flex xl:flex-row xl:items-center xl:justify-between pt-12 mt-2 md:mt-4 lg:mt-6 xl:mt-6">
+          <div className="container mx-auto px-0 md:px-4 lg:px-0 xl:px-0 mt-4 md:mt-8 lg:mt-6 xl:mt-12 flex flex-col space-y-12">
+            <div className="flex flex-col space-y-8 md:flex md:flex-col md:space-y-8 lg:flex lg:flex-row lg:items-center lg:justify-between xl:flex xl:flex-row xl:items-center xl:justify-between pt-3 mt-2 md:mt-4 lg:mt-6 xl:mt-6">
               <div className="flex flex-col space-y-5 md:space-y-6 lg:space-y-8 xl:space-y-8 w-full md:w-full lg:w-1/2 xl:w-1/2">
                 <div className="flex flex-row items-center space-x-2 md;space-x-2 lg:space-x-0 xl:space-x-0">
                   <h4 className="font-LotaBold text-BeautyWhite text-3xl md:text-4xl lg:text-7xl xl:text-7xl leading-9">
@@ -42,7 +42,7 @@ function HireMe(): JSX.Element {
                   Let's have a chat over coffee.
                 </p>
 
-                <div className="flex flex-col space-y-3 bg-BeautyDarkPurple rounded-lg px-6 py-4 w-full md:w-full lg:w-1/2 xl:w-1/2">
+                <div className="flex flex-col space-y-3 bg-BeautyDarkPurple rounded-lg px-6 py-4 w-full md:w-2/3 lg:w-1/2 xl:w-1/2">
                   <h5 className="font-SofiaRegular font-normal text-xl">
                     WANT TO EMAIL ME?
                   </h5>
@@ -51,7 +51,7 @@ function HireMe(): JSX.Element {
                   </p>
                 </div>
 
-                <div className="flex flex-col space-y-3 bg-BeautyDarkPurple rounded-lg px-6 py-4 w-full md:w-full lg:w-1/2 xl:w-1/2">
+                <div className="flex flex-col space-y-3 bg-BeautyDarkPurple rounded-lg px-6 py-4 w-full md:w-2/3 lg:w-1/2 xl:w-1/2">
                   <h5 className="font-SofiaRegular font-normal text-xl">
                     WANT TO CALL ME?
                   </h5>
@@ -130,13 +130,14 @@ function HireMe(): JSX.Element {
                   </a>
                 </div>
               </div>
-              <div className="w-full md:w-full lg:w-1/2 xl:w-1/2 flex flex-row justify-end h-auto">
+              <div className="pt-6 md:pt-5 lg:pt-0 xl:pt-0 pb-6 md:pb-5 lg:pb-0 xl:pb-0  mt-14 md:mt-12 lg:mt-0 xl:mt-0 w-full md:w-full lg:w-1/2 xl:w-1/2 flex flex-row justify-center md:justify-center lg:justify-end xl:justify-end h-auto">
                 <Image
                   src={"/hello.png"}
                   priority
                   height={500}
                   width={500}
                   alt="hello"
+                  className="pt-9 md:pt-6 lg:pt-0 xl:pt-0 pb-9 md:pb-6 lg:pb-0 xl:pb-0"
                 />
               </div>
             </div>
