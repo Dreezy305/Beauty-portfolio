@@ -35,7 +35,7 @@ export default function KnowMore(): JSX.Element {
                   className="block md:block lg:hidden xl:hidden"
                 />
               </div>
-              <p className="font-SofiaRegular font-normal w-full text-base md:text-2xl lg:text-2xl xl:text:2xl leading-9">
+              <p className="font-SofiaRegular font-normal w-full md:w-full lg:w-[96%] xl:w-[96%] text-base md:text-2xl lg:text-2xl xl:text:2xl leading-9">
                 My name is Beauty Obianuju Ohia, i am a digital product
                 designer with proven history of designing web & mobile
                 products. I have a deep understanding of user psychology, emotions, and behavior, which allows me to to createpositive experiences for users using various product.
