@@ -40,12 +40,12 @@ import { insight_fara } from "@/data/experience";
 
 function BottomFara(): JSX.Element {
   return (
-    <div className="rounded-tl-none rounded-tr-none rounded-br-[30px] rounded-bl-[30px] py-6 px-7 w-full bg-BeautyDarkPurple flex flex-col space-y-8">
+    <div className="rounded-tl-none rounded-tr-none rounded-br-[30px] rounded-bl-[30px] py-6 px-5 md:px-6 lg:px-7 xl:px-7 w-full bg-BeautyDarkPurple flex flex-col space-y-8">
       <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-8 text-center">
         Brand Overview
       </h5>
 
-      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-2 md:py-4 lg:py-7 xl:py-7">
         Fara money previously know as Rouzo is an all-in-one financial platform
         created for the world's underserved population in the informal sector,
         Users get access to financial products in meeting their everyday needs
@@ -63,7 +63,7 @@ function BottomFara(): JSX.Element {
         The Problem
       </h5>
 
-      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-2 md:py-4 lg:py-7 xl:py-7 mt-8">
         Based on research and findings from the previous web Application Rouzo,
         it was indicated that the rate of loan defaulters was very high, with
         reasons of health issues. the organization went back to structure a plan

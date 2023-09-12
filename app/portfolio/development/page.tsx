@@ -11,7 +11,7 @@ function Development({
   onTabClick?: () => void;
   children?: React.ReactNode;
 }): JSX.Element {
-  // rounded-[30px] bg-BeautyDarkPurple
+  
   return (
     <PortfolioLayout>
       <div className=" py-6 px-7 mt-8">
