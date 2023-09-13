@@ -33,11 +33,11 @@ import {
 function BottomBatchBill(): JSX.Element {
   return (
     <div className="rounded-tl-none rounded-tr-none rounded-br-[30px] rounded-bl-[30px] py-6 px-7 w-full bg-BeautyDarkPurple flex flex-col space-y-8">
-      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-8 text-center">
+      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-8 text-center">
         Brand Overview
       </h5>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8 py-7">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-2 md:py-4 lg:py-7 xl:py-7">
         Batchbills intends to simplify the process of paying bills ranging from
         airtime, data, electricity, cable tv and other bills that can be paid
         currently in Nigeria in the interim.
@@ -51,7 +51,7 @@ function BottomBatchBill(): JSX.Element {
         service web application.
       </p>
 
-      <div className="rounded-lg px-3 py-8 bg-BeautyDark w-4/5 mx-auto">
+      <div className="rounded-lg px-3 py-8 bg-BeautyDark w-full md:w-full lg:w-4/5 xl:w-4/5 mx-auto">
         <h5 className="font-GraphikLight text-lg leading-7 pb-8 mx-auto text-center">
           Dashboard
         </h5>
@@ -64,11 +64,11 @@ function BottomBatchBill(): JSX.Element {
         />
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12 text-center">
+      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-8 text-center">
         The Problem
       </h5>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-2 md:py-4 lg:py-7 xl:py-7">
         In today’s world, convenience is king. It’s no surprise that online bill
         payment has long become the norm. Why leave the comfort of your cozy
         couch and go to the store to purchase airtime when you can get
@@ -96,8 +96,8 @@ function BottomBatchBill(): JSX.Element {
         These are the major problems that need to be solved:
       </p>
 
-      <div className="grid grid-cols-3">
-        <div className="border-r border-r-BeautyWhite">
+      <div className="grid grid-cols-1 gap-y-8 md:gap-y-8 lg:gap-y-0 xl:gap-y-0 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 xl:grid xl:grid-cols-3">
+        <div className="lg:border-r lg:border-r-BeautyWhite xl:border-r xl:border-r-BeeautyWhite">
           <div className="mx-auto flex flex-col space-y-5">
             <Image
               src={BrokenLink}
@@ -111,7 +111,7 @@ function BottomBatchBill(): JSX.Element {
             </p>
           </div>
         </div>
-        <div className="border-r border-r-BeautyWhite">
+        <div className="lg:border-r lg:border-r-BeautyWhite xl:border-r xl:border-r-BeeautyWhite">
           <div className="mx-auto flex flex-col space-y-5">
             <Image
               src={Map}
@@ -125,7 +125,7 @@ function BottomBatchBill(): JSX.Element {
             </p>
           </div>
         </div>
-        <div className="border-r-none border-r-none">
+        <div className="lg:border-none lg:border-r-BeautyWhite xl:border-none xl:border-r-BeeautyWhite">
           <div className="mx-auto flex flex-col space-y-5">
             <Image
               src={People}
@@ -140,11 +140,11 @@ function BottomBatchBill(): JSX.Element {
         </div>
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12 text-center">
+      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-8 text-center">
         Goals & Objectives
       </h5>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-2 md:py-4 lg:py-7 xl:py-7">
         Batchbill had a very clear target, a target that needs an extremely easy
         and fast to use solution. The app had to look professional,
         aesthetically pleasing and had to stand out from the competition.
@@ -166,7 +166,7 @@ function BottomBatchBill(): JSX.Element {
         <Image src={Kite} priority alt="kite" className="mx-auto w-full" />
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12 text-center">
+      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-8 text-center">
         The Approach
       </h5>
 
@@ -202,7 +202,7 @@ function BottomBatchBill(): JSX.Element {
         <Image src={BillTwo} alt="group" className="w-1/2" priority />
       </div>
 
-      <p className="font-LotaRegular font-normal text-2xl leading-8 mt-8">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-2xl xl:text-2xl leading-8 py-2 md:py-4 lg:py-7 xl:py-7">
         Key takeaways about bill payment
       </p>
 
