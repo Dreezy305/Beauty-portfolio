@@ -197,16 +197,16 @@ function BottomBatchBill(): JSX.Element {
         convenient Airtime Recharge, Funds Transfer, Bill Payments.
       </p>
 
-      <div className="flex flex-row items-center justify-between space-x-5">
-        <Image src={BillOne} alt="group" className="w-1/2" priority />
-        <Image src={BillTwo} alt="group" className="w-1/2" priority />
+      <div className="flex flex-col space-y-8 md:flex md:flex-col md:space-y-6 lg:flex lg:flex-row lg:items-center lg:justify-between lg:space-x-5 lg:space-y-0 xl:flex xl:flex-row xl:items-center xl:justify-between xl:space-x-5 xl:space-y-0">
+        <Image src={BillOne} alt="group" className="w-full md:w-full lg:w-1/2 xl:w-1/2" priority />
+        <Image src={BillTwo} alt="group" className="w-full md:w-full lg:w-1/2 xl:w-1/2" priority />
       </div>
 
       <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-2xl xl:text-2xl leading-8 py-2 md:py-4 lg:py-7 xl:py-7">
         Key takeaways about bill payment
       </p>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-2 md:py-4 lg:py-7 xl:py-7 mt-8">
         Relevants notes to know when embarking on online bil payments:
       </p>
 
@@ -215,7 +215,7 @@ function BottomBatchBill(): JSX.Element {
           {insight_batch.map((i: string, index: any) => {
             return (
               <li
-                className="font-GraphikRegular font-normal text-lg leading-7 text-BeautyWhite py-5"
+                className="font-GraphikRegular font-normal text-sm md:text-base lg:text-lg xl:text-lg leading-7 text-BeautyWhite py-5"
                 key={index + i}
               >
                 {i}
@@ -225,7 +225,7 @@ function BottomBatchBill(): JSX.Element {
         </ul>
       </div>
 
-      <p className="font-LotaRegular font-normal text-lg leading-7">
+      <p className="font-LotaRegular font-normal text-sm md:text-base lg:text-lg xl:text-lg leading-8 py-2 md:py-4 lg:py-7 xl:py-7 mt-8">
         Some apps provide an option to schedule payments at a later date. You
         can always use the Batchnbill schedule option when your bill due date
         isn't in the near future but you want to set up a payment in advance so
