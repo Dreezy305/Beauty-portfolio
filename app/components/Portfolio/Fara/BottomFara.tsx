@@ -59,7 +59,7 @@ function BottomFara(): JSX.Element {
 
       <Image src={Groupfara} alt="group" className="w-full" priority />
 
-      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12 text-center">
+      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
         The Problem
       </h5>
 
@@ -87,7 +87,7 @@ function BottomFara(): JSX.Element {
       <div className="flex flex-col space-y-12 md:space-y-8 lg:space-y-7 xl:space-y-7 pt-4 md:pt-6 lg:pt-8 xl:pt-8">
         <div className="flex flex-col space-y-8 md:flex md:flex-row md:justify-around md:items-center lg:flex lg:flex-row lg:justify-around lg:items-start lg:space-y-0 xl:flex xl:flex-row xl:justify-around xl:items-start xl:space-y-0 py-5">
           <div className="flex flex-col space-y-4">
-            <h6 className="text-center font-LotaSemiBold font-semibold text-2xl leading-6">
+            <h6 className="text-center font-LotaSemiBold font-semibold text-lg md:text-lg lg:text-2xl xl:text-2xl leading-6">
               Outdated
             </h6>
             <p className="font-LotaRegular font-normal text-center md:text-center lg:text-center xl:text-center text-base md:text-base lg:text-lg xl:text-lg leading-7">
@@ -96,7 +96,7 @@ function BottomFara(): JSX.Element {
           </div>
 
           <div className="flex flex-col space-y-4">
-            <h6 className="text-center font-LotaSemiBold font-semibold text-2xl leading-6">
+            <h6 className="text-center font-LotaSemiBold font-semibold text-lg md:text-lg lg:text-2xl xl:text-2xl leading-6">
               Not Responsive
             </h6>
             <p className="text-center font-LotaRegular font-normal text-lg leading-7">
@@ -109,7 +109,7 @@ function BottomFara(): JSX.Element {
 
       <div className="flex flex-col space-y-8 md:flex md:flex-row md:justify-around md:items-center lg:flex lg:flex-row lg:justify-around lg:items-start lg:space-y-0 xl:flex xl:flex-row xl:justify-around xl:items-start xl:space-y-0 py-5">
         <div className="flex flex-col space-y-4">
-          <h6 className="text-center font-LotaSemiBold font-semibold text-2xl leading-6">
+          <h6 className="text-center font-LotaSemiBold font-semibold text-lg md:text-lg lg:text-2xl xl:text-2xl leading-6">
             Poor User Experience
           </h6>
           <p className="text-center font-LotaRegular font-normal text-lg leading-7">
@@ -118,7 +118,7 @@ function BottomFara(): JSX.Element {
         </div>
 
         <div className="flex flex-col space-y-4">
-          <h6 className="text-center font-LotaSemiBold font-semibold text-2xl leading-6">
+          <h6 className="text-center font-LotaSemiBold font-semibold text-lg md:text-lg lg:text-2xl xl:text-2xl leading-6">
             Trust Issues
           </h6>
           <p className="text-center font-LotaRegular font-normal text-lg leading-7">
@@ -128,11 +128,11 @@ function BottomFara(): JSX.Element {
         </div>
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12 text-center">
+      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
         Goals & Objectives
       </h5>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-2 md:py-4 lg:py-7 xl:py-7 mt-8">
         My major role in this project was to design a seamless web based
         Financial platform that can help Agent onboard their customers, save
         transfer and loan money successfully.
@@ -149,8 +149,8 @@ function BottomFara(): JSX.Element {
       </p>
 
       {/* GOALS GRID */}
-      <div className="grid grid-cols-4">
-        <div className="border-r border-r-BeautyWhite">
+      <div className="grid grid-cols-1 gap-y-8 md:gap-y-5 lg:gap-y-0 xl:gap-y-0 md:grid md:grid-cols-2 lg:grid lg:grid-cols-4 xl:grid xl:grid-cols-4">
+        <div className="lg:border-r lg:border-r-BeautyWhite xl:border-r xl:border-r-BeeautyWhite">
           <div className="mx-auto flex flex-col space-y-5">
             <Image
               src={BrokenLink}
@@ -164,7 +164,8 @@ function BottomFara(): JSX.Element {
             </p>
           </div>
         </div>
-        <div className="border-r border-r-BeautyWhite">
+
+        <div className="lg:border-r lg:border-r-BeautyWhite xl:border-r xl:border-r-BeeautyWhite">
           <div className="mx-auto flex flex-col space-y-5">
             <Image
               src={Map}
@@ -178,7 +179,8 @@ function BottomFara(): JSX.Element {
             </p>
           </div>
         </div>
-        <div className="border-r border-r-BeautyWhite">
+
+        <div className="lg:border-r lg:border-r-BeautyWhite xl:border-r xl:border-r-BeeautyWhite">
           <div className="mx-auto flex flex-col space-y-5">
             <Image
               src={People}
@@ -191,6 +193,7 @@ function BottomFara(): JSX.Element {
             </p>
           </div>
         </div>
+
         <div className="flex flex-col space-y-5">
           <div className="mx-auto flex flex-col space-y-5">
             <Image
@@ -206,15 +209,15 @@ function BottomFara(): JSX.Element {
         </div>
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12 text-center">
+      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
         The Approach
       </h5>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8">
         The Basics - Starting from ground ZERO <br />
         What is a Financial Platform?
       </p>
-      <p className="font-LotaRegular font-normal text-xl leading-8 py-5 mt-8">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-5 mt-8">
         A platform is an online service that allows financial advisers to manage
         their clients' investment portfolios. . is an online service that allows
         financial advisers to manage their clients' investment portfolios. Some
@@ -240,7 +243,7 @@ function BottomFara(): JSX.Element {
 
       <Image src={Group1855} alt="group" className="w-full" priority />
 
-      <p className="font-LotaRegular font-normal text-xl leading-8">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8">
         The Fara Card - An easy way to access and use financial platforms.
         <br />
         <br />
@@ -258,7 +261,7 @@ function BottomFara(): JSX.Element {
         <Image src={MaskGroup1} alt="group" className="w-1/2" priority />
       </div>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8 py-5 mt-8">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-5 mt-8">
         This debit card would work exactly how traditional debit cards work,
         only that instead of spending fiat currency like dollars of pounds,
         crypto will be spent. The card can be used to withdraw at ATMs, make
@@ -266,13 +269,13 @@ function BottomFara(): JSX.Element {
       </p>
 
       <div className="rounded-lg px-5 py-8 bg-BeautyDark">
-        <h5 className="font-LotaRegular text-3xl leading-7 pb-8">
+        <h5 className="font-LotaRegular text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pb-8">
           Do you use financial Platforms?
         </h5>
 
-        <div className="grid grid-cols-2 gap-x-8 gap-y-12">
+        <div className="grid grid-cols-1 md:grid md:grid-cols-1 lg:grid lg:grid-cols-2 xl:grid xl:grid-cols-2 gap-x-8 gap-y-12">
           <div className="rounded-lg py-6 px-4 bg-BeautyDarkPurple">
-            <p className="font-LotaRegular font-normal text-lg leading-7">
+            <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-lg xl:text-lg leading-7">
               IF YES: <br />
               what app do you use? <br />
               Do you identify as the banked or unbanked? <br />
@@ -284,7 +287,7 @@ function BottomFara(): JSX.Element {
           </div>
 
           <div className="rounded-lg py-6 px-4 bg-BeautyDarkPurple">
-            <p className="font-LotaRegular font-normal text-lg leading-7">
+            <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-lg xl:text-lg leading-7">
               IF NO:
               <br />
               Why use financial platforms?
@@ -300,7 +303,7 @@ function BottomFara(): JSX.Element {
           </div>
 
           <div className="rounded-lg py-6 px-4 bg-BeautyDarkPurple relative">
-            <p className="font-LotaRegular font-normal text-lg leading-7">
+            <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-lg xl:text-lg leading-7">
               Yes I use financial platforms, I use piggy vest and I really love
               it because of how easy it is to save and withdraw my money.
             </p>
@@ -314,7 +317,7 @@ function BottomFara(): JSX.Element {
           </div>
 
           <div className="rounded-lg py-6 px-4 bg-BeautyDarkPurple relative h-auto">
-            <p className="font-LotaRegular font-normal text-lg leading-7 w-full">
+            <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-lg xl:text-lg leading-7 w-full">
               No, I don't trust financial platforms. I'll rather keep my money
               with me or at home where it's safe.
             </p>
@@ -328,7 +331,7 @@ function BottomFara(): JSX.Element {
           </div>
 
           <div className="rounded-lg py-6 px-4 bg-BeautyDarkPurple relative h-auto">
-            <p className="font-LotaRegular font-normal text-lg leading-7 w-full">
+            <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-lg xl:text-lg leading-7 w-full">
               Yes I use financial platforms, and use a financial app but I am
               not really happy with it because the app doesn't have a alert
               feature so most times I am unable to target a specific amount that
@@ -344,7 +347,7 @@ function BottomFara(): JSX.Element {
           </div>
 
           <div className="rounded-lg py-6 px-4 bg-BeautyDarkPurple relative h-auto">
-            <p className="font-LotaRegular font-normal text-lg leading-7 w-full">
+            <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-lg xl:text-lg leading-7 w-full">
               Yes, I one tried using a financial platforms, but it was just too
               complex for me to understand so I gave up and never went back to
               it.
@@ -360,18 +363,18 @@ function BottomFara(): JSX.Element {
         </div>
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12 text-center">
+      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
         User Persona
       </h5>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8">
         I created some User Personas to help uncover the different ways people
         may interface with the product or a similar product, so I can focus my
         efforts on improving the experience for real people and use cases.
       </p>
 
-      <div className="grid grid-cols-2 gap-x-6">
-        <div className=" py-5 rounded-2xl flex flex-row">
+      <div className="grid grid-cols-1 md:grid md:grid-cols-1 lg:grid lg:grid-cols-2 xl:grid xl:grid-cols-2 gap-x-6">
+        <div className=" py-5 rounded-2xl flex flex-col md:flex md:flex-row lg:flex lg:flex-row xl:flex xl:flex-row">
           <div className="w-1/3 bg-BeautyLightGrey rounded-tl-2xl rounded-tr-none rounded-bl-2xl rounded-br-none px-5 py-5 flex flex-col space-y-7">
             <div className="flex flex-col space-y-3">
               <Image src={MaskGroup6} alt="group" className="w-full" priority />
@@ -597,7 +600,7 @@ function BottomFara(): JSX.Element {
         Competitive Analysis - Compareing Exisiting solutions
       </h5>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8">
         Bankly
         <br />
         <br /> user dashboard is a really good, it gives the user a lot of
@@ -623,7 +626,7 @@ function BottomFara(): JSX.Element {
         User Flow
       </h5>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8 w-full">
         The application is designed so that users can easily find every feature
         and use it intuitively. It takes only a few clicks to go from homepage
         to the transaction pages, wallet and other important screens. The layout
@@ -645,7 +648,7 @@ function BottomFara(): JSX.Element {
         Main Insights & Takeaways
       </h5>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8 w-full">
         After my research, I was able to note down some important points that
         will guide how the designs will be produced. Some of the things I learnt
         are:
@@ -698,7 +701,7 @@ function BottomFara(): JSX.Element {
         Low Fidelity Wireframes
       </h5>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8 w-full">
         The wireframes created helped to quickly test the interface ideas and
         generate feedback from stakeholders.
       </p>
@@ -731,7 +734,7 @@ function BottomFara(): JSX.Element {
         Dashboard
       </h5>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8 w-full">
         The user experience in the application is designed so that the agent,
         will be able to use the full functionality. <br />
         <br />
@@ -752,7 +755,7 @@ function BottomFara(): JSX.Element {
         Wallets
       </h5>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8 w-full">
         The major wallets is the Agent wallets. One major need for the agent was
         ease of accessibility of funds and to fulfil this customer’s need, the
         request for overdrafts or topup are accessible through USSD or Bank
@@ -767,7 +770,7 @@ function BottomFara(): JSX.Element {
         Transactions
       </h5>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8 w-full">
         Transaction page provides insights of financial history to the agent and
         shows a record of their transactions over a period of time.
       </p>
@@ -781,7 +784,7 @@ function BottomFara(): JSX.Element {
         Fara Loans
       </h5>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8 w-full">
         For an agent to access loans for his or her customer a T&C document was
         created to ensure that the agent has carried out a proper KYC on that
         particular customer before requesting for loan.
@@ -806,7 +809,7 @@ function BottomFara(): JSX.Element {
         Teller
       </h5>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8 w-full">
         These are people incharge of funding the agent wallet,every agent is
         assigned to a teller,for disbursment.
       </p>
