@@ -232,21 +232,21 @@ function BottomBatchBill(): JSX.Element {
         that you don't forget it later.
       </p>
 
-      <div className="flex flex-row items-center justify-between space-x-5">
-        <Image src={BillThree} alt="group" className="w-1/2" priority />
-        <Image src={BillFour} alt="group" className="w-1/2" priority />
+      <div className="flex flex-col space-y-8 md:flex md:flex-col md:space-y-6 lg:flex lg:flex-row lg:items-center lg:justify-between lg:space-x-5 lg:space-y-0 xl:flex xl:flex-row xl:items-center xl:justify-between xl:space-x-5 xl:space-y-0">
+        <Image src={BillThree} alt="group" className="w-full md:w-full lg:w-1/2 xl:w-1/2" priority />
+        <Image src={BillFour} alt="group" className="w-full md:w-full lg:w-1/2 xl:w-1/2" priority />
       </div>
 
-      <p className="font-LotaRegular font-normal text-lg leading-8 mt-8">
+      <p className="font-LotaRegular font-normal text-sm md:text-base lg:text-lg xl:text-lg leading-8 py-2 md:py-4 lg:py-7 xl:py-7 mt-8">
         or one time payment, this is the payment you issue a single time. This
         option makes sense for services you use infrequently.
       </p>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8 mt-8">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-2 md:py-4 lg:py-7 xl:py-7 mt-8">
         Concerns with online bill payment vis-à-vis Covid-19 virus outbreak
       </p>
 
-      <p className="font-LotaRegular font-normal text-lg leading-8 mt-8">
+      <p className="font-LotaRegular font-normal text-sm md:text-base lg:text-lg xl:text-lg leading-8 py-2 md:py-4 lg:py-7 xl:py-7 mt-8">
         The Covid-19 pandemic has disrupted every aspect of how societies
         function, forcing governments, businesses, educators, and regular
         citizens to adapt to a “new normal” way of conducting daily activities.
@@ -261,7 +261,7 @@ function BottomBatchBill(): JSX.Element {
         profits compared to 2019.
       </p>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8 mt-8">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-2 md:py-4 lg:py-7 xl:py-7 mt-8">
         Some statictics on package delivery <br />
         Source: Perficient
       </p>
@@ -309,7 +309,7 @@ function BottomBatchBill(): JSX.Element {
         </div>
       </div>
 
-      <p className="font-LotaRegular font-normal text-lg pt-4">
+      <p className="font-LotaRegular font-normal text-sm md:text-base lg:text-lg xl:text-lg leading-8 py-2 md:py-4 lg:py-7 xl:py-7 mt-8">
         The category of Users
       </p>
 
@@ -319,38 +319,38 @@ function BottomBatchBill(): JSX.Element {
 
       <div className="rounded-lg px-8 bg-BeautyDark">
         <ul className="py-2 list-disc">
-          <li className="font-GraphikRegular font-normal text-lg leading-7 text-BeautyWhite py-5">
+          <li className="font-GraphikRegular font-normal text-sm md:text-base lg:text-lg xl:text-lg leading-7 text-BeautyWhite py-5">
             Coporate: the one who wants to ship a parcel
           </li>
-          <li className="font-GraphikRegular font-normal text-lg leading-7 text-BeautyWhite py-5">
+          <li className="font-GraphikRegular font-normal text-sm text;base lg:text-lg xl:text-lg leading-7 text-BeautyWhite py-5">
             Indiviuals: the service provider
           </li>
         </ul>
       </div>
 
-      <h5 className="font-LotaThin font-thin text-3xl leading-7 pt-12 text-center">
+      <h5 className="font-LotaThin font-thin text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
         User Interview
       </h5>
 
       <div className="rounded-lg py-6 px-12 bg-BeautyDark flex flex-col space-y-5">
-        <p className="font-LotaRegular text-3xl font-normal py-2 w-full">
+        <p className="font-LotaRegular text-xl md:text-2xl lg:text-3xl xl:text-3xl font-normal py-2 w-full">
           How often, why, when and how they paybill,buy airtime or data?
         </p>
 
-        <p className="font-LotaRegular text-3xl font-normal py-2">
+        <p className="font-LotaRegular text-xl md:text-2xl lg:text-3xl xl:text-3xl font-normal py-2">
           Why would you choose one online payment platform to another?
         </p>
 
-        <p className="font-LotaRegular text-4xl font-normal py-2">
+        <p className="font-LotaRegular text-xl md:text-3xl lg:text-4xl xl:text-4xl font-normal py-2">
           What was your experience using online payment platforms?
         </p>
 
-        <p className="font-LotaRegular text-4xl font-normal py-2">
+        <p className="font-LotaRegular text-xl md:text-3xl lg:text-4xl xl:text-4xl font-normal py-2">
           Have you ever sent something of high value through online payment?
         </p>
 
-        <div className="flex flex-row items-center justify-between space-x-4 pt-6">
-          <div className="rounded-lg py-4 h-auto w-1/2 px-4 bg-BeautyDarkPurple relative">
+        <div className="flex flex-col space-y-7 md:flex md:flex-col md:space-y-6 lg:flex lg:flex-row lg:items-center lg:justify-between lg:space-x-4 lg:space-y-0 lg:pt-6 xl:flex xl:flex-row xl:items-center xl:justify-between xl:space-x-4 xl:pt-6 xl:space-y-0">
+          <div className="rounded-lg py-4 h-auto w-full md:w-full lg:w-1/2 xl:w-1/2 px-4 bg-BeautyDarkPurple relative">
             <p className="font-LotaRegular font-normal text-lg leading-7">
               I don't use online bill payment.
             </p>
@@ -363,7 +363,7 @@ function BottomBatchBill(): JSX.Element {
             />
           </div>
 
-          <div className="rounded-lg py-6 px-4 w-1/2 bg-BeautyDarkPurple relative h-auto">
+          <div className="rounded-lg py-6 px-4 w-full md:w-full lg:w-1/2 xl:w-1/2 bg-BeautyDarkPurple relative h-auto">
             <p className="font-LotaRegular font-normal text-lg leading-7 w-full">
               I use online bill payment every other week, I use a waybill
               service most times though.
@@ -377,6 +377,7 @@ function BottomBatchBill(): JSX.Element {
             />
           </div>
         </div>
+
         <div className="flex flex-row items-center justify-between space-x-4 pb-6">
           <div className="rounded-lg py-6 px-4 w-1/2 bg-BeautyDarkPurple relative h-auto">
             <p className="font-LotaRegular font-normal text-lg leading-7 w-full">
