@@ -373,12 +373,12 @@ function BottomFara(): JSX.Element {
         efforts on improving the experience for real people and use cases.
       </p>
 
-      <div className="grid grid-cols-1 md:grid md:grid-cols-1 lg:grid lg:grid-cols-2 xl:grid xl:grid-cols-2 gap-x-6">
-        <div className=" py-5 rounded-2xl flex flex-col md:flex md:flex-row lg:flex lg:flex-row xl:flex xl:flex-row">
-          <div className="w-1/3 bg-BeautyLightGrey rounded-tl-2xl rounded-tr-none rounded-bl-2xl rounded-br-none px-5 py-5 flex flex-col space-y-7">
+      <div className="grid grid-cols-1 md:grid md:grid-cols-1 md:justify-items-center lg:grid lg:grid-cols-2 xl:grid xl:grid-cols-2 gap-x-6">
+        <div className="py-5 rounded-2xl flex flex-row md:flex md:flex-row lg:flex lg:flex-row xl:flex xl:flex-row">
+          <div className="w-[35%] md:w-1/2 lg:w-1/3 xl:w-1/3 bg-BeautyLightGrey rounded-tl-2xl rounded-tr-none rounded-bl-2xl rounded-br-none px-5 py-5 flex flex-col space-y-7">
             <div className="flex flex-col space-y-3">
               <Image src={MaskGroup6} alt="group" className="w-full" priority />
-              <p className="font-SofiLight font-normal text-lg text-BeautyWhite">
+              <p className="font-SofiLight font-normal text-sm md:text-base lg:text-lg xl:text-lg text-BeautyWhite">
                 Madeline June
               </p>
             </div>
@@ -389,7 +389,7 @@ function BottomFara(): JSX.Element {
                   return (
                     <li
                       key={index + i}
-                      className="font-SofiaRegular font-normal text-lg capitalize py-1"
+                      className="font-SofiaRegular font-normal text-sm md:text-base lg:text-lg xl:text-lg capitalize py-1"
                     >
                       {i}
                     </li>
@@ -399,7 +399,7 @@ function BottomFara(): JSX.Element {
             </ul>
 
             <ul className="list-none">
-              <li className="font-SofiaRegular text-xl font-normal py-2">
+              <li className="font-SofiaRegular text-sm md:text-base lg:text-xl xl:text-xl font-normal py-2">
                 Personality
               </li>
               {["family", "extrovert", "beauty", "entertainment"].map(
@@ -407,7 +407,7 @@ function BottomFara(): JSX.Element {
                   return (
                     <li
                       key={index + i}
-                      className="font-SofiaRegular font-normal text-lg capitalize py-1"
+                      className="font-SofiaRegular font-normal text-sm md:text-base lg:text-lg xl:text-lg capitalize py-1"
                     >
                       {i}
                     </li>
@@ -417,14 +417,14 @@ function BottomFara(): JSX.Element {
             </ul>
 
             <ul className="list-none pb-7">
-              <li className="font-SofiaRegular text-xl font-normal py-2">
+              <li className="font-SofiaRegular text-sm md:text-base lg:text-xl xl:text-xl font-normal py-2">
                 Brands
               </li>
               {["facebook", "whatsapp"].map((i: string, index: any) => {
                 return (
                   <li
                     key={index + i}
-                    className="font-SofiaRegular font-normal text-lg capitalize py-1"
+                    className="font-SofiaRegular font-normal text-sm md:text-base lg:text-lg xl:text-lg capitalize py-1"
                   >
                     {i}
                   </li>
@@ -432,12 +432,12 @@ function BottomFara(): JSX.Element {
               })}
             </ul>
           </div>
-          <div className="w-2/3 bg-BeautyDark rounded-tr-2xl rounded-tl-none rounded-bl-none rounded-br-2xl px-5 py-5 space-y-8 flex flex-col">
+          <div className="w-[65%] md:w-1/2 lg:w-2/3 xl:w-2/3 bg-BeautyDark rounded-tr-2xl rounded-tl-none rounded-bl-none rounded-br-2xl px-5 py-5 space-y-8 flex flex-col">
             <div className="flex flex-col space-y-4">
               <h6 className="font-SofiRegular font-normal text-base text-BeautyWhite">
                 Bio
               </h6>
-              <p className="font-SofiaLight text-lg font-light">
+              <p className="font-SofiaLight text-sm md:text-base lg:text-lg xl:text-lg font-light">
                 Madeline populary know as “Madam M”is a trader in ilupeju
                 market,she was been in business for 15years and sent all her
                 children abroad for studies.she saves her access cash at home
@@ -449,7 +449,7 @@ function BottomFara(): JSX.Element {
               <h6 className="font-SofiRegular font-normal text-base text-BeautyWhite">
                 Goals
               </h6>
-              <p className="font-SofiaLight text-lg font-light">
+              <p className="font-SofiaLight text-sm md:text-base lg:text-lg xl:text-lg font-light">
                 She wants to save money easily
               </p>
             </div>
@@ -458,7 +458,7 @@ function BottomFara(): JSX.Element {
               <h6 className="font-SofiRegular font-normal text-base text-BeautyWhite">
                 Frustrations
               </h6>
-              <p className="font-SofiaLight text-lg font-light">
+              <p className="font-SofiaLight text-sm md:text-base lg:text-lg xl:text-lg font-light">
                 Trust
                 <br />
                 Unwise investment choices
@@ -471,7 +471,7 @@ function BottomFara(): JSX.Element {
               <h6 className="font-SofiRegular font-normal text-base text-BeautyWhite">
                 Motivations
               </h6>
-              <p className="font-SofiaLight text-lg font-light">
+              <p className="font-SofiaLight text-sm md:text-base lg:text-lg xl:text-lg font-light">
                 Security of Funds
                 <br />
                 Special offers
@@ -483,11 +483,11 @@ function BottomFara(): JSX.Element {
           </div>
         </div>
 
-        <div className=" py-5 rounded-2xl flex flex-row">
-          <div className="w-1/3 bg-BeautyLightGrey rounded-tl-2xl rounded-tr-none rounded-bl-2xl rounded-br-none px-5 py-5 space-y-5">
+        <div className=" py-5 rounded-2xl flex flex-row md:flex md:flex-row lg:flex lg:flex-row xl:flex xl:flex-row">
+          <div className="w-[35%] md:w-1/2 lg:w-1/3 xl:w-1/3 bg-BeautyLightGrey rounded-tl-2xl rounded-tr-none rounded-bl-2xl rounded-br-none px-5 py-5 space-y-5">
             <div className="flex flex-col space-y-3">
               <Image src={MaskGroup7} alt="group" className="w-full" priority />
-              <p className="font-SofiRegular font-normal text-lg text-BeautyWhite">
+              <p className="font-SofiRegular font-normal text-sm md:text-base lg:text-lg xl:text-lg text-BeautyWhite">
                 Femi Ajala
               </p>
             </div>
@@ -498,7 +498,7 @@ function BottomFara(): JSX.Element {
                   return (
                     <li
                       key={index + i}
-                      className="font-SofiaRegular font-normal text-lg capitalize py-1"
+                      className="font-SofiaRegular font-normal text-sm md:text-base lg:text-lg xl:text-lg capitalize py-1"
                     >
                       {i}
                     </li>
@@ -508,7 +508,7 @@ function BottomFara(): JSX.Element {
             </ul>
 
             <ul className="list-none">
-              <li className="font-SofiaRegular text-xl font-normal py-2">
+              <li className="font-SofiaRegular text-sm md:text-base lg:text-xl xl:text-xl font-normal py-2">
                 Personality
               </li>
               {["business", "extrovert", "luxury", "sport"].map(
@@ -516,7 +516,7 @@ function BottomFara(): JSX.Element {
                   return (
                     <li
                       key={index + i}
-                      className="font-SofiaRegular font-normal text-lg capitalize py-1"
+                      className="font-SofiaRegular font-normal text-sm md:text-base lg:text-lg xl:text-lg capitalize py-1"
                     >
                       {i}
                     </li>
@@ -526,7 +526,7 @@ function BottomFara(): JSX.Element {
             </ul>
 
             <ul className="list-none pb-7">
-              <li className="font-SofiaRegular text-xl font-normal py-2">
+              <li className="font-SofiaRegular text-sm md:text-base lg:text-xl xl:text-xl font-normal py-2">
                 Brands
               </li>
               {["facebook", "toyota", "whatsapp"].map(
@@ -534,7 +534,7 @@ function BottomFara(): JSX.Element {
                   return (
                     <li
                       key={index + i}
-                      className="font-SofiaRegular font-normal text-lg capitalize py-1"
+                      className="font-SofiaRegular font-normal text-sm md:text-base lg:text-lg xl:text-lg capitalize py-1"
                     >
                       {i}
                     </li>
@@ -543,12 +543,12 @@ function BottomFara(): JSX.Element {
               )}
             </ul>
           </div>
-          <div className="w-2/3 bg-BeautyDark rounded-tr-2xl rounded-tl-none rounded-bl-none rounded-br-2xl px-5 py-5 space-y-5">
+          <div className="w-[65%] md:w-1/2 lg:w-2/3 xl:w-2/3 bg-BeautyDark rounded-tr-2xl rounded-tl-none rounded-bl-none rounded-br-2xl px-5 py-5 space-y-5">
             <div className="flex flex-col space-y-4">
               <h6 className="font-SofiRegular font-normal text-base text-BeautyWhite">
                 Bio
               </h6>
-              <p className="font-SofiaLight text-lg font-light">
+              <p className="font-SofiaLight text-sm md:text-base lg:text-lg xl:text-lg font-light">
                 Femi is an Auto Dealer in Lagos, his favourite brands are
                 Toyota, Instagram and Whatsapp He saves his excess cash in the
                 bank and he is scared of agency banking. Femi has for sometime
@@ -560,7 +560,7 @@ function BottomFara(): JSX.Element {
               <h6 className="font-SofiRegular font-normal text-base text-BeautyWhite">
                 Goals
               </h6>
-              <p className="font-SofiaLight text-lg font-light">
+              <p className="font-SofiaLight text-sm md:text-base lg:text-lg xl:text-lg font-light">
                 He wants to have a stable income and a good and reliable
                 platform to savehis excess cash.
               </p>
@@ -570,7 +570,7 @@ function BottomFara(): JSX.Element {
               <h6 className="font-SofiRegular font-normal text-base text-BeautyWhite">
                 Frustrations
               </h6>
-              <p className="font-SofiaLight text-lg font-light">
+              <p className="font-SofiaLight text-sm md:text-base lg:text-lg xl:text-lg font-light">
                 Loss of money
                 <br />
                 Unwise investment choices
@@ -583,7 +583,7 @@ function BottomFara(): JSX.Element {
               <h6 className="font-SofiRegular font-normal text-base text-BeautyWhite">
                 Motivations
               </h6>
-              <p className="font-SofiaLight text-lg font-light">
+              <p className="font-SofiaLight text-sm md:text-base lg:text-lg xl:text-lg font-light">
                 Security of Funds
                 <br />
                 Brand integrity
@@ -596,7 +596,7 @@ function BottomFara(): JSX.Element {
         </div>
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12 text-center">
+      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
         Competitive Analysis - Compareing Exisiting solutions
       </h5>
 
@@ -622,7 +622,7 @@ function BottomFara(): JSX.Element {
         </div>
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12 text-center">
+      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
         User Flow
       </h5>
 
@@ -637,14 +637,14 @@ function BottomFara(): JSX.Element {
         <h6 className="text-center font-GraphikLight text-lg font-light">
           User Flow
         </h6>
-        <div className="flex flex-row space-x-4 justify-center items-center">
+        <div className="flex flex-col space-y-8 md:flex md:flex-col md:space-y-8 md:items-center lg:flex lg:flex-row lg:space-x-4 lg:justify-center lg:items-center lg:space-y-0 xl:flex xl:flex-row xl:space-x-4 xl:justify-center xl:items-center xl:space-y-0">
           <Image src={One} alt="group" className="" priority />
           <Image src={Two} alt="group" className="" priority />
           <Image src={Three} alt="group" className="" priority />
         </div>
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12 text-center">
+      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
         Main Insights & Takeaways
       </h5>
 
@@ -653,6 +653,7 @@ function BottomFara(): JSX.Element {
         will guide how the designs will be produced. Some of the things I learnt
         are:
       </p>
+
 
       <div className="rounded-lg px-5 py-5 bg-BeautyDark flex flex-col space-y-4 px-8">
         <ul className="py-2 list-disc">
@@ -669,11 +670,11 @@ function BottomFara(): JSX.Element {
         </ul>
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12 text-center">
+      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
         Design Process
       </h5>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8 w-full">
         I started competitive analysis by trying competitor apps and reading app
         reviews, conducted user interviews with existing users and potential
         users. I also created user personas to get further insights into the
@@ -697,7 +698,7 @@ function BottomFara(): JSX.Element {
         the design and at this stage, most of the work was done.
       </p>
 
-      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12 text-center">
+      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
         Low Fidelity Wireframes
       </h5>
 
@@ -718,19 +719,25 @@ function BottomFara(): JSX.Element {
         </div>
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12 text-center">
+      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
         The Solution
       </h5>
 
       <div className="rounded-lg px-5 py-8 bg-BeautyDark flex flex-col space-y-4">
-        <div className="flex flex-row px-4 flex-wrap justify-center space-x-3">
+        <div className="flex flex-col space-y-5 md:flex md:flex-row md:flex-wrap md:justify-center md:space-x-3 md:space-y-5  lg:flex lg:flex-row lg:px-4 lg:flex-wrap lg:justify-center lg:space-x-3 lg:space-y-0 xl:flex xl:flex-row xl:px-4 xl:py-3 xl:flex-wrap xl:justify-center xl:space-x-3 xl:space-y-0">
+          <div>
           <Image src={SignIn} alt="group" className="" priority />
+          </div>
+          <div>
           <Image src={PasswordRecovery} alt="group" className="" priority />
+          </div>
+          <div>
           <Image src={SignUp} alt="group" className="mt-4" priority />
+          </div>
         </div>
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12">
+      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12">
         Dashboard
       </h5>
 
@@ -751,7 +758,7 @@ function BottomFara(): JSX.Element {
         />
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12">
+      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12">
         Wallets
       </h5>
 
@@ -761,12 +768,12 @@ function BottomFara(): JSX.Element {
         request for overdrafts or topup are accessible through USSD or Bank
         Receipt
       </p>
-      <div className="rounded-lg px-5 py-8 bg-BeautyCream flex flex-row space-x-4 justify-between">
-        <Image src={DashboardWallets1} alt="group" className="w-1/2" priority />
-        <Image src={DashboardWallets2} alt="group" className="w-1/2" priority />
+      <div className="rounded-lg px-5 py-8 bg-BeautyCream flex flex-col space-y-6 md:flex md:flex-col md:space-y-6 lg:flex lg:flex-row lg:space-x-4 lg:justify-between lg:space-y-0 xl:flex xl:flex-row xl:space-x-4 xl:justify-between xl:space-y-0">
+        <Image src={DashboardWallets1} alt="group" className="w-full md:w-full lg:w-1/2 xl:w-1/2" priority />
+        <Image src={DashboardWallets2} alt="group" className="w-full md:w-full lg:w-1/2 xl:w-1/2" priority />
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12">
+      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12">
         Transactions
       </h5>
 
@@ -775,12 +782,12 @@ function BottomFara(): JSX.Element {
         shows a record of their transactions over a period of time.
       </p>
 
-      <div className="rounded-lg px-5 py-8 bg-BeautyDark flex flex-row space-x-4 justify-between">
-        <Image src={DashboardTrxn} alt="group" className="w-1/2" priority />
-        <Image src={DashboardTrxn1} alt="group" className="w-1/2" priority />
+      <div className="rounded-lg px-5 py-8 bg-BeautyDark flex flex-col space-y-6 md:flex md:flex-col md:space-y-6 lg:flex lg:flex-row lg:space-x-4 lg:justify-between lg:space-y-0 xl:flex xl:flex-row xl:space-x-4 xl:justify-between xl:space-y-0">
+        <Image src={DashboardTrxn} alt="group" className="w-full md:w-full lg:w-1/2 xl:w-1/2" priority />
+        <Image src={DashboardTrxn1} alt="group" className="w-full md:w-full lg:w-1/2 xl:w-1/2" priority />
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12">
+      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12">
         Fara Loans
       </h5>
 
@@ -790,22 +797,22 @@ function BottomFara(): JSX.Element {
         particular customer before requesting for loan.
       </p>
 
-      <div className="rounded-lg px-5 py-8 bg-BeautyDark flex flex-row space-x-4 justify-between">
+      <div className="rounded-lg px-5 py-8 bg-BeautyDark flex flex-col space-y-6 md:flex md:flex-col md:space-y-6 lg:flex lg:flex-row lg:space-x-4 lg:justify-between lg:space-y-0 xl:flex xl:flex-row xl:space-x-4 xl:justify-between xl:space-y-0">
         <Image
           src={DashboardBtcWallet}
           alt="group"
-          className="w-1/2"
+          className="w-full md:w-full lg:w-1/2 xl:w-1/2"
           priority
         />
         <Image
           src={DashboardNairaWallet}
           alt="group"
-          className="w-1/2"
+          className="w-full md:w-full lg:w-1/2 xl:w-1/2"
           priority
         />
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12">
+      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12">
         Teller
       </h5>
 
@@ -814,13 +821,13 @@ function BottomFara(): JSX.Element {
         assigned to a teller,for disbursment.
       </p>
 
-      <div className="rounded-lg px-5 py-8 bg-BeautyDark flex flex-row space-x-4 justify-between">
-        <Image src={Teller1} alt="group" className="w-1/2" priority />
-        <Image src={Teller2} alt="group" className="w-1/2" priority />
+      <div className="rounded-lg px-5 py-8 bg-BeautyDark flex flex-col space-y-6 md:flex md:flex-col md:space-y-6 lg:flex lg:flex-row lg:space-x-4 lg:justify-between lg:space-y-0 xl:flex xl:flex-row xl:space-x-4 xl:justify-between xl:space-y-0">
+        <Image src={Teller1} alt="group"  className="w-full md:w-full lg:w-1/2 xl:w-1/2" priority />
+        <Image src={Teller2} alt="group"  className="w-full md:w-full lg:w-1/2 xl:w-1/2" priority />
       </div>
 
-      <div className="flex flex-row items-start justify-between space-x-8">
-        <h5 className="w-1/4 font-LotaRegular font-normal text-2xl leading-7">
+      <div className="flex flex-col space-y-3 lg:flex lg:flex-row lg:items-start lg:justify-between lg:space-x-8 lg:space-y-0 xl:flex xl:flex-row xl:items-start xl:justify-between xl:space-x-8 xl:space-y-0">
+        <h5 className="w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 font-LotaRegular font-normal text-2xl leading-7">
           The Impact
         </h5>
         <div className="flex flex-col space-y-3 font-LotaThin font-thin text-lg leading-7">
@@ -839,14 +846,14 @@ function BottomFara(): JSX.Element {
         </div>
       </div>
 
-      <div className="flex flex-row items-center justify-between space-x-3 mt-7 mb-8 pt-8 pb-8">
-        <div className="flex flex-row items-center justify-start w-1/4">
+      <div className="lg:flex lg:flex-row lg:items-center lg:justify-between lg:space-x-3 xl:flex xl:flex-row xl:items-center xl:justify-between xl:space-x-3 mt-7 mb-8 pt-8 pb-8">
+        <div className="flex flex-row items-center justify-start w-4/5 md:w-4/5 lg:w-1/4 xl:w-1/4">
           <h5 className="font-LotaRegular font-normal text-2xl leading-7">
             Link & References
           </h5>
         </div>
-        <div className="w-3/4 flex flex-row items-center justify-between space-x-8">
-          <div className="bg-BeautyDark rounded-2xl flex flex-row items-center px-6 h-14 space-x-3 w-1/2">
+        <div className="w-full flex flex-col space-y-6 pt-3 md:w-full md:flex md;flex-col md:space-y-6 md:pt-3 lg:w-3/4 lg:flex lg:flex-row lg:items-center lg:justify-between lg:space-x-8 lg:space-y-0 lg:pt-0 xl:w-3/4 xl:flex xl:flex-row xl:items-center xl:justify-between xl:space-x-8 xl:space-y-0 xl:pt-0">
+          <div className="bg-BeautyDark rounded-2xl flex flex-row items-center px-6 h-14 space-x-3 w-full md:w-full lg:w-1/2 xl:w-1/2">
             <World size={24} strokeWidth={1.5} color={"#00F0FF"} />
             <a
               href="/https://www.bankly.ng/"
@@ -856,7 +863,7 @@ function BottomFara(): JSX.Element {
               https://www.bankly.ng/
             </a>
           </div>
-          <div className="bg-BeautyDark rounded-2xl flex flex-row items-center px-6 h-14 space-x-3 w-1/2">
+          <div className="bg-BeautyDark rounded-2xl flex flex-row items-center px-6 h-14 space-x-3 w-full md:w-full lg:w-1/2 xl:w-1/2">
             <World size={24} strokeWidth={1.5} color={"#00F0FF"} />
             <a
               href="https://www.myfara.org/"
