@@ -170,11 +170,11 @@ function BottomBatchBill(): JSX.Element {
         The Approach
       </h5>
 
-      <p className="font-GraphikRegular font-normal text-xl leading-8 py-7 mt-8">
+      <p className="font-GraphikRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8">
         Research - Getting familiar with payment process
       </p>
 
-      <p className="font-LotaRegular font-normal text-lg leading-7">
+      <p className="font-LotaRegular font-normal text-sm md:text-base lg:text-lg xl:text-lg leading-7">
         I did not know much about bill payment services. So, to understand the
         process of bills are been paid i did a secondary research on it.
         <br />
@@ -183,11 +183,11 @@ function BottomBatchBill(): JSX.Element {
         payment as well as understand the perspective of the end users.
       </p>
 
-      <p className="font-GraphikRegular font-normal text-xl leading-8 py-7 mt-8">
+      <p className="font-GraphikRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8">
         Bill Payment
       </p>
 
-      <p className="font-LotaRegular font-normal text-lg leading-7">
+      <p className="font-LotaRegular font-normal text-sm md:text-base lg:text-lg xl:text-lg leading-7">
         For the digital natives of today, e-payments have become a way of life.
         from the moment they are registered in the system (cooperate or
         indiviual) up to payment successfull <br />
@@ -332,7 +332,7 @@ function BottomBatchBill(): JSX.Element {
         User Interview
       </h5>
 
-      <div className="rounded-lg py-6 px-12 bg-BeautyDark flex flex-col space-y-5">
+      <div className="rounded-lg py-6 px-2 md:px-3 lg:px-12 xl:px-12 bg-BeautyDark flex flex-col space-y-5">
         <p className="font-LotaRegular text-xl md:text-2xl lg:text-3xl xl:text-3xl font-normal py-2 w-full">
           How often, why, when and how they paybill,buy airtime or data?
         </p>
@@ -349,9 +349,9 @@ function BottomBatchBill(): JSX.Element {
           Have you ever sent something of high value through online payment?
         </p>
 
-        <div className="flex flex-col space-y-7 md:flex md:flex-col md:space-y-6 lg:flex lg:flex-row lg:items-center lg:justify-between lg:space-x-4 lg:space-y-0 lg:pt-6 xl:flex xl:flex-row xl:items-center xl:justify-between xl:space-x-4 xl:pt-6 xl:space-y-0">
+        <div className="flex flex-col space-y-9 md:flex md:flex-col md:space-y-9 lg:flex lg:flex-row lg:items-center lg:justify-between lg:space-x-4 lg:space-y-0 lg:pt-6 xl:flex xl:flex-row xl:items-center xl:justify-between xl:space-x-4 xl:pt-6 xl:space-y-0">
           <div className="rounded-lg py-4 h-auto w-full md:w-full lg:w-1/2 xl:w-1/2 px-4 bg-BeautyDarkPurple relative">
-            <p className="font-LotaRegular font-normal text-lg leading-7">
+            <p className="font-LotaRegular font-normal text-sm md:text-base lg:text-lg xl:text-lg leading-7">
               I don't use online bill payment.
             </p>
             <Image
@@ -364,7 +364,7 @@ function BottomBatchBill(): JSX.Element {
           </div>
 
           <div className="rounded-lg py-6 px-4 w-full md:w-full lg:w-1/2 xl:w-1/2 bg-BeautyDarkPurple relative h-auto">
-            <p className="font-LotaRegular font-normal text-lg leading-7 w-full">
+            <p className="font-LotaRegular font-normal text-sm md:text-base lg:text-lg xl:text-lg leading-7 w-full">
               I use online bill payment every other week, I use a waybill
               service most times though.
             </p>
@@ -378,9 +378,9 @@ function BottomBatchBill(): JSX.Element {
           </div>
         </div>
 
-        <div className="flex flex-row items-center justify-between space-x-4 pb-6">
-          <div className="rounded-lg py-6 px-4 w-1/2 bg-BeautyDarkPurple relative h-auto">
-            <p className="font-LotaRegular font-normal text-lg leading-7 w-full">
+        <div className="flex flex-col space-y-5 md:flex md:flex-col md:space-y-7 lg:flex lg:flex-row lg:items-center lg:justify-between lg:space-x-4 lg:mt-0 lg:space-y-0 lg:pb-6 xl:flex xl:flex-row xl:items-center xl:justify-between xl:space-x-4 xl:pb-6 xl:space-y-0 xl:mt-0">
+          <div className="rounded-lg py-6 px-4 w-full md:w-full lg:w-1/2 xl:w-1/2 bg-BeautyDarkPurple relative h-auto">
+            <p className="font-LotaRegular font-normal text-sm md:text-base lg:text-lg xl:text-lg leading-7 w-full">
               I am a retailer and I sell Airtime & recharge data for my
               customers everyday, i will like to my account to be credited with
               airtime so my customers doesnt have to wait for me to recharge
@@ -395,8 +395,8 @@ function BottomBatchBill(): JSX.Element {
             />
           </div>
 
-          <div className="rounded-lg py-6 px-4 w-1/2 bg-BeautyDarkPurple relative h-auto">
-            <p className="font-LotaRegular font-normal text-lg leading-7 w-full">
+          <div className="rounded-lg py-6 px-4 w-full md:w-full lg:w-1/2 xl:w-1/2 bg-BeautyDarkPurple relative h-auto">
+            <p className="font-LotaRegular font-normal text-sm md:text-base lg:text-lg xl:text-lg leading-7 w-full">
               I would like to be notified for bill payments.
             </p>
             <Image
@@ -410,7 +410,7 @@ function BottomBatchBill(): JSX.Element {
         </div>
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-3xl leading-7 pt-12 text-center">
+      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
         User Persona
       </h5>
 
