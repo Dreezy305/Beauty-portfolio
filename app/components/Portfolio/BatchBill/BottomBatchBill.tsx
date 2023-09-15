@@ -198,8 +198,18 @@ function BottomBatchBill(): JSX.Element {
       </p>
 
       <div className="flex flex-col space-y-8 md:flex md:flex-col md:space-y-6 lg:flex lg:flex-row lg:items-center lg:justify-between lg:space-x-5 lg:space-y-0 xl:flex xl:flex-row xl:items-center xl:justify-between xl:space-x-5 xl:space-y-0">
-        <Image src={BillOne} alt="group" className="w-full md:w-full lg:w-1/2 xl:w-1/2" priority />
-        <Image src={BillTwo} alt="group" className="w-full md:w-full lg:w-1/2 xl:w-1/2" priority />
+        <Image
+          src={BillOne}
+          alt="group"
+          className="w-full md:w-full lg:w-1/2 xl:w-1/2"
+          priority
+        />
+        <Image
+          src={BillTwo}
+          alt="group"
+          className="w-full md:w-full lg:w-1/2 xl:w-1/2"
+          priority
+        />
       </div>
 
       <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-2xl xl:text-2xl leading-8 py-2 md:py-4 lg:py-7 xl:py-7">
@@ -233,8 +243,18 @@ function BottomBatchBill(): JSX.Element {
       </p>
 
       <div className="flex flex-col space-y-8 md:flex md:flex-col md:space-y-6 lg:flex lg:flex-row lg:items-center lg:justify-between lg:space-x-5 lg:space-y-0 xl:flex xl:flex-row xl:items-center xl:justify-between xl:space-x-5 xl:space-y-0">
-        <Image src={BillThree} alt="group" className="w-full md:w-full lg:w-1/2 xl:w-1/2" priority />
-        <Image src={BillFour} alt="group" className="w-full md:w-full lg:w-1/2 xl:w-1/2" priority />
+        <Image
+          src={BillThree}
+          alt="group"
+          className="w-full md:w-full lg:w-1/2 xl:w-1/2"
+          priority
+        />
+        <Image
+          src={BillFour}
+          alt="group"
+          className="w-full md:w-full lg:w-1/2 xl:w-1/2"
+          priority
+        />
       </div>
 
       <p className="font-LotaRegular font-normal text-sm md:text-base lg:text-lg xl:text-lg leading-8 py-2 md:py-4 lg:py-7 xl:py-7 mt-8">
@@ -421,7 +441,7 @@ function BottomBatchBill(): JSX.Element {
       </p>
 
       <div className=" py-5 rounded-2xl flex flex-row items-start w-full">
-        <div className="w-1/4 bg-BeautyLightGrey rounded-tl-2xl rounded-tr-none rounded-bl-2xl rounded-br-none px-5 py-7 flex flex-row items-center justify-center space-y-7 h-[675px]">
+        <div className="hidden md:block md:w-[35%] lg:w-1/4 xl:w-1/4 bg-BeautyLightGrey rounded-tl-2xl rounded-tr-none rounded-bl-2xl rounded-br-none px-5 py-7 flex flex-row items-center justify-center space-y-7 md:h-[1022px] lg:h-[675px] xl:h-[675px]">
           <div className="flex flex-col space-y-3 px-6 w-full">
             <div className="w-48">
               <Image
@@ -487,8 +507,9 @@ function BottomBatchBill(): JSX.Element {
           </div>
         </div>
 
-        <div className="w-3/4 bg-BeautyDark rounded-tr-2xl rounded-tl-none rounded-bl-none rounded-br-2xl px-7 py-7 space-y-8 flex flex-col h-[675px]">
+        <div className="hidden md:block md:w-[65%] lg:w-3/4 xl:w-3/4 bg-BeautyDark rounded-tr-2xl rounded-tl-none rounded-bl-none rounded-br-2xl px-7 py-7 space-y-8 flex flex-col md:h-[1022px] lg:h-[675px] xl:h-[675px]">
           <div className="grid grid-cols-2 gap-x-10">
+            {/* 1 */}
             <div className="flex flex-col space-y-12">
               <div className="flex flex-col space-y-5">
                 <h6 className="font-LotaThin font-light text-lg leading-6">
@@ -523,6 +544,7 @@ function BottomBatchBill(): JSX.Element {
               </div>
             </div>
 
+            {/* 2 */}
             <div className="flex flex-col space-y-12">
               <div className="flex flex-col space-y-5">
                 <h6 className="font-LotaThin font-light text-lg leading-6">
@@ -563,15 +585,15 @@ function BottomBatchBill(): JSX.Element {
         </div>
       </div>
 
-      <h5 className="font-LotaThin font-light text-4xl leading-7 pt-12 text-center">
+      <h5 className="font-LotaThin font-light text-base md:text-2xl lg:text-4xl xl:text-4xl leading-7 pt-12 text-center">
         Competitive Analysis - Comparing Existing solutions
       </h5>
 
-      <h5 className="font-LotaThin font-light text-3xl leading-7 pt-12">
+      <h5 className="font-LotaThin font-light text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12">
         Payloader
       </h5>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8 w-full">
         It offers personal digital airtime & data recharge payment And
         businesses can sign up with Payloader to receive and process online
         payments from customers through a website or by email.
@@ -581,11 +603,11 @@ function BottomBatchBill(): JSX.Element {
         <Image src={Image99} priority className="w-full" alt="image 99" />
       </div>
 
-      <h5 className="font-LotaThin font-light text-3xl leading-7 pt-12">
+      <h5 className="font-LotaThin font-light text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12">
         Remita
       </h5>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8 w-full">
         Remita is a multi-device platform that allows you to view all your bank
         balances – from different banks – on a single screen, easily transfer
         money to one or more beneficiaries, pay bills, view detailed transaction
@@ -596,11 +618,11 @@ function BottomBatchBill(): JSX.Element {
         <Image src={Image100} priority className="" alt="image 100" />
       </div>
 
-      <h5 className="font-LotaThin font-light text-4xl leading-7 pt-12 text-center">
+      <h5 className="font-LotaThin font-light text-base md:text-2xl lg:text-4xl xl:text-4xl leading-7 pt-12 text-center">
         User Flow
       </h5>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8 w-full">
         A client chooses the start and end points of his or her bill payment.
         After all obligatory details have been provided, the service
         automatically generate a inflow & outflow tracker of all expense spent
@@ -618,16 +640,16 @@ function BottomBatchBill(): JSX.Element {
 
       <Image src={Frame9} priority className="w-full" alt="image 100" />
 
-      <h5 className="font-LotaThin font-light text-4xl leading-7 pt-12 text-center">
+      <h5 className="font-LotaThin font-light text-base md:text-2xl lg:text-4xl xl:text-4xl leading-7 pt-12 text-center">
         Main Insights & Takeaways
       </h5>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8 w-full">
         After my research, I was able to note some important points that would
         guide me through the design process. Some of the things I learnt are:
       </p>
 
-      <div className="grid grid-cols-3 gap-y-14">
+      <div className="grid grid-cols-1 gap-y-9 md:grid md:grid-cols-2 md:gap-y-12 lg:grid lg:grid-cols-3 lg:gap-y-14 xl:grid xl:grid-cols-3 xl:gap-y-14">
         {takeways.map((i) => {
           return (
             <div className="flex flex-row items-center space-x-4">
@@ -643,22 +665,22 @@ function BottomBatchBill(): JSX.Element {
         })}
       </div>
 
-      <h5 className="font-LotaRegular font-normal text-4xl leading-7 pt-12 text-center">
+      <h5 className="font-LotaRegular font-normal text-base md:text-2xl lg:text-4xl xl:text-4xl leading-7 pt-12 text-center">
         Design Process
       </h5>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8 w-full">
         My deisgn process for this project was intensive on research and user
         inteviews in order to gain as mucn insights as possible into the real
         life users motivations, situations and use cases:
       </p>
 
-      <div className="rounded-lg py-5 bg-BeautyDark flex flex-col space-y-4 px-12">
+      <div className="rounded-lg py-5 bg-BeautyDark flex flex-col space-y-4 px-8 md:px-6 lg:px-12 xl:px-12">
         <ul className="py-2 list-disc">
           {insight_batchbill.map((i: string, index: any) => {
             return (
               <li
-                className="font-GraphikRegular font-normal text-lg leading-7 text-BeautyWhite py-2"
+                className="font-GraphikRegular font-normal text-sm md:text-base lg:text-lg xl:text-lg leading-7 text-BeautyWhite py-2"
                 key={index + i}
               >
                 {i}
@@ -668,7 +690,7 @@ function BottomBatchBill(): JSX.Element {
         </ul>
       </div>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8 w-full">
         In order to maintain brand consistency and make the app delightful,
         vibrant and visually compelling to users, I used batchbill's existing
         brand guidelines to choose colours blue and green as the primary colors,
@@ -678,20 +700,20 @@ function BottomBatchBill(): JSX.Element {
         identity.
       </p>
 
-      <h5 className="font-LotaRegular font-normal text-4xl leading-7 pt-12 text-center">
+      <h5 className="font-LotaRegular font-normal text-base md:text-2xl lg:text-4xl xl:text-4xl leading-7 pt-12 text-center">
         The Solution
       </h5>
 
-      <div className="rounded-lg py-7 bg-BeautyDark flex flex-row space-x-4 px-5">
-        <Image src={Login} className="w-1/2" priority alt="login" />
-        <Image src={Reset} className="w-1/2" priority alt="recovery" />
+      <div className="rounded-lg py-7 bg-BeautyDark flex flex-col space-y-5 md:flex md:flex-col md:space-y-5 lg:flex lg:flex-row lg:space-x-4 lg:space-y-0 xl:flex xl:flex-row xl:space-x-4 xl:space-y-0 px-5">
+        <Image src={Login} className="w-full md:w-full lg:w-1/2 xl:w-1/2" priority alt="login" />
+        <Image src={Reset} className="w-full md:w-full lg:w-1/2 xl:w-1/2" priority alt="recovery" />
       </div>
 
-      <h5 className="font-LotaRegular font-normal text-4xl leading-7 pt-12 text-left">
+      <h5 className="font-LotaRegular font-normal text-base md:text-2xl lg:text-4xl xl:text-4xl leading-7 pt-12 text-left">
         Hi Fidelity Design
       </h5>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8 w-full">
         Authentication (Fast User Verification)
         <br />
         <br />
@@ -700,7 +722,7 @@ function BottomBatchBill(): JSX.Element {
       </p>
 
       <div className="rounded-lg py-7 bg-BeautyDark px-5">
-        <div className="grid grid-cols-2 gap-x-12 gap-y-7">
+        <div className="grid grid-cols-1 gap-y-8 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-12 lg:grid lg:grid-cols-2 lg:gap-x-12 lg:gap-y-7 xl:grid xl:grid-cols-2 xl:gap-x-12 xl:gap-y-7">
           {batchbill_grid.map((i) => {
             return (
               <div key={i.id}>
@@ -711,18 +733,18 @@ function BottomBatchBill(): JSX.Element {
         </div>
       </div>
 
-      <h5 className="font-LotaRegular font-normal text-4xl leading-7 pt-12 text-left">
+      <h5 className="font-LotaRegular font-normal text-base md:text-2xl lg:text-4xl xl:text-4xl leading-7 pt-12 text-left">
         Top-up (Single & Bulk, Airtime & Data) Screens
       </h5>
 
-      <p className="font-LotaRegular font-normal text-xl leading-8 py-7 mt-8 w-full">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8 w-full">
         Users are able to choose if they want to use bulk or single transaction
         to purchase either airtime or data, they can schedule payment or set
         transaction pin if they have not done that.
       </p>
 
       <div className="rounded-lg py-7 bg-BeautyDark px-5">
-        <div className="grid grid-cols-2 gap-x-12 gap-y-12">
+        <div className="grid grid-cols-1 gap-y-8 gap-x-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-8 lg:grid lg:grid-cols-2 lg:gap-x-12 lg:gap-y-12 xl:grid xl:grid-cols-2 xl:gap-x-12 xl:gap-y-12">
           {batchbill_top_up.map((i) => {
             return (
               <div key={i.id}>
@@ -734,7 +756,7 @@ function BottomBatchBill(): JSX.Element {
       </div>
 
       <div className="rounded-lg py-7 bg-BeautyDark px-5 mt-8">
-        <div className="grid grid-cols-2 gap-x-8 gap-y-6">
+        <div className="grid grid-cols-1 gap-y-8 gap-x-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-6 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-6 xl:grid xl:grid-cols-2 xl:gap-x-8 xl:gap-y-6">
           {batchbill_top_up_one.map((i) => {
             return (
               <div key={i.id}>
@@ -746,7 +768,7 @@ function BottomBatchBill(): JSX.Element {
       </div>
 
       <div className="rounded-lg py-7 bg-BeautyDark px-5 mt-8">
-        <div className="grid grid-cols-2 gap-x-8 gap-y-6">
+        <div className="grid grid-cols-1 gap-y-8 gap-x-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-6 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-6 xl:grid xl:grid-cols-2 xl:gap-x-8 xl:gap-y-6">
           {batchbill_top_up_two.map((i) => {
             return (
               <div key={i.id}>
@@ -754,8 +776,6 @@ function BottomBatchBill(): JSX.Element {
               </div>
             );
           })}
-
-         
         </div>
       </div>
     </div>
