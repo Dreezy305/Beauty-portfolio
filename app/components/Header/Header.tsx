@@ -1,8 +1,10 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Harmburger from "../icons/harmburger";
+import { ChevronRight } from "tabler-icons-react";
+import { useRouter } from "next/navigation";
 
 export default function Header({
   type,
@@ -11,6 +13,8 @@ export default function Header({
   type: string;
   active?: string;
 }): JSX.Element {
+  const router = useRouter();
+const closeButtonRef = useRef<any>(null)
   const data = [
     { name: "portfolio", to: "/portfolio", id: "1" },
     { name: "about", to: "/about", id: "2" },
@@ -97,16 +101,19 @@ export default function Header({
         data-te-offcanvas-init
       >
         <div className="flex items-center justify-between p-4">
-          <h5
-            className="mb-0 font-semibold leading-normal"
-            id="offcanvasRightLabel"
-          >
-            Offcanvas right
-          </h5>
+          
+          <Image
+            src={"/logoempty.svg"}
+            alt="layer"
+            width={24}
+            height={24}
+            priority
+          />
           <button
             type="button"
             className="box-content rounded-none border-none opacity-50 hover:no-underline hover:opacity-75 focus:opacity-100 focus:shadow-none focus:outline-none"
             data-te-offcanvas-dismiss
+            ref={closeButtonRef}
           >
             <span className="w-[1em] focus:opacity-100 disabled:pointer-events-none disabled:select-none disabled:opacity-25 [&.disabled]:pointer-events-none [&.disabled]:select-none [&.disabled]:opacity-25">
               <svg
@@ -126,7 +133,47 @@ export default function Header({
             </span>
           </button>
         </div>
-        <div className="offcanvas-body flex-grow overflow-y-auto p-4">...</div>
+        <div className="offcanvas-body flex-grow overflow-y-auto overflow-x-hidden p-4">
+          <ul className="w-96">
+            {data.map((i: any, index: any) => {
+              return <>
+              <li
+                className="w-11/12 py-4 dark:border-opacity-50 flex flex-row items-center justify-between font-SofiaRegular font-normal text-base capitalize"
+                key={index}
+                onClick={() => {router.push(`${i.to}`); closeButtonRef?.current?.click()}}
+              >
+                {i.name}{" "}
+                <ChevronRight
+                  size={24}
+                  strokeWidth={2}
+                  color={"#fff"}
+                  className="float-right"
+                />
+              </li>
+              </>
+            })}
+
+            <li className="w-11/12  py-4 dark:border-opacity-50 flex flex-row items-center justify-between font-SofiaRegular font-normal text-base">
+              Resume (PDF) <ChevronRight
+    size={24}
+    strokeWidth={2}
+    color={'#fff'}
+    className="float-right"
+  />
+            </li>
+
+           <button
+              type='button'
+              className="w-11/12 text-center font-SofiaMedium font-medium text-base cursor-pointer bg-BeautyWhite rounded-tl-[15px] rounded-tf-[5px] rounded-br-[15px] rounded-bl-[5px] pt-[10px] pr-[16px] pb-[10px] pl-[16px]  text-BeautyBlack"
+              onClick={()=>{
+                router.push("/hire")
+                closeButtonRef?.current?.click()
+              }}
+            >
+              Hire Me
+            </button>
+          </ul>
+        </div>
       </div>
     </header>
   );
