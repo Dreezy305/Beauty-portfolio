@@ -14,7 +14,7 @@ function Development({
   
   return (
     <PortfolioLayout>
-      <div className=" py-6 px-7 mt-8">
+      <div className="py-6 px-0 md:px-6 lg:px-7 xl:px-7 mt-8">
         <Tab activeTab={activeTab} children={<>{children}</>} />
       </div>
     </PortfolioLayout>
