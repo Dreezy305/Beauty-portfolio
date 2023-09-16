@@ -11,7 +11,7 @@ export default function KnowMore(): JSX.Element {
   return (
     <BeautyLayout active={"know more"} location="others">
       <section className="overflow-hidden">
-        <div className="container mx-auto px-0 md:px-4 lg:px-0 xl:px-0 pt-10 md:pt-20 lg:mt-8 xl:pt-12 flex flex-col space-y-12">
+        <div className="md:container md:mx-auto lg:container lg:mx-auto xl:container xl:mx-auto px-5 md:px-4 lg:px-0 xl:px-0 pt-10 md:pt-20 lg:mt-8 xl:pt-12 flex flex-col space-y-12">
           <div className="lg:flex lg:flex-row lg:items-center lg:justify-between xl:flex xl:flex-row xl:items-center xl:justify-between pt-5 md:pt-12 lg:pt-8 xl:pt-12 mt-0 md:mt-6 lg:mt-6 xl:mt-6">
             <div className="flex flex-col space-y-8 w-full md:w-full lg:w-1/2 xl:w-1/2">
               <div className="flex flex-row items-center space-x-6 md:space-x-12 md:flex md:flex-row md:items-center lg:flex lg:flex-row lg:space-x-6 lg:items-center xl:flex xl:flex-row xl:items-center xl:space-x-6">
