@@ -9,7 +9,7 @@ function BeautyLayout({ children, active, location }: { children: React.ReactNod
   return (
     <RootLayout>
       <main className="min-h-screen overflow-hidden">
-        <div className="z-50 overflow-hidden  drop-shadow-sm sticky top-0">
+        <div className="">
         <Header type="main" active={active}/>
         </div>
       

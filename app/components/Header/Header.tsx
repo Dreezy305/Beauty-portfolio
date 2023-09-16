@@ -1,6 +1,8 @@
-import React from "react";
+"use client";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Harmburger from "../icons/harmburger";
 
 export default function Header({
   type,
@@ -14,14 +16,33 @@ export default function Header({
     { name: "about", to: "/about", id: "2" },
     { name: "know more", to: "/knowmore", id: "3" },
   ];
+  useEffect(() => {
+    const init = async () => {
+      const { Offcanvas, Ripple, initTE } = await import("tw-elements");
+      initTE({ Ripple, Offcanvas });
+    };
+    init();
+  }, []);
   return (
     <header className="overflow-hidden">
-      {type === "landing" && (
-        <nav
-          className={`container mx-auto relative py-7 ${(type = "landing"
-            ? "px-0 md:px-5 lg:px-5 xl:px-5"
-            : "")}`}
-        >
+      <nav
+        className={`container mx-auto relative py-7 flex flex-row items-center justify-between px-0 md:px-5 lg:px-5 xl:px-5 lg:hidden xl:hidden`}
+      >
+        <Link href="/">
+          <Image
+            src={"/Layer2.svg"}
+            alt="layer"
+            width={100}
+            height={24}
+            priority
+          />
+        </Link>
+
+        <Harmburger />
+      </nav>
+
+      <nav className="container mx-auto relative hidden md:hidden lg:flex lg:flex-row lg:items-center lg:justify-between xl:flex xl:flex-row xl:items-center xl:justify-between py-7 px-0 md:px-5 lg:px-0 xl:px-0">
+        <div className="w-5/6 flex flex-row justify-between items-center">
           <Link href="/">
             <Image
               src={"/Layer2.svg"}
@@ -31,24 +52,8 @@ export default function Header({
               priority
             />
           </Link>
-        </nav>
-      )}
 
-      {type === "main" && (
-        <nav className="container mx-auto relative flex flex-row items-center justify-between py-7 px-0 md:px-5 lg:px-0 xl:px-0">
-          <div className="w-5/6 flex flex-row justify-between items-center">
-            <Link href="/">
-              <Image
-                src={"/Layer2.svg"}
-                alt="layer"
-                width={100}
-                height={24}
-                priority
-              />
-            </Link>
-
-            
-
+          {type === "main" && (
             <div className="hidden md:hidden lg:flex lg:flex-row lg:space-x-20  xl:flex xl:flex-row xl:space-x-20">
               {data.map((i, index: any) => {
                 return (
@@ -69,8 +74,10 @@ export default function Header({
                 );
               })}
             </div>
-          </div>
+          )}
+        </div>
 
+        {type === "main" && (
           <div className="hidden md:hidden lg:block xl:block">
             <Link
               href="/hire"
@@ -79,8 +86,48 @@ export default function Header({
               Hire Me
             </Link>
           </div>
-        </nav>
-      )}
+        )}
+      </nav>
+
+      <div
+        className="invisible fixed bottom-0 right-0 top-0 z-[1045] flex w-96 max-w-full translate-x-full flex-col border-none bg-white bg-clip-padding text-neutral-700 shadow-sm outline-none transition duration-300 ease-in-out dark:bg-neutral-800 dark:text-neutral-200 [&[data-te-offcanvas-show]]:transform-none"
+        tabIndex={-1}
+        id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel"
+        data-te-offcanvas-init
+      >
+        <div className="flex items-center justify-between p-4">
+          <h5
+            className="mb-0 font-semibold leading-normal"
+            id="offcanvasRightLabel"
+          >
+            Offcanvas right
+          </h5>
+          <button
+            type="button"
+            className="box-content rounded-none border-none opacity-50 hover:no-underline hover:opacity-75 focus:opacity-100 focus:shadow-none focus:outline-none"
+            data-te-offcanvas-dismiss
+          >
+            <span className="w-[1em] focus:opacity-100 disabled:pointer-events-none disabled:select-none disabled:opacity-25 [&.disabled]:pointer-events-none [&.disabled]:select-none [&.disabled]:opacity-25">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                className="h-6 w-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </span>
+          </button>
+        </div>
+        <div className="offcanvas-body flex-grow overflow-y-auto p-4">...</div>
+      </div>
     </header>
   );
 }
