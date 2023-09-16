@@ -312,7 +312,7 @@ export default function Portfolio(): JSX.Element {
   return (
     <BeautyLayout active="portfolio">
       <section className="overflow-hidden">
-        <div className="container mx-auto relative pt-6 pb-12 md:pb-12 lg:pb-0 xl:pb-0 md:pt-6 lg:pt-24 xl:pt-32">
+        <div className="md:container md:mx-auto lg:container lg:mx-auto xl:container xl:mx-auto px-5 pt-6 pb-12 md:pb-12 lg:pb-0 xl:pb-0 md:pt-6 lg:pt-24 xl:pt-32">
           <div className="flex flex-col space-y-7 md:space-y-7 lg:space-y-14 xl:space-y-20 text-left">
             {/* CASE STUDIES */}
             <div className="flex flex-col space-y-6 md:space-y-6 lg:space-y-8 xl:space-y-10 w-full md:w-4/5 lg:w-1/3 xl:w-1/3">
