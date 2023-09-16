@@ -33,7 +33,7 @@ export default function Home() {
     return (
       <Link
         href="/about"
-        className="bg-BeautyLightBrown flex flex-row items-center justify-center font-LotaSemiBold cursor-pointer rounded-[32px] md:rounded-[32px] lg:rounded-[58px] xl:rounded-[58px] w-[104px] md:w-[136px] lg:w-[188px] xl:w-[188px] h-[170px] md:h-[280px] lg:h-[275px] xl:h-[275px] rotate-90 md:rotate-90 lg:rotate-0 xl:rotate-0 absolute bottom-0 right-[19px] md:right-[150px] lg:right-0 xl:right-0 top-[12px] md:top-full lg:top-full xl:top-full mt-0 md:mt-[-39px] lg:mt-12 xl:mt-12 z-50"
+        className="bg-BeautyLightBrown flex flex-row items-center justify-center font-LotaSemiBold cursor-pointer rounded-[32px] md:rounded-[32px] lg:rounded-[58px] xl:rounded-[58px] w-[104px] md:w-[136px] lg:w-[188px] xl:w-[188px] h-[170px] md:h-[280px] lg:h-[275px] xl:h-[275px] rotate-90 md:rotate-90 lg:rotate-0 xl:rotate-0 absolute bottom-0 right-[40px] md:right-[150px] lg:right-0 xl:right-0 top-[18px] md:top-full lg:top-full xl:top-full mt-0 md:mt-[-39px] lg:mt-12 xl:mt-12 z-50"
       >
         <p className="font-LotaSemiBold font-semibold text-base md:text-lg lg:text-2xl xl:text-2xl leading-8 text-black rotate-[270deg] md:rotate-[270deg] lg:rotate-0">
           About 
