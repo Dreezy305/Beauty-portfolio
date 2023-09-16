@@ -14,7 +14,7 @@ export default function Header({
   active?: string;
 }): JSX.Element {
   const router = useRouter();
-const closeButtonRef = useRef<any>(null)
+  const closeButtonRef = useRef<any>(null);
   const data = [
     { name: "portfolio", to: "/portfolio", id: "1" },
     { name: "about", to: "/about", id: "2" },
@@ -101,7 +101,6 @@ const closeButtonRef = useRef<any>(null)
         data-te-offcanvas-init
       >
         <div className="flex items-center justify-between p-4">
-          
           <Image
             src={"/logoempty.svg"}
             alt="layer"
@@ -136,38 +135,44 @@ const closeButtonRef = useRef<any>(null)
         <div className="offcanvas-body flex-grow overflow-y-auto overflow-x-hidden p-4">
           <ul className="w-96">
             {data.map((i: any, index: any) => {
-              return <>
-              <li
-                className="w-11/12 py-4 dark:border-opacity-50 flex flex-row items-center justify-between font-SofiaRegular font-normal text-base capitalize"
-                key={index}
-                onClick={() => {router.push(`${i.to}`); closeButtonRef?.current?.click()}}
-              >
-                {i.name}{" "}
-                <ChevronRight
-                  size={24}
-                  strokeWidth={2}
-                  color={"#fff"}
-                  className="float-right"
-                />
-              </li>
-              </>
+              return (
+                <>
+                  <li
+                    className="w-11/12 py-4 dark:border-opacity-50 flex flex-row items-center justify-between font-SofiaRegular font-normal text-base capitalize"
+                    key={index}
+                    onClick={() => {
+                      router.push(`${i.to}`);
+                      closeButtonRef?.current?.click();
+                    }}
+                  >
+                    {i.name}{" "}
+                    <ChevronRight
+                      size={24}
+                      strokeWidth={2}
+                      color={"#fff"}
+                      className="float-right"
+                    />
+                  </li>
+                </>
+              );
             })}
 
             <li className="w-11/12  py-4 dark:border-opacity-50 flex flex-row items-center justify-between font-SofiaRegular font-normal text-base">
-              Resume (PDF) <ChevronRight
-    size={24}
-    strokeWidth={2}
-    color={'#fff'}
-    className="float-right"
-  />
+              Resume (PDF){" "}
+              <ChevronRight
+                size={24}
+                strokeWidth={2}
+                color={"#fff"}
+                className="float-right"
+              />
             </li>
 
-           <button
-              type='button'
+            <button
+              type="button"
               className="w-11/12 text-center font-SofiaMedium font-medium text-base cursor-pointer bg-BeautyWhite rounded-tl-[15px] rounded-tf-[5px] rounded-br-[15px] rounded-bl-[5px] pt-[10px] pr-[16px] pb-[10px] pl-[16px]  text-BeautyBlack"
-              onClick={()=>{
-                router.push("/hire")
-                closeButtonRef?.current?.click()
+              onClick={() => {
+                router.push("/hire");
+                closeButtonRef?.current?.click();
               }}
             >
               Hire Me
