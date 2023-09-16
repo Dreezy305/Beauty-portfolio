@@ -13,7 +13,7 @@ function HireMe(): JSX.Element {
   return (
     <BeautyLayout>
       <section className="overflow-hidden">
-          <div className="container mx-auto px-0 md:px-4 lg:px-0 xl:px-0 mt-4 md:mt-8 lg:mt-6 xl:mt-12 flex flex-col space-y-12">
+          <div className="md:container md:mx-auto lg:container lg:mx-auto xl:container xl:mx-auto px-5 md:px-5 lg:px-0 xl:px-0 mt-4 md:mt-8 lg:mt-6 xl:mt-12 flex flex-col space-y-12">
             <div className="flex flex-col space-y-8 md:flex md:flex-col md:space-y-8 lg:flex lg:flex-row lg:items-center lg:justify-between xl:flex xl:flex-row xl:items-center xl:justify-between pt-3 mt-2 md:mt-4 lg:mt-6 xl:mt-6">
               <div className="flex flex-col space-y-5 md:space-y-6 lg:space-y-8 xl:space-y-8 w-full md:w-full lg:w-1/2 xl:w-1/2">
                 <div className="flex flex-row items-center space-x-2 md;space-x-2 lg:space-x-0 xl:space-x-0">
