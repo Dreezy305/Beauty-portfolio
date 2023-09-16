@@ -55,7 +55,7 @@ function BottomQuba(): JSX.Element {
       </p>
 
       <div className="rounded-lg px-12 bg-BeautyDark py-12 flex flex-col space-y-12">
-      <div className="flex flex-row space-x-8 w-full justify-between">
+        <div className="flex flex-row space-x-8 w-full justify-between">
           <Image src={QubaOne} alt="" priority className="w-1/2" />
           <Image src={QubaTwo} alt="" priority className="w-1/2" />
         </div>
@@ -63,7 +63,7 @@ function BottomQuba(): JSX.Element {
           <Image src={QubaThree} alt="" priority className="w-1/2" />
           <Image src={QubaFour} alt="" priority className="w-1/2" />
         </div>
-         <div className="flex flex-row">
+        <div className="flex flex-row">
           <Image src={QubaFive} alt="" priority className="w-full" />
         </div>
       </div>

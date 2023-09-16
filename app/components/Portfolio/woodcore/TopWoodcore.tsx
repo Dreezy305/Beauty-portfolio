@@ -34,7 +34,7 @@ function TopWoodcore(): JSX.Element {
           priority
         />
         <div>
-          <p className="font-LotaRegular font-normal text-sm md:text-base leading-8 text-BeautyDeepBlue w-[102%] md:w-11/12 ">
+          <p className="font-LotaRegular font-normal text-sm md:text-base leading-8 text-BeautyDeepBlue w-[102%] md:w-11/12">
             WoodCore is a banking application for
            internal staffs (Agents & Branch Managers) that helps
             them manage their users.
