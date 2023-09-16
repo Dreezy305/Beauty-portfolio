@@ -10,7 +10,7 @@ export default function About(): JSX.Element {
   return (
     <BeautyLayout active={"about"} location="others">
       <section className="overflow-hidden">
-        <div className="container mx-auto mt-12 md:mt-20 lg:mt-20 xl:mt-20 flex flex-col space-y-12 px-0 md:px-4 lg:px-0 xl:px-0">
+        <div className="md:container md:mx-auto lg:container lg:mx-auto xl:container xl:mx-auto mt-12 md:mt-20 lg:mt-20 xl:mt-20 flex flex-col space-y-12 px-5 md:px-4 lg:px-0 xl:px-0">
           <div className="flex flex-col space-y-16 md:flex md:flex-col md:space-y-16 lg:flex lg:flex-row lg:items-center lg:justify-between xl:flex xl:flex-row xl:items-center xl:justify-between">
             <div className="flex flex-col space-y-6 lg:space-y-8 md:space-y-12 w-full md:w-full lg:w-1/2 xl:w-1/2">
               <div className="flex flex-row space-x-6 items-center">
