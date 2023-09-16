@@ -20,7 +20,7 @@ export default function Home() {
     return (
       <Link
         href={"/knowmore"}
-        className="bg-BeautyLightYellow flex flex-row items-center justify-center font-LotaSemiBold cursor-pointer rounded-tl-[69px] rounded-tr-[69px] rounded-br-[0px] rounded-bl-[69px] md:rounded-tl-[126px] md:rounded-tr-[126px] md:rounded-br-[0px] md:rounded-bl-[126px]  lg:rounded-tl-[126px] lg:rounded-tr-[126px] lg:rounded-br-[0px] lg:rounded-bl-[126px] xl:rounded-tl-[126px] xl:rounded-tr-[126px] xl:rounded-br-[0px] xl:rounded-bl-[126px]  w-[140px] md:w-[269px] lg:w-[269px] xl:w-[269px] h-[130px] md:h-[252px] lg:h-[252px] xl:h-[252px] absolute knowmorej left-0 md:left-0 lg:left-[150px] xl:left-[185px] mt-5 md:mt-[-75px] lg:mt-[-100px] xl:mt-[-100px]"
+        className="bg-BeautyLightYellow flex flex-row items-center justify-center font-LotaSemiBold cursor-pointer rounded-tl-[69px] rounded-tr-[69px] rounded-br-[0px] rounded-bl-[69px] md:rounded-tl-[126px] md:rounded-tr-[126px] md:rounded-br-[0px] md:rounded-bl-[126px]  lg:rounded-tl-[126px] lg:rounded-tr-[126px] lg:rounded-br-[0px] lg:rounded-bl-[126px] xl:rounded-tl-[126px] xl:rounded-tr-[126px] xl:rounded-br-[0px] xl:rounded-bl-[126px]  w-[140px] md:w-[269px] lg:w-[269px] xl:w-[269px] h-[130px] md:h-[252px] lg:h-[252px] xl:h-[252px] absolute knowmorej left-0 md:left-0 lg:left-[65px] xl:left-[185px] mt-5 md:mt-[-75px] lg:mt-[-100px] xl:mt-[-100px]"
       >
         <p className="font-LotaSemiBold font-semibold text-base md:text-xl lg:text-2xl xl:text-2xl leading-8 text-black">
           Know More
