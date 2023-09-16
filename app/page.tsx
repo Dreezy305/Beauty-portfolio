@@ -7,7 +7,7 @@ export default function Home() {
     return (
       <Link
         href="/portfolio"
-        className="moon bg-BeautyLightBlue flex flex-row items-center justify-center font-LotaSemiBold cursor-pointer rounded-tl-[42px] rounded-tr-[29px] rounded-br-[46px] rounded-bl-[214px]  md:rounded-tl-[42px] md:rounded-tr-[29px] md:rounded-br-[46px] md:rounded-bl-[214px] lg:rounded-tl-[42px] lg:rounded-tr-[29px] lg:rounded-br-[46px] lg:rounded-bl-[214px] w-[140px] md:w-[269px] lg:w-[269px] xl:w-[269px] h-[130px] md:h-[252px] lg:h-[252px] xl:h-[252px] absolute right-[50px] md:right-[200px] lg:right-0 xl:right-0  bottom-[-45px] md:bottom-[10px] lg:bottom-full xl:bottom-full rotate-[330deg] md:rotate-[330deg] lg:rotate-0 xl:rotate-0"
+        className="moon bg-BeautyLightBlue flex flex-row items-center justify-center font-LotaSemiBold cursor-pointer rounded-tl-[42px] rounded-tr-[29px] rounded-br-[46px] rounded-bl-[214px]  md:rounded-tl-[42px] md:rounded-tr-[29px] md:rounded-br-[46px] md:rounded-bl-[214px] lg:rounded-tl-[42px] lg:rounded-tr-[29px] lg:rounded-br-[46px] lg:rounded-bl-[214px] w-[140px] md:w-[269px] lg:w-[269px] xl:w-[269px] h-[130px] md:h-[252px] lg:h-[252px] xl:h-[252px] absolute right-[99px] md:right-[200px] lg:right-0 xl:right-0  bottom-[-45px] md:bottom-[10px] lg:bottom-full xl:bottom-full rotate-[330deg] md:rotate-[330deg] lg:rotate-0 xl:rotate-0"
       > 
         <p className="font-LotaSemiBold font-semibold text-base md:text-xl lg:text-2xl xl:text-2xl leading-8 text-black">
           Portfolio
@@ -46,7 +46,7 @@ export default function Home() {
     <main className="">
       <Header type="landing" />
       <section className="overflow-hidden pb-20 md:pb-20 lg:pb-40 xl:pb-40" id="landingpage">
-        <div className="container mx-auto relative mt-8 mb-12 pb-20 md:pb-20 lg:pb-40 xl:pb-40 px-0 md:px-5 lg:px-5 xl:px-5 md:mt-12 lg:mt-36 xl:mt-36">
+        <div className="md:container md:mx-auto lg:container lg:mx-auto xl:container xl:mx-auto relative mt-8 mb-12 pb-20 md:pb-20 lg:pb-40 xl:pb-40 px-6 md:px-5 lg:px-5 xl:px-5 md:mt-12 lg:mt-36 xl:mt-36">
           <div className="flex flex-col md:flex md:flex-col lg:flex lg:flex-row lg:items-center lg:justify-between xl:flex xl:flex-row xl:justify-between">
             {/* LEFT */}
             <div className="flex flex-col w-full md:w-4/5 lg:w-1/2 xl:w-1/2 space-y-8">

@@ -30,7 +30,7 @@ export default function Header({
   return (
     <header className="overflow-hidden">
       <nav
-        className={`container mx-auto relative py-7 flex flex-row items-center justify-between px-0 md:px-5 lg:px-5 xl:px-5 lg:hidden xl:hidden`}
+        className={`md:container md:mx-auto lg:container lg:mx-auto xl:container xl:mx-auto relative py-7 flex flex-row items-center justify-between px-5 md:px-5 lg:px-5 xl:px-5 lg:hidden xl:hidden`}
       >
         <Link href="/">
           <Image
@@ -107,6 +107,10 @@ export default function Header({
             width={24}
             height={24}
             priority
+            onClick={() => {
+              router.push(`/`);
+              closeButtonRef?.current?.click();
+            }}
           />
           <button
             type="button"
