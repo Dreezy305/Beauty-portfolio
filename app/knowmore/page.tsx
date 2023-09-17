@@ -15,7 +15,7 @@ export default function KnowMore(): JSX.Element {
           <div className="lg:flex lg:flex-row lg:items-center lg:justify-between xl:flex xl:flex-row xl:items-center xl:justify-between pt-5 md:pt-12 lg:pt-8 xl:pt-12 mt-0 md:mt-6 lg:mt-6 xl:mt-6">
             <div className="flex flex-col space-y-8 w-full md:w-full lg:w-1/2 xl:w-1/2">
               <div className="flex flex-row items-center space-x-6 md:space-x-12 md:flex md:flex-row md:items-center lg:flex lg:flex-row lg:space-x-6 lg:items-center xl:flex xl:flex-row xl:items-center xl:space-x-6">
-                <h4 className="font-LotaBold text-BeautyWhite pl-2 md:pl-0 lg:pl-0 xl:pl-0 text-3xl md:text-4xl lg:text-7xl xl:text-7xl leading-9">
+                <h4 className="font-LotaBold text-BeautyWhite pl-2 md:pl-0 lg:pl-0 xl:pl-0 text-3xl md:text-4xl lg:text-5xl xl:text-7xl leading-9 animate__animated animate__slideInDown">
                   More About Me
                 </h4>
                 <Image
@@ -24,7 +24,7 @@ export default function KnowMore(): JSX.Element {
                   width={70}
                   height={70}
                   priority
-                  className="hidden md:hidden lg:block xl:block"
+                  className="hidden md:hidden lg:block xl:block motion-safe:animate-bounce"
                 />
                 <Image
                   src={"/SmilingFace.svg"}
@@ -32,7 +32,7 @@ export default function KnowMore(): JSX.Element {
                   width={40}
                   height={40}
                   priority
-                  className="block md:block lg:hidden xl:hidden"
+                  className="block md:block lg:hidden xl:hidden motion-safe:animated-bounce"
                 />
               </div>
               <p className="font-SofiaRegular font-normal w-full md:w-full lg:w-[96%] xl:w-[96%] text-base md:text-2xl lg:text-2xl xl:text:2xl leading-9">
