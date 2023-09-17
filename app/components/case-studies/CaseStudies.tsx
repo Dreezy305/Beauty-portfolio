@@ -91,6 +91,10 @@ function CaseStudies():JSX.Element {
               strokeWidth={1.5}
               color={"#fff"}
               className="pt-0"
+              data-te-animation-init
+  data-te-animation-start="onHover"
+  data-te-animation-reset="true"
+  data-te-animation="[slide-out-right_1s_ease-in-out]"
             />
           </Link>
         </div>
