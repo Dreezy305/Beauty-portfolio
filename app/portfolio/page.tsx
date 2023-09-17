@@ -1,3 +1,4 @@
+
 import React from "react";
 import Link from "next/link";
 import BeautyLayout from "../components/Layout/Beauty";
@@ -5,6 +6,8 @@ import { ArrowNarrowRight } from "tabler-icons-react";
 import "./portfolio.css";
 
 export default function Portfolio(): JSX.Element {
+ 
+
   const CaseStudies = () => {
     return (
       <div className="w-full lg:h-[300px] xl:h-[320px] hidden md:hidden lg:flex lg:flex-row xl:flex xl:flex-row">
