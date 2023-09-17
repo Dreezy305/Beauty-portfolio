@@ -16,7 +16,7 @@ function PortfolioLayout({
         <div className="md:container md:mx-auto lg:container lg:mx-auto xl:container xl:mx-auto px-5 relative pt-6">
           <Link
             href="/portfolio"
-            className="flex flex-row items-center justify-start space-x-3 px-0 md:px-5 lg:px-0 xl:px-0"
+            className="flex flex-row items-center justify-start space-x-3 px-0 md:px-0 lg:px-0 xl:px-0"
           >
             <ArrowDownCircle
               size={32}
