@@ -41,7 +41,7 @@ module.exports = {
         BeautyLightBrown: "#F25F11",
         BeautyWhite: "#FFFFFF",
         BeautyBlack: "#000000",
-        BeautyDeepBlue: "#4A47FF",
+        BeautyDeepBlue: "#4a47ff",
         BeautyDeepGreen: "#AEDC93",
         BeautyDeepGrey: "#2A95AB",
         BeautyDeepPurple: "#D85EEC",
