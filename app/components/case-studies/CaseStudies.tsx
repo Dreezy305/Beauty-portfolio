@@ -14,7 +14,7 @@ function CaseStudies(): JSX.Element {
   return (
     <div className="w-full lg:h-[300px] xl:h-[320px] hidden md:hidden lg:flex lg:flex-row xl:flex xl:flex-row">
       {/* 1 */}
-      <div className="h-full w-1/4 rounded-tl-[30px] rounded-bl-[30px] rounded-tr-none rounded-br-none bg-BeautyDeepBlue cursor-pointer relative flex flex-col py-6 px-8">
+      <div className="h-full w-1/4 rounded-tl-[30px] rounded-bl-[30px] rounded-tr-none rounded-br-none bg-[#4A47FF] cursor-pointer relative flex flex-col py-6 px-8">
         <div className="flex flex-row justify-between items-center">
           <span className="font-thin font-LotaThin text-base leading-6 uppercase">
             Agency Banking
@@ -100,7 +100,7 @@ function CaseStudies(): JSX.Element {
       </div>
 
       {/* 3 */}
-      <div className="h-full w-1/4 rounded-tl-none rounded-bl-none rounded-tr-none rounded-br-none bg-BeautyDeepGreen cursor-pointer relative flex flex-col py-6 px-8 text-BeautyBlack">
+      <div className="h-full w-1/4 rounded-tl-none rounded-bl-none rounded-tr-none rounded-br-none bg-[#AEDC93] cursor-pointer relative flex flex-col py-6 px-8 text-BeautyBlack" style={{background: "#AEDC93"}}>
         <div className="flex flex-row justify-between items-center">
           <span className="font-thin font-LotaThin text-base leading-6 uppercase text-BeautyBlack">
             Rentals
@@ -137,7 +137,7 @@ function CaseStudies(): JSX.Element {
       </div>
 
       {/* 4 */}
-      <div className="h-full w-1/4 rounded-tr-[30px] rounded-bl-none rounded-tl-none rounded-br-[30px] bg-BeautyDeepGrey cursor-pointer relative flex flex-col py-6 px-8">
+      <div className="h-full w-1/4 rounded-tr-[30px] rounded-bl-none rounded-tl-none rounded-br-[30px] bg-[#2A95AB] cursor-pointer relative flex flex-col py-6 px-8" style={{background: "#2A95AB"}}>
         <div className="flex flex-row justify-between items-center">
           <span className="font-thin font-LotaThin text-base leading-6 uppercase">
             Others
