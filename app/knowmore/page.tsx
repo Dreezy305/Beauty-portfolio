@@ -105,7 +105,7 @@ export default function KnowMore(): JSX.Element {
               />
             </a>
 
-            <div className="flex flex-col space-y-8 space-x-0 md:flex md:flex-row md:space-x-12 md:space-y-0 lg:flex lg:flex-row lg:items-center lg:justify-between lg:space-y-0 lg:space-x-0 xl:flex xl:flex-row xl:items-center xl:justify-between xl:space-y-0 xl:space-x-0 bg-BeautyDarkPurple py-4 px-4 rounded-[30px]">
+            <div className="flex flex-col space-y-8 space-x-0 md:flex md:flex-row md:space-x-4 md:space-y-0 lg:flex lg:flex-row lg:items-center lg:space-x-6 lg:space-y-0  xl:flex xl:flex-row xl:items-center xl:justify-betwen xl:space-y-0 xl:space-x-6 bg-BeautyDarkPurple py-4 px-4 rounded-[30px]">
               <a
                 className="relative"
                 href="https://medium.com/@ohiabeauty26/my-2-cents-on-mobile-screens-d8d85ae95e7a"
