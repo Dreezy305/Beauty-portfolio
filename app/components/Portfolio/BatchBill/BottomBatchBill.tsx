@@ -29,6 +29,8 @@ import {
   batchbill_top_up_one,
   batchbill_top_up_two,
 } from "@/data/experience";
+import Project from "../../project/Project";
+import Image458 from "../../../../public/image459.png";
 
 function BottomBatchBill(): JSX.Element {
   return (
@@ -778,6 +780,8 @@ function BottomBatchBill(): JSX.Element {
           })}
         </div>
       </div>
+
+      <Project navigateTo={"/portfolio/shuut"} background={"bg-BeautyDeepPurple"} title={"SHUUT"} image={Image458} cardBg={"bg-[#4A47FF96]"}/>
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { World } from "tabler-icons-react";
 import Groupfara from "../../../../public/Groupfara.png";
 import Group1855 from "../../../../public/Group1855.png";
@@ -17,6 +18,7 @@ import MaskGroup10 from "../../../../public/MaskGroup10.png";
 import MaskGroup11 from "../../../../public/MaskGroup11.png";
 import BankylyDashboard from "../../../../public/banklydash.png";
 import Dashboard11 from "../../../../public/Dashboard11.png";
+import Image458 from "../../../../public/image458.png";
 import SignUp from "../../../../public/SignUp.png";
 import SignIn from "../../../../public/SignIn.png";
 import PasswordRecovery from "../../../../public/PasswordRecovery.png";
@@ -37,6 +39,7 @@ import People from "../../../../public/people.svg";
 import Refresh from "../../../../public/refresh.svg";
 import "./fara.css";
 import { insight_fara } from "@/data/experience";
+import Project from "../../project/Project";
 
 function BottomFara(): JSX.Element {
   return (
@@ -747,7 +750,7 @@ function BottomFara(): JSX.Element {
         </div>
         <div className="flex flex-row items-center justify-center">
           <Image src={SignUp} alt="group" className="mt-4" priority />
-          </div>
+        </div>
       </div>
 
       <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12">
@@ -913,6 +916,31 @@ function BottomFara(): JSX.Element {
           </div>
         </div>
       </div>
+
+      {/* <div className="bg-BeautyNextProjectBatchBill py-8 px-8 rounded-xl">
+        <Link
+          href="/portfolio/batchbill"
+          className="cursor-pointer underline text-white text-2xl font-normal font-SofiaRegular"
+        >
+          View next project
+        </Link>
+
+        <div className="flex flex-row items-end justify-between">
+          <div className="flex flex-col space-y-2 w-1/2 justify-self-end">
+            <p className="text-white text-xs font-normal font-SofiaLight">
+              USER RESEARCH • UX DESIGN • UI DESIGN • DESIGN SYSTEM
+            </p>
+            <h5 className="text-white font-normal text-8xl font-SofiaRegular">
+              Batchbills
+            </h5>
+          </div>
+          <div className="w-1/2 rounded-lg bg-BeautyDeepBlue px-2 py-2">
+            <Image src={Image458} alt="group" className="w-full" priority />
+          </div>
+        </div>
+      </div> */}
+
+      <Project navigateTo={"/portfolio/batchbill"} background={"bg-BeautyNextProjectBatchBill"} title={"Batchbills"} image={Image458} cardBg={"bg-[#4A47FF96]"}/>
     </div>
   );
 }
