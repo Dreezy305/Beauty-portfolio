@@ -117,7 +117,7 @@ function HireMe(): JSX.Element {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    className="cursor-pointer cursor-pointer animate__animated animate__fadeIn"
+                    className="cursor-pointer animate__animated animate__fadeIn"
                     href="https://twitter.com/OhiaBeauty"
                   >
                     <BrandInstagram

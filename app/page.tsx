@@ -9,7 +9,18 @@ export default function Home() {
       <>
         <Link
           href="/portfolio"
-          className="moon bg-BeautyLightBlue flex flex-row items-center justify-center font-LotaSemiBold cursor-pointer rounded-tl-[42px] rounded-tr-[29px] rounded-br-[46px] rounded-bl-[214px]  md:rounded-tl-[42px] md:rounded-tr-[29px] md:rounded-br-[46px] md:rounded-bl-[214px] lg:rounded-tl-[42px] lg:rounded-tr-[29px] lg:rounded-br-[46px] lg:rounded-bl-[214px] w-[140px] md:w-[269px] lg:w-[269px] xl:w-[269px] h-[130px] md:h-[252px] lg:h-[252px] xl:h-[252px] absolute right-[99px] md:right-[200px] lg:right-0 xl:right-0  bottom-[-45px] md:bottom-[10px] lg:bottom-full xl:bottom-full rotate-[330deg] md:rotate-[330deg] lg:rotate-0 xl:rotate-0 animate__animated animate__lightSpeedInRight cta"
+          className="moon hidden md:hidden bg-BeautyLightBlue lg:flex lg:flex-row lg:items-center lg:justify-center font-LotaSemiBold xl:flex xl:flex-row xl:items-center xl:justify-center cursor-pointer rounded-tl-[42px] rounded-tr-[29px] rounded-br-[46px] rounded-bl-[214px]  md:rounded-tl-[42px] md:rounded-tr-[29px] md:rounded-br-[46px] md:rounded-bl-[214px] lg:rounded-tl-[42px] lg:rounded-tr-[29px] lg:rounded-br-[46px] lg:rounded-bl-[214px] w-[140px] md:w-[269px] lg:w-[269px] xl:w-[269px] h-[130px] md:h-[252px] lg:h-[252px] xl:h-[252px] absolute right-[99px] md:right-[200px] lg:right-0 xl:right-0  bottom-[-45px] md:bottom-[10px] lg:bottom-full xl:bottom-full rotate-[330deg] md:rotate-[330deg] lg:rotate-0 xl:rotate-0 animate__animated animate__lightSpeedInRight cta"
+          
+        >
+          <p className="font-LotaSemiBold font-semibold text-base md:text-xl lg:text-2xl xl:text-2xl leading-8 text-black text-center">
+            Portfolio
+          </p>
+        </Link>
+
+        <Link
+          href="/portfolio"
+          className="moon lg:hidden xl:hidden bg-BeautyLightBlue flex flex-row items-center justify-center md:flex md:flex-row md:items-center md:justify-center font-LotaSemiBold cursor-pointer rounded-tl-[42px] rounded-tr-[29px] rounded-br-[46px] rounded-bl-[214px]  md:rounded-tl-[42px] md:rounded-tr-[29px] md:rounded-br-[46px] md:rounded-bl-[214px] lg:rounded-tl-[42px] lg:rounded-tr-[29px] lg:rounded-br-[46px] lg:rounded-bl-[214px] w-[140px] md:w-[269px] lg:w-[269px] xl:w-[269px] h-[130px] md:h-[252px] lg:h-[252px] xl:h-[252px] absolute right-[99px] md:right-[200px] lg:right-0 xl:right-0  bottom-[-45px] md:bottom-[10px] lg:bottom-full xl:bottom-full rotate-[330deg] md:rotate-[330deg] animate__animated animate__lightSpeedInRight cta"
+          style={{ rotate: "330deg" }}
         >
           <p className="font-LotaSemiBold font-semibold text-base md:text-xl lg:text-2xl xl:text-2xl leading-8 text-black">
             Portfolio
