@@ -84,7 +84,7 @@ export default function Home() {
                 </span>
               </h4>
 
-              <p className="font-SofiaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 text-white animate__animated animate__fadeInUp">
+              <p className="font-SofiaLight font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 text-white animate__animated animate__fadeInUp">
                 My name is Ohia Beauty, i'm a minimalist designer, with an adept
                 in communicating design decisions effectively, and advocating
                 for the user's perspective throughout the design process,
