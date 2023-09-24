@@ -654,7 +654,6 @@ function BottomFara(): JSX.Element {
         are:
       </p>
 
-
       <div className="rounded-lg px-5 py-5 bg-BeautyDark flex flex-col space-y-4 px-8">
         <ul className="py-2 list-disc">
           {insight_fara.map((i: string, index: any) => {
@@ -723,18 +722,32 @@ function BottomFara(): JSX.Element {
         The Solution
       </h5>
 
-      <div className="rounded-lg px-5 py-8 bg-BeautyDark flex flex-col space-y-4">
+      <div className="rounded-lg px-5 py-8 bg-BeautyDark flex flex-col space-y-4 lg:hidden xl:hidden">
         <div className="flex flex-col space-y-5 md:flex md:flex-row md:flex-wrap md:justify-center md:space-x-3 md:space-y-5  lg:flex lg:flex-row lg:px-4 lg:flex-wrap lg:justify-center lg:space-x-3 lg:space-y-0 xl:flex xl:flex-row xl:px-4 xl:py-3 xl:flex-wrap xl:justify-center xl:space-x-3 xl:space-y-0">
           <div>
-          <Image src={SignIn} alt="group" className="" priority />
+            <Image src={SignIn} alt="group" className="" priority />
           </div>
           <div>
-          <Image src={PasswordRecovery} alt="group" className="" priority />
+            <Image src={PasswordRecovery} alt="group" className="" priority />
           </div>
           <div>
-          <Image src={SignUp} alt="group" className="mt-4" priority />
+            <Image src={SignUp} alt="group" className="mt-4" priority />
           </div>
         </div>
+      </div>
+
+      <div className="rounded-lg px-5 py-8 bg-BeautyDark hidden md:hidden lg:flex lg:flex-col lg:space-y-1 xl:flex xl:flex-col xl:space-y-1">
+        <div className="lg:flex lg:flex-row lg:justify-center lg:space-x-3 lg:space-y-0 xl:flex xl:flex-row xl:px-4 xl:py-3 xl:flex-wrap xl:justify-center xl:space-x-3 xl:space-y-0">
+          <div>
+            <Image src={SignIn} alt="group" className="" priority />
+          </div>
+          <div>
+            <Image src={PasswordRecovery} alt="group" className="" priority />
+          </div>
+        </div>
+        <div className="flex flex-row items-center justify-center">
+          <Image src={SignUp} alt="group" className="mt-4" priority />
+          </div>
       </div>
 
       <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12">
@@ -769,8 +782,18 @@ function BottomFara(): JSX.Element {
         Receipt
       </p>
       <div className="rounded-lg px-5 py-8 bg-BeautyCream flex flex-col space-y-6 md:flex md:flex-col md:space-y-6 lg:flex lg:flex-row lg:space-x-4 lg:justify-between lg:space-y-0 xl:flex xl:flex-row xl:space-x-4 xl:justify-between xl:space-y-0">
-        <Image src={DashboardWallets1} alt="group" className="w-full md:w-full lg:w-1/2 xl:w-1/2" priority />
-        <Image src={DashboardWallets2} alt="group" className="w-full md:w-full lg:w-1/2 xl:w-1/2" priority />
+        <Image
+          src={DashboardWallets1}
+          alt="group"
+          className="w-full md:w-full lg:w-1/2 xl:w-1/2"
+          priority
+        />
+        <Image
+          src={DashboardWallets2}
+          alt="group"
+          className="w-full md:w-full lg:w-1/2 xl:w-1/2"
+          priority
+        />
       </div>
 
       <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12">
@@ -782,9 +805,14 @@ function BottomFara(): JSX.Element {
         shows a record of their transactions over a period of time.
       </p>
 
-      <div className="rounded-lg px-5 py-8 bg-BeautyDark flex flex-col space-y-6 md:flex md:flex-col md:space-y-6 lg:flex lg:flex-row lg:space-x-4 lg:justify-between lg:space-y-0 xl:flex xl:flex-row xl:space-x-4 xl:justify-between xl:space-y-0">
-        <Image src={DashboardTrxn} alt="group" className="w-full md:w-full lg:w-1/2 xl:w-1/2" priority />
-        <Image src={DashboardTrxn1} alt="group" className="w-full md:w-full lg:w-1/2 xl:w-1/2" priority />
+      <div className="rounded-lg px-5 py-8 bg-BeautyDark flex flex-col space-y-6 md:flex md:flex-col md:space-y-6 lg:flex lg:flex-row lg:space-x-4 lg:justify-center lg:space-y-0 xl:flex xl:flex-row xl:space-x-4 xl:justify-center xl:space-y-0">
+        <Image
+          src={DashboardTrxn}
+          alt="group"
+          className="w-full md:w-full lg:w-1/2 xl:w-1/2"
+          priority
+        />
+        {/* <Image src={DashboardTrxn1} alt="group" className="w-full md:w-full lg:w-1/2 xl:w-1/2" priority /> */}
       </div>
 
       <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12">
@@ -822,8 +850,18 @@ function BottomFara(): JSX.Element {
       </p>
 
       <div className="rounded-lg px-5 py-8 bg-BeautyDark flex flex-col space-y-6 md:flex md:flex-col md:space-y-6 lg:flex lg:flex-row lg:space-x-4 lg:justify-between lg:space-y-0 xl:flex xl:flex-row xl:space-x-4 xl:justify-between xl:space-y-0">
-        <Image src={Teller1} alt="group"  className="w-full md:w-full lg:w-1/2 xl:w-1/2" priority />
-        <Image src={Teller2} alt="group"  className="w-full md:w-full lg:w-1/2 xl:w-1/2" priority />
+        <Image
+          src={Teller1}
+          alt="group"
+          className="w-full md:w-full lg:w-1/2 xl:w-1/2"
+          priority
+        />
+        <Image
+          src={Teller2}
+          alt="group"
+          className="w-full md:w-full lg:w-1/2 xl:w-1/2"
+          priority
+        />
       </div>
 
       <div className="flex flex-col space-y-3 lg:flex lg:flex-row lg:items-start lg:justify-between lg:space-x-8 lg:space-y-0 xl:flex xl:flex-row xl:items-start xl:justify-between xl:space-x-8 xl:space-y-0">
