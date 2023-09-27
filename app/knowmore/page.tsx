@@ -65,7 +65,7 @@ export default function KnowMore(): JSX.Element {
               {values_content.map((i, index: any) => {
                 return (
                   <p
-                    className={`py-3 font-LotaThin leading-6 text-lg text-BeautyWhite ${
+                    className={`py-3 font-LotaRegular leading-6 text-lg text-BeautyWhite ${
                       index % 2 === 0
                         ? "animate__animated animate__lightSpeedInRight"
                         : "animate__animated animate__lightSpeedInLeft"
@@ -105,7 +105,7 @@ export default function KnowMore(): JSX.Element {
               />
             </a>
 
-            <div className="flex flex-col space-y-8 space-x-0 md:flex md:flex-row md:space-x-4 md:space-y-0 lg:flex lg:flex-row lg:items-center lg:justify-between lg:space-y-0  xl:flex xl:flex-row xl:items-center xl:justify-between xl:space-y-0 xl:space-x-6 bg-BeautyDarkPurple py-4 px-4 rounded-[30px]">
+            <div className="flex flex-col space-y-8 space-x-0 md:flex md:flex-row md:space-x-4 md:space-y-0 lg:hidden xl:hidden  bg-BeautyDarkPurple py-4 px-4 rounded-[30px]">
               <a
                 className="relative"
                 href="https://medium.com/@ohiabeauty26/my-2-cents-on-mobile-screens-d8d85ae95e7a"
@@ -153,6 +153,62 @@ export default function KnowMore(): JSX.Element {
                   Day 5- 30 Days UI/UX Challenge
                 </h5>
               </a>
+            </div>
+
+            {/* LG AND XL SCREEENS */}
+            <div className="hidden md:hidden lg:grid lg:grid-cols-3 lg:gap-x-3 xl:grid xl:grid-cols-3 xl:gap-x-3 bg-BeautyDarkPurple py-4 px-4 rounded-[30px]">
+              <div className="relative">
+                <a
+                  className="w-full"
+                  href="https://medium.com/@ohiabeauty26/my-2-cents-on-mobile-screens-d8d85ae95e7a"
+                  target="_blank"
+                >
+                  <Image
+                    src={MediumOne}
+                    alt="values"
+                    priority
+                    className="cursor-pointer w-full"
+                  />{" "}
+                  <h5 className="absolute top-[40%] left-[22%] md:left-[10%] lg:left-[22%] xl:left-[22%] font-bold font-SofiaBold w-1/2 md:w-4/5 lg:w-1/2 xl:w-1/2 text-white text-2xl md:text-lg lg:text-2xl xl:text-2xl text-center">
+                    My 2 Cents On Mobile Screens
+                  </h5>
+                </a>
+              </div>
+
+              <div className="relative">
+                <a
+                  className="w-full"
+                  href="https://medium.com/@ohiabeauty26/product-design-tradeoffs-4db893fc692b"
+                  target="_blank"
+                >
+                  <Image
+                    src={MediumTwo}
+                    alt="values"
+                    priority
+                    className="cursor-pointer w-full"
+                  />{" "}
+                  <h5 className="absolute top-[40%] left-[22%] md:left-[10%] lg:left-[22%] xl:left-[22%] font-bold font-SofiaBold w-1/2 md:w-4/5 lg:w-1/2 xl:w-1/2 text-white text-2xl md:text-lg lg:text-2xl xl:text-2xl text-center">
+                    Product, Design Trade-offs
+                  </h5>
+                </a>
+              </div>
+              <div className="relative">
+                <a
+                  className="w-full"
+                  href="https://medium.com/@ohiabeauty26/day-5-30-days-ui-ux-challenge-4b5d9b017add"
+                  target="_blank"
+                >
+                  <Image
+                    src={MediumThree}
+                    alt="values"
+                    priority
+                    className="cursor-pointer w-full"
+                  />{" "}
+                  <h5 className="absolute top-[40%] left-[22%] md:left-[10%] lg:left-[22%] xl:left-[22%] font-bold font-SofiaBold w-1/2 md:w-4/5 lg:w-1/2 xl:w-1/2 text-white text-2xl md:text-lg lg:text-2xl xl:text-2xl text-center">
+                    Day 5- 30 Days UI/UX Challenge
+                  </h5>
+                </a>
+              </div>
             </div>
           </div>
         </div>

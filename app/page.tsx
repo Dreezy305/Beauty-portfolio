@@ -10,7 +10,6 @@ export default function Home() {
         <Link
           href="/portfolio"
           className="moon hidden md:hidden bg-BeautyLightBlue lg:flex lg:flex-row lg:items-center lg:justify-center font-LotaSemiBold xl:flex xl:flex-row xl:items-center xl:justify-center cursor-pointer rounded-tl-[42px] rounded-tr-[29px] rounded-br-[46px] rounded-bl-[214px]  md:rounded-tl-[42px] md:rounded-tr-[29px] md:rounded-br-[46px] md:rounded-bl-[214px] lg:rounded-tl-[42px] lg:rounded-tr-[29px] lg:rounded-br-[46px] lg:rounded-bl-[214px] w-[140px] md:w-[269px] lg:w-[269px] xl:w-[269px] h-[130px] md:h-[252px] lg:h-[252px] xl:h-[252px] absolute right-[99px] md:right-[200px] lg:right-0 xl:right-0  bottom-[-45px] md:bottom-[10px] lg:bottom-full xl:bottom-full rotate-[330deg] md:rotate-[330deg] lg:rotate-0 xl:rotate-0 animate__animated animate__lightSpeedInRight cta"
-          
         >
           <p className="font-LotaSemiBold font-semibold text-base md:text-xl lg:text-2xl xl:text-2xl leading-8 text-black text-center">
             Portfolio
@@ -64,43 +63,45 @@ export default function Home() {
     <main className="">
       <Header type="landing" />
       <section
-        className="overflow-hidden pb-20 md:pb-20 lg:pb-40 xl:pb-40"
+        className="overflow-hidden pb-20 md:pb-20 lg:pb-10 xl:pb-10"
         id="landingpage"
       >
-        <div className="md:container md:mx-auto lg:container lg:mx-auto xl:container xl:mx-auto relative mt-8 mb-12 pb-20 md:pb-20 lg:pb-40 xl:pb-40 px-6 md:px-5 lg:px-5 xl:px-5 md:mt-12 lg:mt-36 xl:mt-36">
-          <div className="flex flex-col md:flex md:flex-col lg:flex lg:flex-row lg:items-center lg:justify-between xl:flex xl:flex-row xl:justify-between">
-            {/* LEFT */}
-            <div className="flex flex-col w-full md:w-4/5 lg:w-1/2 xl:w-1/2 space-y-8">
-              <h4 className="flex flex-col text-left space-y-1.5 animate__animated animate__fadeInDownBig">
-                <span className="text-xl md:text-3xl lg:text-5xl xl:text-6xl font-thin flex flex-row leading-8">
-                  <span className="italic text-white ">a</span>&nbsp;
-                  <span className="font-LotaSemiBold font-semibold text-white">
-                    product designer,
+        <>
+          <div className="md:container md:mx-auto lg:container lg:mx-auto xl:container xl:mx-auto relative mt-8 mb-12 pb-20 md:pb-20 lg:pb-40 xl:pb-40 px-6 md:px-5 lg:px-5 xl:px-5 md:mt-12 lg:mt-36 xl:mt-36 ">
+            <div className="flex flex-col md:flex md:flex-col lg:flex lg:flex-row lg:items-center lg:justify-between xl:flex xl:flex-row xl:justify-between">
+              {/* LEFT */}
+              <div className="flex flex-col w-full md:w-4/5 lg:w-1/2 xl:w-1/2 space-y-8">
+                <h4 className="flex flex-col text-left space-y-1.5 animate__animated animate__fadeInDownBig">
+                  <span className="text-xl md:text-3xl lg:text-5xl xl:text-6xl font-thin flex flex-row leading-8">
+                    <span className="italic text-white ">a</span>&nbsp;
+                    <span className="font-LotaSemiBold font-semibold text-white">
+                      product designer,
+                    </span>
                   </span>
-                </span>
 
-                <span className="font-LotaSemiBold font-semibold leading-8 text-xl md:text-3xl lg:text-5xl xl:text-6xl text-white">
-                  a minimalist.
-                </span>
-              </h4>
+                  <span className="font-LotaSemiBold font-semibold leading-8 text-xl md:text-3xl lg:text-5xl xl:text-6xl text-white">
+                    a minimalist.
+                  </span>
+                </h4>
 
-              <p className="font-SofiaLight font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 text-white animate__animated animate__fadeInUp">
-                My name is Ohia Beauty, i'm a minimalist designer, with an adept
-                in communicating design decisions effectively, and advocating
-                for the user's perspective throughout the design process,
-                collaborating and cross-communicating within diverse teams and
-                stakeholders to ensure a smooth transition from design to
-                implementation.
-              </p>
-            </div>
-            {/* RIGHT */}
-            <div className="w-full md:w-full lg:w-1/2 xl:w-1/2 mt-36 md:mt-96 lg:mt-0 xl:mt-0 relative">
-              <Moon />
-              <Crescent />
-              <Biscuit />
+                <p className="font-SofiaLight font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 text-white animate__animated animate__fadeInUp">
+                  My name is Ohia Beauty, i'm a minimalist designer, with an
+                  adept in communicating design decisions effectively, and
+                  advocating for the user's perspective throughout the design
+                  process, collaborating and cross-communicating within diverse
+                  teams and stakeholders to ensure a smooth transition from
+                  design to implementation.
+                </p>
+              </div>
+              {/* RIGHT */}
+              <div className="w-full md:w-full lg:w-1/2 xl:w-1/2 mt-36 md:mt-96 lg:mt-0 xl:mt-0 relative">
+                <Moon />
+                <Crescent />
+                <Biscuit />
+              </div>
             </div>
           </div>
-        </div>
+        </>
       </section>
     </main>
   );

@@ -59,25 +59,25 @@
     font-family: SofiaUltraLight;
     src: url("/fonts/Sofia\ Pro\ UltraLight\ Az.otf");
   }
-  @font-face{
+  @font-face {
     font-family: GraphikBold;
     src: url("/fonts/GraphikBold.otf");
   }
-  @font-face{
+  @font-face {
     font-family: GraphikRegular;
     src: url("/fonts/GraphikRegular.otf");
   }
   @font-face {
     font-family: GraphikMedium;
-    src: url("/fonts/GraphikMedium.otf")
+    src: url("/fonts/GraphikMedium.otf");
   }
   @font-face {
     font-family: GraphikBlack;
-    src: url("/fonts/GraphikBlack.otf")
+    src: url("/fonts/GraphikBlack.otf");
   }
   @font-face {
     font-family: GraphikLight;
-    src: url("/fonts/GraphikLight.otf")
+    src: url("/fonts/GraphikLight.otf");
   }
 }
 
@@ -101,47 +101,59 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: #000
+  background: #000;
 }
 
+.background-layer {
+  background-image: url("/LayerBg.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
 
 /* DEMO-SPECIFIC STYLES */
 .typewriter span {
   color: #fff;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
+  border-right: 0.15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
 }
 
 /* The typing effect */
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange }
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
 }
 
 .knowmore {
-  left: 20%
+  left: 20%;
 }
 
 @media only screen and (max-wdth: 640px) {
   .knowmore {
-    left: 0% !important
+    left: 0% !important;
   }
 }
 
 .cta:hover {
   scale: 1.1;
   transition: 0.5s ease-in-out;
-  cursor:pointer;
+  cursor: pointer;
 }
