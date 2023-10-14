@@ -8,7 +8,7 @@ function Project({navigateTo, title, background, cardBg, image}:{navigateTo: str
     <div className={`${background} py-8 px-8 rounded-xl`}>
         <Link
           href={navigateTo}
-          className="cursor-pointer underline text-white text-2xl font-normal font-SofiaRegular"
+          className="cursor-pointer underline text-white text-2xl font-normal font-SofiaLight"
         >
           View next project
         </Link>

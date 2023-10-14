@@ -1,17 +1,17 @@
 .shuut-image-background {
-  background-image: url("/DashboardShuut.png");
+  background-image: url("/Group39923.png");
   background-repeat: no-repeat;
   background-position: right top;
-  background-position-y: -44%;
+  background-position-y: -3%;
   background-position-x: 96%;
 }
 
 .shuut-iphone-bg {
   background-image: url("/iPhone14Pro.png");
   background-repeat: no-repeat;
-  background-position: left;
-  /* background-position-y: -5%; */
-  /* background-position-x: 20%; */
+  background-position: right bottom;
+  background-position-y: -5%;
+  background-position-x: 20%;
 }
 
 .top-left {

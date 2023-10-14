@@ -216,3 +216,5 @@ export default function KnowMore(): JSX.Element {
     </BeautyLayout>
   );
 }
+
+// https://www.cloudysave.com/wp-content/uploads/2020/10/AWS-S3-Bucket-Cost.png

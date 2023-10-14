@@ -8,7 +8,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Beauty Ohia",
   description: "Beauty Ohia Portfolio",
-  
 };
 
 export default function RootLayout({
@@ -19,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel='icon' href='/logoempty.svg'  type="image/x-icon"/>
+        <link rel="icon" href="/logoempty.svg" type="image/x-icon" />
       </head>
       <body>{children}</body>
     </html>
