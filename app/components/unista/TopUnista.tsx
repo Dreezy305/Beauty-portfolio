@@ -15,7 +15,7 @@ function TopUnista(): JSX.Element {
             priority
           />
           <div>
-            <p className="font-LotaRegular font-normal md:w-[84%] md:text-xs lg:text-lg xl:text-lg md:leading-[16px] lg:leading-6 xl:leading-8 text-BeautyWhite">
+            <p className="font-LotaRegular font-normal md:w-[84%] md:text-xs lg:text-lg xl:text-lg md:leading-[16px] lg:leading-6 xl:leading-8 text-BeautyWhite pt-6">
               Unista is a banking application for internal staffs (Agents &
               Branch Managers) that helps them manage their users. over 4,000
               agents are actively using the platform.
