@@ -1,7 +1,7 @@
 .unista-image-background {
-  background-image: url("/UnistaDashboard.png");
+  background-image: url("/unistaOne.svg");
   background-repeat: no-repeat;
   background-position: right top;
-  background-position-y: -212%;
+  background-position-y: 12px;
   background-position-x: 95%;
 }

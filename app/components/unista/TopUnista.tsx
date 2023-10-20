@@ -5,7 +5,7 @@ import "./unista.css";
 function TopUnista(): JSX.Element {
   return (
     <>
-      <div className="hidden md:block lg:block xl:block rounded-tl-[30px] rounded-tr-[30px] rounded-br-none rounded-bl-none py-6 px-7 h-64 w-full bg-BeautyUnista mt-10 unista-image-background">
+      <div className="hidden md:block lg:block xl:block rounded-tl-[30px] rounded-tr-[30px] rounded-br-none rounded-bl-none py-6 px-7 h-80 w-full bg-BeautyUnista mt-10 unista-image-background">
         <div className="w-1/2 flex flex-col space-y-3 pt-5">
           <Image
             src={"/unistalogo.svg"}

@@ -8,6 +8,7 @@ import {
   BrandInstagram,
   BrandMedium,
 } from "tabler-icons-react";
+import Beauty from "../../public/hb.png";
 
 function HireMe(): JSX.Element {
   return (
@@ -77,7 +78,7 @@ function HireMe(): JSX.Element {
                     href="https://medium.com/@ohiabeauty26"
                     target="_blank"
                     rel="noreferrer"
-                    className="cursor-pointer cursor-pointer animate__animated animate__fadeIn"
+                    className="cursor-pointer animate__animated animate__fadeIn"
                   >
                     <BrandMedium
                       size={40}
@@ -89,7 +90,7 @@ function HireMe(): JSX.Element {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    className="cursor-pointer cursor-pointer animate__animated animate__fadeIn"
+                    className="cursor-pointer animate__animated animate__fadeIn"
                     href="https://www.linkedin.com/in/beautyohia/"
                   >
                     <BrandLinkedin
@@ -103,7 +104,7 @@ function HireMe(): JSX.Element {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    className="cursor-pointer cursor-pointer animate__animated animate__fadeIn"
+                    className="cursor-pointer animate__animated animate__fadeIn"
                     href="https://twitter.com/OhiaBeauty"
                   >
                     <BrandTwitter
@@ -130,14 +131,16 @@ function HireMe(): JSX.Element {
                 </div>
               </div>
               <div className="pt-6 md:pt-5 lg:pt-0 xl:pt-0 pb-6 md:pb-5 lg:pb-0 xl:pb-0  mt-14 md:mt-12 lg:mt-0 xl:mt-0 w-full md:w-full lg:w-1/2 xl:w-1/2 flex flex-row justify-center md:justify-center lg:justify-end xl:justify-end h-auto animate__animated animate__bounceInDown">
+                <div className="flex flex-row items-center justify-center bg-BeautyLightBlue hire-me">
                 <Image
-                  src={"/hello.png"}
+                  src={Beauty}
                   priority
-                  height={500}
-                  width={500}
                   alt="hello"
-                  className="pt-9 md:pt-6 lg:pt-0 xl:pt-0 pb-9 md:pb-6 lg:pb-0 xl:pb-0 animate__animated animate__bounceInDown"
+                  className=""
+                  // className="pt-9 md:pt-6 lg:pt-0 xl:pt-0 pb-9 md:pb-6 lg:pb-0 xl:pb-0 animate__animated animate__bounceInDown"
                 />
+                </div>
+                
               </div>
             </div>
           </div>
