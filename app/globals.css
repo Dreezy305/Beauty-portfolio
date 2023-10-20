@@ -170,3 +170,8 @@ body {
   border-radius: 84.193px 59.163px 93.295px 432.343px;
   background: #00f0ff;
 }
+
+portfolio-item::after {
+  transform: scaleX(0); /* Initially no underline */
+  transition: transform 0.2s ease-in-out;
+}

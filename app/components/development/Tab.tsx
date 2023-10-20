@@ -1,7 +1,7 @@
 "use client"; // This is a client component 👈🏽
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { useRouter } from 'next/navigation'
+import { useRouter } from "next/navigation";
 
 
 function Tab({
@@ -13,7 +13,7 @@ function Tab({
   onTabClick?: () => void;
   children?: React.ReactNode;
 }): JSX.Element {
-  const router = useRouter()
+  const router = useRouter();
 
   useEffect(() => {
     const init = async () => {
@@ -24,84 +24,30 @@ function Tab({
   }, []);
   return (
     <>
-    
-      <ul
-        className="mb-5 flex list-none flex-row flex-wrap"
-        role="tablist"
-        data-te-nav-ref
-      >
-        <li role="presentation" className="flex-grow basis-0 text-center" onClick={() => router.push('/portfolio/development/unista')}>
-          <Link
-            href="/portfolio/development/unista"
-            className={`my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 font-medium capitalize leading-tight font-LotaRegular text-base md:text-xl lg:text-xl xl:text-xl text-white ${
-              activeTab === "unista"
-                ? "hover:isolate hover:border-BeautyDeepGrey hover:bg-white focus:isolate focus:border-BeautyDeepGrey data-[te-nav-active]:border-BeautyDeepGrey data-[te-nav-active]:text-white dark:text-white dark:hover:border-BeautyDeepGrey dark:data-[te-nav-active]:border-BeautyDeepGrey dark:data-[te-nav-active]:text-white"
-                : ""
-            }`}
-            data-te-toggle="pill"
-            // data-te-target="#tabs-home02"
-            data-te-nav-active={activeTab === "unista" ? true : false}
-            role="tab"
-            aria-controls="tabs-home02"
-            aria-selected="true"
-          >
-            Unista
-          </Link>
+      <ul className="w-full px-6 flex flex-row items-center justify-between h-20 bg-BeautyDarkPurple rounded-tl-2xl rounded-tr-2xl rounded-bl-none rounded-br-none">
+        <li
+          className={`cursor-pointer font-LotaRegular hover:text-BeautyDeepGrey text-xl relative portfolio-item ${activeTab === "unista"?"after:block after:content-[''] after:w-full after:h-1 after:absolute after:bottom-[-100%] after:left-0 after:bg-BeautyDeepGrey after:border text-BeautyDeepGrey after:border-BeautyDeepGrey after:ease-in-out after:duration-300":""} `}
+          onClick={() => router.push("/portfolio/development/unista")}
+        >
+          Unista
         </li>
-        <li role="presentation" className="flex-grow basis-0 text-center" onClick={() => router.push('/portfolio/development/uplands')}>
-          <Link
-            href="/portfolio/development/uplands"
-            className={`my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 font-medium capitalize leading-tight font-LotaRegular text-base md:text-xl lg:text-xl xl:text-xl text-white ${
-              activeTab === "uplands"
-                ? "hover:isolate hover:border-BeautyDeepGrey hover:bg-white focus:isolate focus:border-BeautyDeepGrey data-[te-nav-active]:border-BeautyDeepGrey data-[te-nav-active]:text-white dark:text-white dark:hover:border-BeautyDeepGrey dark:data-[te-nav-active]:border-BeautyDeepGrey dark:data-[te-nav-active]:text-white"
-                : ""
-            }`}
-            data-te-toggle="pill"
-            // data-te-target="#tabs-profile02"
-            role="tab"
-            aria-controls="tabs-profile02"
-            aria-selected="false"
-            data-te-nav-active={activeTab === "uplands" ? true : false}
-          >
-            Uplands Hunt
-          </Link>
+        <li
+         className={`cursor-pointer font-LotaRegular hover:text-BeautyDeepGrey text-xl relative portfolio-item ${activeTab === "uplands"?"after:block after:content-[''] after:w-full after:h-1 after:absolute after:bottom-[-100%] after:left-0 after:bg-BeautyDeepGrey after:border text-BeautyDeepGrey after:border-BeautyDeepGrey after:ease-in-out after:duration-300":""} `}
+          onClick={() => router.push("/portfolio/development/uplands")}
+        >
+          Uplands Hunt
         </li>
-        <li role="presentation" className="flex-grow basis-0 text-center" onClick={() => router.push('/portfolio/development/woodcore')}>
-          <Link
-            href="/portfolio/development/woodcore"
-            className={`my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 font-medium capitalize leading-tight font-LotaRegular text-base md:text-xl lg:text-xl xl:text-xl text-white ${
-              activeTab === "woodcore"
-                ? "hover:isolate hover:border-BeautyDeepGrey hover:bg-white focus:isolate focus:border-BeautyDeepGrey data-[te-nav-active]:border-BeautyDeepGrey data-[te-nav-active]:text-white dark:text-white dark:hover:border-BeautyDeepGrey dark:data-[te-nav-active]:border-BeautyDeepGrey dark:data-[te-nav-active]:text-white"
-                : ""
-            }`}
-            data-te-toggle="pill"
-            // data-te-target="#tabs-messages02"
-            role="tab"
-            aria-controls="tabs-messages02"
-            aria-selected="false"
-            data-te-nav-active={activeTab === "woodcore" ? true : false}
-          >
-            Woodcore
-          </Link>
+        <li
+          className={`cursor-pointer font-LotaRegular hover:text-BeautyDeepGrey text-xl relative portfolio-item ${activeTab === "woodcore"?"after:block after:content-[''] after:w-full after:h-1 after:absolute after:bottom-[-100%] after:left-0 after:bg-BeautyDeepGrey after:border text-BeautyDeepGrey after:border-BeautyDeepGrey after:ease-in-out after:duration-300":""} `}
+          onClick={() => router.push("/portfolio/development/woodcore")}
+        >
+          Woodcore
         </li>
-        <li role="presentation" className="flex-grow basis-0 text-center" onClick={() => router.push('/portfolio/development/quba')}>
-          <Link
-            href="/portfolio/development/quba"
-            className={`my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 font-medium capitalize leading-tight font-LotaRegular text-base md:text-xl lg:text-xl xl:text-xl text-white ${
-              activeTab === "quba"
-                ? "hover:isolate hover:border-BeautyDeepGrey hover:bg-white focus:isolate focus:border-BeautyDeepGrey data-[te-nav-active]:border-BeautyDeepGrey data-[te-nav-active]:text-white dark:text-white dark:hover:border-BeautyDeepGrey dark:data-[te-nav-active]:border-BeautyDeepGrey dark:data-[te-nav-active]:text-white"
-                : ""
-            }`}
-            passHref={true}
-            data-te-toggle="pill"
-            // data-te-target="#tabs-messages03"
-            role="tab"
-            aria-controls="tabs-messages03"
-            aria-selected="false"
-            data-te-nav-active={activeTab === "quba" ? true : false}
-          >
-            Quba
-          </Link>
+        <li
+         className={`cursor-pointer font-LotaRegular hover:text-BeautyDeepGrey text-xl relative portfolio-item ${activeTab === "quba"?"after:block after:content-[''] after:w-full after:h-1 after:absolute after:bottom-[-100%] after:left-0 after:bg-BeautyDeepGrey after:border text-BeautyDeepGrey after:border-BeautyDeepGrey after:ease-in-out after:duration-300":""}`}
+          onClick={() => router.push("/portfolio/development/quba")}
+        >
+          Quba
         </li>
       </ul>
 
