@@ -108,6 +108,7 @@ body {
   background-image: url("/LayerBg.png");
   background-repeat: no-repeat;
   background-position: center bottom;
+  background-position-y: 100%;
 }
 
 /* DEMO-SPECIFIC STYLES */

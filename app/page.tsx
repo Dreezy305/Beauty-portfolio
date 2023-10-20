@@ -67,7 +67,7 @@ export default function Home() {
         id="landingpage"
       >
         <>
-          <div className="md:container md:mx-auto lg:container lg:mx-auto xl:container xl:mx-auto relative mt-8 mb-12 pb-20 md:pb-20 lg:pb-40 xl:pb-40 px-6 md:px-5 lg:px-5 xl:px-5 md:mt-12 lg:mt-36 xl:mt-36 ">
+          <div className="md:container md:mx-auto lg:container lg:mx-auto xl:container xl:mx-auto relative mt-8 mb-12 pb-20 md:pb-20 lg:pb-40 xl:pb-40 px-6 md:px-5 lg:px-5 xl:px-5 md:mt-12 lg:mt-36 xl:mt-36 background-layer">
             <div className="flex flex-col md:flex md:flex-col lg:flex lg:flex-row lg:items-center lg:justify-between xl:flex xl:flex-row xl:justify-between">
               {/* LEFT */}
               <div className="flex flex-col w-full md:w-4/5 lg:w-1/2 xl:w-1/2 space-y-8">
