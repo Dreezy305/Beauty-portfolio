@@ -17,7 +17,7 @@ import MaskGroup9 from "../../../../public/MaskGroup9.png";
 import MaskGroup10 from "../../../../public/MaskGroup10.png";
 import MaskGroup11 from "../../../../public/MaskGroup11.png";
 import BankylyDashboard from "../../../../public/banklydash.png";
-import Dashboard11 from "../../../../public/Dashboard11.png";
+import Dashboard11 from "../../../../public/Dashboard1111.png";
 import Image458 from "../../../../public/image458.png";
 import SignUp from "../../../../public/SignUp.png";
 import SignIn from "../../../../public/SignIn.png";
