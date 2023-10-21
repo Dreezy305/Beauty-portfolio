@@ -38,7 +38,7 @@ function BottomQuba(): JSX.Element {
       </h5> */}
        <Solutions/>
 
-      <div className="grid grid-cols-1 gap-y-8 md:grid md:grid-cols-3 md:gap-x-12 md:gap-y-14 lg:grid lg:grid-cols-3 lg:gap-y-14 lg:gap-x-0 xl:grid xl:grid-cols-3 xl:gap-y-14 xl:gap-x-0">
+      <div className="grid grid-cols-1 gap-y-8 md:grid md:grid-cols-3 md:gap-x-12 md:gap-y-14 lg:grid lg:grid-cols-3 lg:gap-y-14 lg:gap-x-0 xl:grid xl:grid-cols-3 xl:gap-y-14 xl:gap-x-0 pt-7">
         {UnistaTakeways.map((i) => {
           return (
             <div className="flex flex-row items-center space-x-4" key={i.title}>
