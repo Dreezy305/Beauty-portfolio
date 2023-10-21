@@ -131,7 +131,7 @@ function HireMe(): JSX.Element {
                 </div>
               </div>
               <div className="pt-6 md:pt-5 lg:pt-0 xl:pt-0 pb-6 md:pb-5 lg:pb-0 xl:pb-0  mt-14 md:mt-12 lg:mt-0 xl:mt-0 w-full md:w-full lg:w-1/2 xl:w-1/2 flex flex-row justify-center md:justify-center lg:justify-end xl:justify-end h-auto animate__animated animate__bounceInDown">
-                <div className="flex flex-row items-center justify-center bg-BeautyLightBlue hire-me">
+                <div className="flex flex-row items-center justify-center bg-BeautyLightBlueS hire-meS">
                 <Image
                   src={Beauty}
                   priority
