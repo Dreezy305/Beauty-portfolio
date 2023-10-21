@@ -5,7 +5,7 @@ import "./uplands.css";
 function TopUplands(): JSX.Element {
   return (
     <>
-      <div className="hidden md:block lg:block xl:block rounded-tl-[30px] rounded-tr-[30px] rounded-br-none rounded-bl-none py-6 px-7 h-64 w-full bg-BeautyUplandsCream mt-10 uplands-image-background">
+      <div className="hidden md:block lg:block xl:block rounded-tl-[30px] rounded-tr-[30px] rounded-br-none rounded-bl-none py-6 px-7 h-72 w-full bg-BeautyUplandsCream mt-10 uplands-image-background">
         <div className="w-1/2 flex flex-col space-y-5 pt-5">
           <Image
             src={"/uplandslogo.svg"}
