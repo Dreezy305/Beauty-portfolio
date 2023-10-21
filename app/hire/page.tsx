@@ -8,7 +8,7 @@ import {
   BrandInstagram,
   BrandMedium,
 } from "tabler-icons-react";
-import Beauty from "../../public/hb.png";
+import Beauty from "../../public/ht.svg";
 
 function HireMe(): JSX.Element {
   return (
