@@ -176,3 +176,9 @@ portfolio-item::after {
   transform: scaleX(0); /* Initially no underline */
   transition: transform 0.2s ease-in-out;
 }
+
+.brandOverview::after{
+  content: url("/effects/zigzag.svg");
+  position: absolute;
+  bottom: 1%
+}

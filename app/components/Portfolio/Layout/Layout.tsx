@@ -17,6 +17,7 @@ function PortfolioLayout({
           <Link
             href="/portfolio"
             className="flex flex-row items-center justify-start space-x-3 px-0 md:px-0 lg:px-0 xl:px-0"
+            shallow
           >
             <ArrowDownCircle
               size={32}

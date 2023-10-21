@@ -10,6 +10,7 @@ export default function Home() {
         <Link
           href="/portfolio"
           className="moon hidden md:hidden bg-BeautyLightBlue lg:flex lg:flex-row lg:items-center lg:justify-center font-LotaSemiBold xl:flex xl:flex-row xl:items-center xl:justify-center cursor-pointer rounded-tl-[42px] rounded-tr-[29px] rounded-br-[46px] rounded-bl-[214px]  md:rounded-tl-[42px] md:rounded-tr-[29px] md:rounded-br-[46px] md:rounded-bl-[214px] lg:rounded-tl-[42px] lg:rounded-tr-[29px] lg:rounded-br-[46px] lg:rounded-bl-[214px] w-[140px] md:w-[269px] lg:w-[269px] xl:w-[269px] h-[130px] md:h-[252px] lg:h-[252px] xl:h-[252px] absolute right-[99px] md:right-[200px] lg:right-0 xl:right-0  bottom-[-45px] md:bottom-[10px] lg:bottom-full xl:bottom-full rotate-[330deg] md:rotate-[330deg] lg:rotate-0 xl:rotate-0 animate__animated animate__lightSpeedInRight cta"
+          shallow
         >
           <p className="font-LotaSemiBold font-semibold text-base md:text-xl lg:text-2xl xl:text-2xl leading-8 text-black text-center">
             Portfolio
@@ -20,6 +21,7 @@ export default function Home() {
           href="/portfolio"
           className="moon lg:hidden xl:hidden bg-BeautyLightBlue flex flex-row items-center justify-center md:flex md:flex-row md:items-center md:justify-center font-LotaSemiBold cursor-pointer rounded-tl-[42px] rounded-tr-[29px] rounded-br-[46px] rounded-bl-[214px]  md:rounded-tl-[42px] md:rounded-tr-[29px] md:rounded-br-[46px] md:rounded-bl-[214px] lg:rounded-tl-[42px] lg:rounded-tr-[29px] lg:rounded-br-[46px] lg:rounded-bl-[214px] w-[140px] md:w-[269px] lg:w-[269px] xl:w-[269px] h-[130px] md:h-[252px] lg:h-[252px] xl:h-[252px] absolute right-[99px] md:right-[200px] lg:right-0 xl:right-0  bottom-[-45px] md:bottom-[10px] lg:bottom-full xl:bottom-full rotate-[330deg] md:rotate-[330deg] animate__animated animate__lightSpeedInRight cta"
           style={{ rotate: "330deg" }}
+          shallow
         >
           <p className="font-LotaSemiBold font-semibold text-base md:text-xl lg:text-2xl xl:text-2xl leading-8 text-black">
             Portfolio
@@ -35,6 +37,7 @@ export default function Home() {
         <Link
           href={"/knowmore"}
           className="bg-BeautyLightYellow flex flex-row items-center justify-center font-LotaSemiBold cursor-pointer rounded-tl-[69px] rounded-tr-[69px] rounded-br-[0px] rounded-bl-[69px] md:rounded-tl-[126px] md:rounded-tr-[126px] md:rounded-br-[0px] md:rounded-bl-[126px]  lg:rounded-tl-[126px] lg:rounded-tr-[126px] lg:rounded-br-[0px] lg:rounded-bl-[126px] xl:rounded-tl-[126px] xl:rounded-tr-[126px] xl:rounded-br-[0px] xl:rounded-bl-[126px]  w-[140px] md:w-[269px] lg:w-[269px] xl:w-[269px] h-[130px] md:h-[252px] lg:h-[252px] xl:h-[252px] absolute knowmorej left-0 md:left-0 lg:left-[100px] xl:left-[250px] mt-5 md:mt-[-75px] lg:mt-[-109px] xl:mt-[-100px] animate__animated animate__zoomIn cta"
+          shallow
         >
           <p className="font-LotaSemiBold font-semibold text-base md:text-xl lg:text-2xl xl:text-2xl leading-8 text-black">
             Know More
@@ -50,6 +53,7 @@ export default function Home() {
         <Link
           href="/about"
           className="bg-BeautyLightBrown flex flex-row items-center justify-center font-LotaSemiBold cursor-pointer rounded-[32px] md:rounded-[32px] lg:rounded-[58px] xl:rounded-[58px] w-[104px] md:w-[136px] lg:w-[188px] xl:w-[188px] h-[170px] md:h-[280px] lg:h-[275px] xl:h-[275px] rotate-90 md:rotate-90 lg:rotate-0 xl:rotate-0 absolute bottom-0 right-[40px] md:right-[145px] lg:right-0 xl:right-0 top-[18px] md:top-full lg:top-full xl:top-full mt-0 md:mt-[-39px] lg:mt-[22px] xl:mt-[20px] z-50 animate__animated animate__zoomIn cta"
+          shallow
         >
           <p className="font-LotaSemiBold font-semibold text-base md:text-lg lg:text-2xl xl:text-2xl leading-8 text-black rotate-[270deg] md:rotate-[270deg] lg:rotate-0">
             About

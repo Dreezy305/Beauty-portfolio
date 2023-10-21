@@ -13,7 +13,7 @@ export default function Header({
   type: string;
   active?: string;
 }): JSX.Element {
-  const router = useRouter();
+  const router:any = useRouter();
   const closeButtonRef = useRef<any>(null);
   const data = [
     { name: "portfolio", to: "/portfolio", id: "1" },
@@ -32,7 +32,7 @@ export default function Header({
       <nav
         className={`md:container md:mx-auto lg:container lg:mx-auto xl:container xl:mx-auto relative py-7 flex flex-row items-center justify-between px-5 md:px-5 lg:px-5 xl:px-5 lg:hidden xl:hidden`}
       >
-        <Link href="/">
+        <Link href="/" shallow>
           <Image
             src={"/Layer2.svg"}
             alt="layer"
@@ -47,7 +47,7 @@ export default function Header({
 
       <nav className="container mx-auto relative hidden md:hidden lg:flex lg:flex-row lg:items-center lg:justify-between xl:flex xl:flex-row xl:items-center xl:justify-between py-7 px-0 md:px-5 lg:px-0 xl:px-0">
         <div className="w-5/6 flex flex-row justify-between items-center">
-          <Link href="/">
+          <Link href="/" shallow>
             <Image
               src={"/Layer2.svg"}
               alt="layer"
@@ -71,6 +71,7 @@ export default function Header({
                           ? "text-BeautyDeepGrey"
                           : "text-BeautyWhite"
                       }`}
+                      shallow
                     >
                       {i.name}
                     </Link>
@@ -86,6 +87,7 @@ export default function Header({
             <Link
               href="/hire"
               className="text-center font-SofiaMedium font-medium text-base cursor-pointer bg-BeautyWhite rounded-tl-[15px] rounded-tf-[5px] rounded-br-[15px] rounded-bl-[5px] pt-[10px] pr-[16px] pb-[10px] pl-[16px]  text-BeautyBlack"
+              shallow
             >
               Hire Me
             </Link>
@@ -108,7 +110,7 @@ export default function Header({
             height={24}
             priority
             onClick={() => {
-              router.push(`/`);
+              router.push(`/`, { shallow: true });
               closeButtonRef?.current?.click();
             }}
           />
@@ -145,7 +147,7 @@ export default function Header({
                     className="w-11/12 py-4 dark:border-opacity-50 flex flex-row items-center justify-between font-SofiaRegular font-normal text-base capitalize text-white"
                     key={index}
                     onClick={() => {
-                      router.push(`${i.to}`);
+                      router.push(`${i.to}`,{ shallow: true });
                       closeButtonRef?.current?.click();
                     }}
                   >
@@ -175,7 +177,7 @@ export default function Header({
               type="button"
               className="w-11/12 text-center font-SofiaMedium font-medium text-base cursor-pointer bg-BeautyWhite rounded-tl-[15px] rounded-tf-[5px] rounded-br-[15px] rounded-bl-[5px] pt-[10px] pr-[16px] pb-[10px] pl-[16px]  text-BeautyBlack"
               onClick={() => {
-                router.push("/hire");
+                router.push("/hire",{ shallow: true });
                 closeButtonRef?.current?.click();
               }}
             >

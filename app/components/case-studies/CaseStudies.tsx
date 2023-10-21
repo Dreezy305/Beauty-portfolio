@@ -35,6 +35,7 @@ function CaseStudies(): JSX.Element {
         <Link
           href="/portfolio/fara"
           className="flex flex-row items-center space-x-2 absolute view cursor-pointer"
+          shallow
         >
           <span
             className="font-LotaRegular text-base font-normal leading-6 transition duration-150 ease-in-out"
@@ -82,6 +83,7 @@ function CaseStudies(): JSX.Element {
         <Link
           href="/portfolio/batchbill"
           className="flex flex-row items-center space-x-2 absolute view"
+          shallow
         >
           <span className="font-LotaRegular text-base font-normal leading-6">
             View Case Study
@@ -123,6 +125,7 @@ function CaseStudies(): JSX.Element {
         <Link
           href="/portfolio/shuut"
           className="flex flex-row items-center space-x-2 absolute view"
+          shallow
         >
           <span className="font-LotaRegular text-base font-normal leading-6 text-BeautyBlack">
             View Case Study
@@ -159,6 +162,7 @@ function CaseStudies(): JSX.Element {
         <Link
           href="/portfolio/development/unista"
           className="flex flex-row items-center space-x-2 absolute view"
+          shallow
         >
           <span className="font-LotaRegular text-base font-normal leading-6">
             View Case Study

@@ -44,7 +44,7 @@ import Project from "../../project/Project";
 function BottomFara(): JSX.Element {
   return (
     <div className="rounded-tl-none rounded-tr-none rounded-br-[30px] rounded-bl-[30px] py-6 px-5 md:px-6 lg:px-7 xl:px-7 w-full bg-BeautyDarkPurple flex flex-col space-y-8">
-      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-8 text-center">
+      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-8 text-center relative brandOverview">
         Brand Overview
       </h5>
 

@@ -12,7 +12,7 @@ function Tab({
   onTabClick?: () => void;
   children?: React.ReactNode;
 }): JSX.Element {
-  const router = useRouter();
+  const router:any = useRouter();
 
   useEffect(() => {
     const init = async () => {
@@ -31,7 +31,7 @@ function Tab({
                 ? "after:block after:content-[''] after:w-full after:h-1 after:absolute after:bottom-[-100%] after:left-0 after:bg-BeautyDeepGrey after:border text-BeautyDeepGrey after:border-BeautyDeepGrey after:ease-in-out after:duration-300"
                 : ""
             } `}
-            onClick={() => router.push("/portfolio/development/unista")}
+            onClick={() => router.push("/portfolio/development/unista",{ shallow: true })}
           >
             Unista
           </li>
@@ -41,7 +41,7 @@ function Tab({
                 ? "after:block after:content-[''] after:w-full after:h-1 after:absolute after:bottom-[-100%] after:left-0 after:bg-BeautyDeepGrey after:border text-BeautyDeepGrey after:border-BeautyDeepGrey after:ease-in-out after:duration-300"
                 : ""
             } `}
-            onClick={() => router.push("/portfolio/development/uplands")}
+            onClick={() => router.push("/portfolio/development/uplands",{ shallow: true })}
           >
             Uplands Hunt
           </li>
@@ -51,7 +51,7 @@ function Tab({
                 ? "after:block after:content-[''] after:w-full after:h-1 after:absolute after:bottom-[-100%] after:left-0 after:bg-BeautyDeepGrey after:border text-BeautyDeepGrey after:border-BeautyDeepGrey after:ease-in-out after:duration-300"
                 : ""
             } `}
-            onClick={() => router.push("/portfolio/development/woodcore")}
+            onClick={() => router.push("/portfolio/development/woodcore",{ shallow: true })}
           >
             Woodcore
           </li>
@@ -61,7 +61,7 @@ function Tab({
                 ? "after:block after:content-[''] after:w-full after:h-1 after:absolute after:bottom-[-100%] after:left-0 after:bg-BeautyDeepGrey after:border text-BeautyDeepGrey after:border-BeautyDeepGrey after:ease-in-out after:duration-300"
                 : ""
             }`}
-            onClick={() => router.push("/portfolio/development/quba")}
+            onClick={() => router.push("/portfolio/development/quba",{ shallow: true })}
           >
             Quba
           </li>
@@ -74,28 +74,28 @@ function Tab({
               activeTab === "unista"
                 ? "before:block before:content-[''] before:h-5 before:absolute before:left-[-6.4%] before:bg-BeautyDeepGrey before:border text-BeautyDeepGrey before:border-BeautyDeepGrey before:ease-in-out before:duration-300 pl-1"
                 : "pl-1"
-            } `}  onClick={() => router.push("/portfolio/development/unista")}>
+            } `}  onClick={() => router.push("/portfolio/development/unista",{ shallow: true })}>
           Unista
           </li>
           <li className={`cursor-pointer font-LotaRegular hover:text-BeautyDeepGrey text-base relative py-2 ${
               activeTab === "uplands"
                 ? "before:block before:content-[''] before:h-5 before:absolute before:left-[-6.4%] before:bg-BeautyDeepGrey before:border text-BeautyDeepGrey before:border-BeautyDeepGrey before:ease-in-out before:duration-300 pl-1"
                 : "pl-1"
-            } `} onClick={() => router.push("/portfolio/development/uplands")}>
+            } `} onClick={() => router.push("/portfolio/development/uplands",{ shallow: true })}>
             Uplands Hunt
           </li>
           <li className={`cursor-pointer font-LotaRegular hover:text-BeautyDeepGrey text-base relative py-2 ${
               activeTab === "woodcore"
                 ? "before:block before:content-[''] before:h-5 before:absolute before:left-[-6.4%] before:bg-BeautyDeepGrey before:border text-BeautyDeepGrey before:border-BeautyDeepGrey before:ease-in-out before:duration-300 pl-1"
                 : "pl-1"
-            } `} onClick={() => router.push("/portfolio/development/woodcore")}>
+            } `} onClick={() => router.push("/portfolio/development/woodcore",{ shallow: true })}>
             Woodcore
           </li>
           <li className={`cursor-pointer font-LotaRegular hover:text-BeautyDeepGrey text-base relative py-2 ${
               activeTab === "quba"
                 ? "before:block before:content-[''] before:h-5 before:absolute before:left-[-6.4%] before:bg-BeautyDeepGrey before:border text-BeautyDeepGrey before:border-BeautyDeepGrey before:ease-in-out before:duration-300 pl-1"
                 : "pl-1"
-            } `}  onClick={() => router.push("/portfolio/development/quba")}>
+            } `}  onClick={() => router.push("/portfolio/development/quba", { shallow: true })}>
             Quba
           </li>
         </ul>

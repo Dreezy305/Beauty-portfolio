@@ -9,6 +9,7 @@ function Project({navigateTo, title, background, cardBg, image}:{navigateTo: str
         <Link
           href={navigateTo}
           className="cursor-pointer underline text-white text-2xl font-normal font-SofiaLight"
+          shallow
         >
           View next project
         </Link>
