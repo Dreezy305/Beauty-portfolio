@@ -27,7 +27,7 @@ export default function About(): JSX.Element {
                 />
                 <Image src={"/waving_hand.svg"} alt="wave" width={40} height={40} priority className="block md:block lg:hidden xl:hidden" />
               </div>
-              <p className="font-SofiaRegular font-normal w-full md:w-[95%] lg:w-[103%] xl:w-[90%] text-base md:text-2xl lg:text-2xl xl:text:2xl leading-9">
+              <p className="font-SofiaLight font-normal w-full md:w-[95%] lg:w-[103%] xl:w-[90%] text-base md:text-2xl lg:text-2xl xl:text:2xl leading-9">
                 My name is Ohia Beauty and i'm a product designer with
                 experience designing and building digital products. In the
                 past,i've collaboratively worked with teams to build useable
