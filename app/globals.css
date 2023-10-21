@@ -177,9 +177,23 @@ portfolio-item::after {
   transition: transform 0.2s ease-in-out;
 }
 
-.brandOverview::after{
+.brandOverviewSm::after{
   content: url("/effects/zigzag.svg");
   position: absolute;
-  bottom: -40%;
+  bottom: -42%;
+  left: 4%;
+}
+
+.brandOverviewLg::after {
+  content: url("/effects/zigzag.svg");
+  position: absolute;
+  bottom: -42%;
   left: 39%;
+}
+
+.brandOverviewMd::after {
+  content: url("/effects/zigzag.svg");
+  position: absolute;
+  bottom: -42%;
+  left: 32%;
 }
