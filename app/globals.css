@@ -180,5 +180,6 @@ portfolio-item::after {
 .brandOverview::after{
   content: url("/effects/zigzag.svg");
   position: absolute;
-  bottom: 1%
+  bottom: -40%;
+  left: 39%;
 }
