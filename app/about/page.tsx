@@ -38,7 +38,7 @@ export default function About(): JSX.Element {
               </p>
             </div>
             <div className="w-full md:w-full lg:w-1/2 lg:flex lg:flex-row lg:justify-end h-auto xl:w-1/2 xl:flex xl:flex-row xl:justify-end">
-              <img src={"/beauty2.png"} alt="layer" />
+              <img src={"/ab.png"} alt="layer" />
             </div>
           </div>
 
