@@ -11,6 +11,7 @@ import WoodcoreSeven from "@/public/development/woodcore7.png";
 import WoodcoreEight from "@/public/development/woodcore8.png";
 import WoodcoreNine from "@/public/development/woodcore9.png";
 import BrandOverview from "../../Brand/BrandOverView";
+import Solutions from "../../Brand/Solutions";
 
 function BottomWoodcore(): JSX.Element {
   return (
@@ -31,12 +32,13 @@ function BottomWoodcore(): JSX.Element {
         </h5>
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
+      {/* <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
         Solution
-      </h5>
+      </h5> */}
+       <Solutions/>
 
-      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-1 pb-8 pt-5">
-        Unista is a banking application for internal staffs (Agents & Branch
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-1 pb-8 pt-8">
+        Woodcore is a banking application for internal staffs (Agents & Branch
         Managers) that helps them manage their users.
       </p>
 

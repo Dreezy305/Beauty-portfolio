@@ -218,3 +218,25 @@ portfolio-item::after {
   bottom: -42%;
   left: 32%;
 }
+
+
+.brandOverviewSmYellow::after{
+  content: url("/effects/zigzagyellow.svg");
+  position: absolute;
+  bottom: -42%;
+  left: 4%;
+}
+
+.brandOverviewLgYellow::after {
+  content: url("/effects/zigzagyellow.svg");
+  position: absolute;
+  bottom: -42%;
+  left: 39%;
+}
+
+.brandOverviewMdYellow::after {
+  content: url("/effects/zigzagyellow.svg");
+  position: absolute;
+  bottom: -42%;
+  left: 32%;
+}

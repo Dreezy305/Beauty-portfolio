@@ -6,6 +6,7 @@ import {
   UplandsWebGrid,
 } from "@/data/experience";
 import BrandOverview from "../../Brand/BrandOverView";
+import Solutions from "../../Brand/Solutions";
 
 function BottomUplands() {
   return (
@@ -26,9 +27,10 @@ function BottomUplands() {
         </h5>
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
+      {/* <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
         Solution
-      </h5>
+      </h5> */}
+      <Solutions/>
 
       <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-1 pb-8 pt-5">
         Uplands is a banking application for internal staffs (Agents & Branch

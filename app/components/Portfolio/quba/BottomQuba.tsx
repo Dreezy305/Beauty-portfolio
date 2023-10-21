@@ -7,6 +7,7 @@ import QubaThree from "@/public/development/quba3.png";
 import QubaFour from "@/public/development/quba4.png";
 import QubaFive from "@/public/development/quba5.png";
 import BrandOverview from "../../Brand/BrandOverView";
+import Solutions from "../../Brand/Solutions";
 
 function BottomQuba(): JSX.Element {
   return (
@@ -32,9 +33,10 @@ function BottomQuba(): JSX.Element {
         </h5>
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
+      {/* <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
         Solution
-      </h5>
+      </h5> */}
+       <Solutions/>
 
       <div className="grid grid-cols-1 gap-y-8 md:grid md:grid-cols-3 md:gap-x-12 md:gap-y-14 lg:grid lg:grid-cols-3 lg:gap-y-14 lg:gap-x-0 xl:grid xl:grid-cols-3 xl:gap-y-14 xl:gap-x-0">
         {UnistaTakeways.map((i) => {
