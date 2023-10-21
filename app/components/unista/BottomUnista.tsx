@@ -1,15 +1,15 @@
 import React from "react";
 import Image from "next/image";
 import { UnistaTakeways, UnistaGrid } from "@/data/experience";
+import BrandOverview from "../Brand/BrandOverView";
 
 function BottomUnista() {
   return (
     <div className="rounded-tl-none rounded-tr-none rounded-br-[30px] rounded-bl-[30px] py-6 px-7 w-full bg-BeautyDarkPurple flex flex-col space-y-8">
-      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
-        Brand Overview
-      </h5>
+      <BrandOverview />
+      
 
-      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-1 pb-8">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-1 pb-8 pt-5">
         Unista is a banking application for internal staffs (Agents & Branch
         Managers) that helps them manage their users. over 4,000 agents are
         actively using the platform.

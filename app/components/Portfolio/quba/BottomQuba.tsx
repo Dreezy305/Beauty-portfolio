@@ -6,15 +6,17 @@ import QubaTwo from "@/public/development/quba2.png";
 import QubaThree from "@/public/development/quba3.png";
 import QubaFour from "@/public/development/quba4.png";
 import QubaFive from "@/public/development/quba5.png";
+import BrandOverview from "../../Brand/BrandOverView";
 
 function BottomQuba(): JSX.Element {
   return (
     <div className="rounded-tl-none rounded-tr-none rounded-br-[30px] rounded-bl-[30px] py-6 px-7 w-full bg-BeautyDarkPurple flex flex-col space-y-8">
-      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
+      {/* <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
         Brand Overview
-      </h5>
+      </h5> */}
+       <BrandOverview />
 
-      <p className="font-LotaRegular font-normal text-base md:text-xl lg:text-xl xl:text-xl leading-8 py-1 pb-8">
+      <p className="font-LotaRegular font-normal text-base md:text-xl lg:text-xl xl:text-xl leading-8 py-1 pb-8 pt-4">
         E-commerce sites in Nigeria are somewhat overwhelming to navigate as a
         user. The popular sites are daunting with information, are less visually
         appealing and have little to no update on user experience. While the

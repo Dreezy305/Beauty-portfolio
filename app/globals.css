@@ -197,3 +197,24 @@ portfolio-item::after {
   bottom: -42%;
   left: 32%;
 }
+
+.brandOverviewSmGreen::after{
+  content: url("/effects/zigzaggreen.svg");
+  position: absolute;
+  bottom: -42%;
+  left: 4%;
+}
+
+.brandOverviewLgGreen::after {
+  content: url("/effects/zigzaggreen.svg");
+  position: absolute;
+  bottom: -42%;
+  left: 39%;
+}
+
+.brandOverviewMdGreen::after {
+  content: url("/effects/zigzaggreen.svg");
+  position: absolute;
+  bottom: -42%;
+  left: 32%;
+}
