@@ -177,6 +177,13 @@ portfolio-item::after {
   transition: transform 0.2s ease-in-out;
 }
 
+.arrow-ring::after{
+  content: url("/effects/Arrowzigzag.svg");
+  position: absolute;
+ top:-11%;
+  left: 74%;
+}
+
 .brandOverviewSm::after{
   content: url("/effects/zigzag.svg");
   position: absolute;
@@ -236,6 +243,70 @@ portfolio-item::after {
 
 .brandOverviewMdYellow::after {
   content: url("/effects/zigzagyellow.svg");
+  position: absolute;
+  bottom: -42%;
+  left: 32%;
+}
+
+.brandOverviewSmRed::after{
+  content: url("/effects/zigzagred.svg");
+  position: absolute;
+  bottom: -42%;
+  left: 4%;
+}
+
+.brandOverviewLgRed::after {
+  content: url("/effects/zigzagred.svg");
+  position: absolute;
+  bottom: -42%;
+  left: 37%;
+}
+
+.brandOverviewMdRed::after {
+  content: url("/effects/zigzagred.svg");
+  position: absolute;
+  bottom: -42%;
+  left: 32%;
+}
+
+
+.brandOverviewSmPurple::after{
+  content: url("/effects/zigzagpurple.svg");
+  position: absolute;
+  bottom: -42%;
+  left: 4%;
+}
+
+.brandOverviewLgPurple::after {
+  content: url("/effects/zigzagpurple.svg");
+  position: absolute;
+  bottom: -42%;
+  left: 37%;
+}
+
+.brandOverviewMdPurple::after {
+  content: url("/effects/zigzagpurple.svg");
+  position: absolute;
+  bottom: -42%;
+  left: 32%;
+}
+
+.brandOverviewSmDeepGreen::after{
+  content: url("/effects/zigzagdeepgreen.svg");
+  position: absolute;
+  bottom: -42%;
+  left: 4%;
+}
+
+.brandOverviewLgDeepGreen::after {
+  content: url("/effects/zigzagdeepgreen.svg");
+  position: absolute;
+  bottom: -42%;
+  left: 37%;
+}
+
+.brandOverviewMdDeepGreen::after {
+  content: url("/effects/zigzagdeepgreen.svg");
   position: absolute;
   bottom: -42%;
   left: 32%;

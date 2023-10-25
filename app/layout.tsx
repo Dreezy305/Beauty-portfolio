@@ -7,7 +7,12 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Beauty Ohia",
-  description: "Beauty Ohia Portfolio",
+  description: `a product designer, a minimalist.  My name is Ohia Beauty, i'm a minimalist designer, with an
+  adept in communicating design decisions effectively, and
+  advocating for the user's perspective throughout the design
+  process, collaborating and cross-communicating within diverse
+  teams and stakeholders to ensure a smooth transition from
+  design to implementation.`,
 };
 
 export default function RootLayout({

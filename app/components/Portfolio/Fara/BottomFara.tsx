@@ -40,6 +40,7 @@ import Refresh from "../../../../public/refresh.svg";
 import "./fara.css";
 import { insight_fara } from "@/data/experience";
 import Project from "../../project/Project";
+import BrandOverview from "../../Brand/BrandOverView";
 
 function BottomFara(): JSX.Element {
   return (
@@ -72,9 +73,8 @@ function BottomFara(): JSX.Element {
 
       <Image src={Groupfara} alt="group" className="w-full" priority />
 
-      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
-        The Problem
-      </h5>
+     
+      <BrandOverview text="The Problem" mdClassName="brandOverviewMdGreen" smClassName="brandOverviewSmGreen" lgClassName="brandOverviewLgGreen"/>
 
       <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-2 md:py-4 lg:py-7 xl:py-7 mt-8">
         Based on research and findings from the previous web Application Rouzo,
@@ -141,9 +141,8 @@ function BottomFara(): JSX.Element {
         </div>
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
-        Goals & Objectives
-      </h5>
+     
+      <BrandOverview text="Goals & Objectives" mdClassName="brandOverviewMdRed" smClassName="brandOverviewSmRed" lgClassName="brandOverviewLgRed"/>
 
       <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-2 md:py-4 lg:py-7 xl:py-7 mt-8">
         My major role in this project was to design a seamless web based
@@ -222,9 +221,8 @@ function BottomFara(): JSX.Element {
         </div>
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
-        The Approach
-      </h5>
+      
+      <BrandOverview text="The Approach" mdClassName="brandOverviewMdYellow" smClassName="brandOverviewSmYellow" lgClassName="brandOverviewLgYellow"/>
 
       <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8">
         The Basics - Starting from ground ZERO <br />
@@ -281,7 +279,7 @@ function BottomFara(): JSX.Element {
         payments online or at POS terminals.
       </p>
 
-      <div className="rounded-lg px-5 py-8 bg-BeautyDark">
+      <div className="rounded-lg px-5 py-8 bg-BeautyDark arrow-ring relative">
         <h5 className="font-LotaRegular text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pb-8">
           Do you use financial Platforms?
         </h5>
@@ -376,11 +374,10 @@ function BottomFara(): JSX.Element {
         </div>
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
-        User Persona
-      </h5>
+      
+      <BrandOverview text="User Persona" mdClassName="brandOverviewMdGreen" smClassName="brandOverviewSmGreen" lgClassName="brandOverviewLgGreen"/>
 
-      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8">
+      <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8 pt-5">
         I created some User Personas to help uncover the different ways people
         may interface with the product or a similar product, so I can focus my
         efforts on improving the experience for real people and use cases.
@@ -609,9 +606,8 @@ function BottomFara(): JSX.Element {
         </div>
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
-        Competitive Analysis - Compareing Exisiting solutions
-      </h5>
+     
+      <BrandOverview text="Competitive Analysis - Comparing Exisiting solutions" mdClassName="brandOverviewMdPurple" smClassName="brandOverviewSmPurple" lgClassName="brandOverviewLgPurple"/>
 
       <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8">
         Bankly
@@ -635,9 +631,8 @@ function BottomFara(): JSX.Element {
         </div>
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
-        User Flow
-      </h5>
+      
+       <BrandOverview text="User Flow" mdClassName="brandOverviewMdGreen" smClassName="brandOverviewSmGreen" lgClassName="brandOverviewLgGreen"/>
 
       <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8 w-full">
         The application is designed so that users can easily find every feature
@@ -657,9 +652,8 @@ function BottomFara(): JSX.Element {
         </div>
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
-        Main Insights & Takeaways
-      </h5>
+     
+      <BrandOverview text="Main Insights & Takeaways" mdClassName="brandOverviewMdPurple" smClassName="brandOverviewSmPurple" lgClassName="brandOverviewLgPurple"/>
 
       <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8 w-full">
         After my research, I was able to note down some important points that
@@ -682,9 +676,9 @@ function BottomFara(): JSX.Element {
         </ul>
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
-        Design Process
-      </h5>
+      
+      <BrandOverview text="Design Process" mdClassName="brandOverviewMdDeepGreen" smClassName="brandOverviewSmDeepGreen" lgClassName="brandOverviewLgDeepGreen"/>
+
 
       <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8 w-full">
         I started competitive analysis by trying competitor apps and reading app
@@ -710,9 +704,8 @@ function BottomFara(): JSX.Element {
         the design and at this stage, most of the work was done.
       </p>
 
-      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
-        Low Fidelity Wireframes
-      </h5>
+     
+      <BrandOverview text="Low Fidelity Wireframes" mdClassName="brandOverviewMdPurple" smClassName="brandOverviewSmPurple" lgClassName="brandOverviewLgPurple"/>
 
       <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8 w-full">
         The wireframes created helped to quickly test the interface ideas and
@@ -731,9 +724,8 @@ function BottomFara(): JSX.Element {
         </div>
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
-        The Solution
-      </h5>
+      
+      <BrandOverview text="The Solution" mdClassName="brandOverviewMdYellow" smClassName="brandOverviewSmYellow" lgClassName="brandOverviewLgYellow"/>
 
       <div className="rounded-lg px-5 py-8 bg-BeautyDark flex flex-col space-y-4 lg:hidden xl:hidden">
         <div className="flex flex-col space-y-5 md:flex md:flex-row md:flex-wrap md:justify-center md:space-x-3 md:space-y-5  lg:flex lg:flex-row lg:px-4 lg:flex-wrap lg:justify-center lg:space-x-3 lg:space-y-0 xl:flex xl:flex-row xl:px-4 xl:py-3 xl:flex-wrap xl:justify-center xl:space-x-3 xl:space-y-0">
