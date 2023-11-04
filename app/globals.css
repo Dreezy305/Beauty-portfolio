@@ -111,6 +111,13 @@ body {
   background-position-y: 100%;
 }
 
+.section-flower {
+  background-image: url("/flowerbg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: 0%;
+}
+
 /* DEMO-SPECIFIC STYLES */
 .typewriter span {
   color: #fff;

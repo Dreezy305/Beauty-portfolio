@@ -8,8 +8,8 @@ import CaseStudiesMobile from "../components/case-studies/CaseStudiesMobile";
 
 export default function Portfolio(): JSX.Element {
   return (
-    <BeautyLayout active="portfolio">
-      <section className="overflow-hidden">
+    <BeautyLayout active="portfolio" className={"section-flower"}>
+      <section className="overflow-hidden ">
         <div className="md:container md:mx-auto lg:container lg:mx-auto xl:container xl:mx-auto px-5 pt-6 pb-12 md:pb-12 lg:pb-0 xl:pb-0 md:pt-6 lg:pt-24 xl:pt-32">
           <div className="flex flex-col space-y-7 md:space-y-7 lg:space-y-14 xl:space-y-20 text-left">
             {/* CASE STUDIES */}
