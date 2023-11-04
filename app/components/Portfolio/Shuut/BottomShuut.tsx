@@ -13,6 +13,7 @@ import ShuutThree from "@/public/shuut/3.png";
 import ShuutFour from "@/public/shuut/4.png";
 import ShuutFive from "@/public/shuut/5.png";
 import { shuut_grid_two } from "@/data/experience";
+import BrandOverview from "../../Brand/BrandOverView";
 
 function BottomShuut(): JSX.Element {
   return (
