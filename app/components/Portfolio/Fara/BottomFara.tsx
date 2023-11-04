@@ -58,7 +58,6 @@ function BottomFara(): JSX.Element {
       </h5>
 
      
-
       <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-2 md:py-4 lg:py-7 xl:py-7">
         Fara money previously know as Rouzo is an all-in-one financial platform
         created for the world's underserved population in the informal sector,

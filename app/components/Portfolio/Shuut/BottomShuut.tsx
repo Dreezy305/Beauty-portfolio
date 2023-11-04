@@ -17,7 +17,15 @@ import { shuut_grid_two } from "@/data/experience";
 function BottomShuut(): JSX.Element {
   return (
     <div className="rounded-tl-none rounded-tr-none rounded-br-[30px] rounded-bl-[30px] py-6 px-7 w-full bg-BeautyDarkPurple flex flex-col space-y-8">
-      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-8 text-center">
+      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-8 text-center relative brandOverviewLg hidden md:hidden lg:block xl:block">
+        Brand Overview
+      </h5>
+
+      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-8 text-center relative brandOverviewMd hidden md:block lg:hidden xl:hidden">
+        Brand Overview
+      </h5>
+
+      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-8 text-center relative brandOverviewSm  md:hidden lg:hidden xl:hidden">
         Brand Overview
       </h5>
 
@@ -37,9 +45,7 @@ function BottomShuut(): JSX.Element {
         />
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
-        The Problem
-      </h5>
+      <BrandOverview text="The Problem" mdClassName="brandOverviewMdRed" smClassName="brandOverviewSmRed" lgClassName="brandOverviewLgRed"/>
       <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-3 mt-8">
         In our society today, many people have equipments that are lying dormant
         in their houses that they don't make good use of, and it was purchased
@@ -65,9 +71,7 @@ function BottomShuut(): JSX.Element {
         })}
       </ol>
 
-      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
-        Goals & Objectives
-      </h5>
+      <BrandOverview text="Goals & Objectives" mdClassName="brandOverviewMdRed" smClassName="brandOverviewSmRed" lgClassName="brandOverviewLgRed"/>
 
       <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-3 mt-8">
         SHUUT plans to help people access equipment gears without owning them by
