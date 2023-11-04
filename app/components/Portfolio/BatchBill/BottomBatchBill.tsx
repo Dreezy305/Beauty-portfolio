@@ -31,11 +31,20 @@ import {
 } from "@/data/experience";
 import Project from "../../project/Project";
 import Image458 from "../../../../public/image459.png";
+import BrandOverview from "../../Brand/BrandOverView";
 
 function BottomBatchBill(): JSX.Element {
   return (
     <div className="rounded-tl-none rounded-tr-none rounded-br-[30px] rounded-bl-[30px] py-6 px-7 w-full bg-BeautyDarkPurple flex flex-col space-y-8">
-      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-8 text-center">
+      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-8 text-center relative brandOverviewLg hidden md:hidden lg:block xl:block">
+        Brand Overview
+      </h5>
+
+      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-8 text-center relative brandOverviewMd hidden md:block lg:hidden xl:hidden">
+        Brand Overview
+      </h5>
+
+      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-8 text-center relative brandOverviewSm  md:hidden lg:hidden xl:hidden">
         Brand Overview
       </h5>
 
@@ -66,9 +75,7 @@ function BottomBatchBill(): JSX.Element {
         />
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-8 text-center">
-        The Problem
-      </h5>
+      <BrandOverview text="The Problem" mdClassName="brandOverviewMdGreen" smClassName="brandOverviewSmGreen" lgClassName="brandOverviewLgGreen"/>
 
       <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-2 md:py-4 lg:py-7 xl:py-7">
         In today’s world, convenience is king. It’s no surprise that online bill
@@ -142,9 +149,7 @@ function BottomBatchBill(): JSX.Element {
         </div>
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-8 text-center">
-        Goals & Objectives
-      </h5>
+      <BrandOverview text="Goals & Objectives" mdClassName="brandOverviewMdRed" smClassName="brandOverviewSmRed" lgClassName="brandOverviewLgRed"/>
 
       <p className="font-LotaRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-2 md:py-4 lg:py-7 xl:py-7">
         Batchbill had a very clear target, a target that needs an extremely easy
@@ -168,9 +173,7 @@ function BottomBatchBill(): JSX.Element {
         <Image src={Kite} priority alt="kite" className="mx-auto w-full" />
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-8 text-center">
-        The Approach
-      </h5>
+      <BrandOverview text="The Approach" mdClassName="brandOverviewMdYellow" smClassName="brandOverviewSmYellow" lgClassName="brandOverviewLgYellow"/>
 
       <p className="font-GraphikRegular font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 py-7 mt-8">
         Research - Getting familiar with payment process
@@ -432,9 +435,7 @@ function BottomBatchBill(): JSX.Element {
         </div>
       </div>
 
-      <h5 className="font-LotaSemiBold font-semibold text-xl md:text-2xl lg:text-3xl xl:text-3xl leading-7 pt-12 text-center">
-        User Persona
-      </h5>
+      <BrandOverview text="User Persona" mdClassName="brandOverviewMdGreen" smClassName="brandOverviewSmGreen" lgClassName="brandOverviewLgGreen"/>
 
       <p className="font-LotaRegular font-normal text-base">
         I created a User Personas to help uncover the different ways people may
