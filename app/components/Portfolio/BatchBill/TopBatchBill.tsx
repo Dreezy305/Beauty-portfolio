@@ -4,9 +4,11 @@ import BatchBill from "../../../../public/batchbill.svg"
 import "./batchbill.css";
 
 function TopBatchBill(): JSX.Element {
+  // background: #005BFC;
+
   return (
     <>
-    <div className="rounded-tl-[30px] rounded-tr-[30px] rounded-br-none rounded-bl-none py-6 px-5 md:px-6 lg:px-7 xl:px-7 w-full bg-BeautyDeepBlue mt-10 lg:batchbill-image-background h-72 lg:hidden xl:hidden">
+    <div className="rounded-tl-[30px] rounded-tr-[30px] rounded-br-none rounded-bl-none py-6 px-5 md:px-6 lg:px-7 xl:px-7 w-full bg-[#005BFC] mt-10 lg:batchbill-image-background h-72 lg:hidden xl:hidden">
       <div className="w-full md:w-4/5 lg:w-1/2 xl:w-1/2 flex flex-col space-y-5 pt-5">
         <Image
           src={BatchBill}

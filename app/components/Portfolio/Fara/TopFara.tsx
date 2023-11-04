@@ -3,9 +3,11 @@ import Image from "next/image";
 import "./fara.css";
 
 function TopFara(): JSX.Element {
+  // background: #4A47FF;
+
   return (
     <>
-    <div className="rounded-tl-[30px] rounded-tr-[30px] rounded-br-none rounded-bl-none py-6 px-5 md:px-6 lg:px-7 xl:px-7 h-56 w-full bg-BeautyDeepBlue mt-10 lg:hidden xl:hidden">
+    <div className="rounded-tl-[30px] rounded-tr-[30px] rounded-br-none rounded-bl-none py-6 px-5 md:px-6 lg:px-7 xl:px-7 h-56 w-full bg-[#4A47FF] mt-10 lg:hidden xl:hidden">
       <div className="w-full md:w-4/5 lg:w-1/2 xl:w-1/2 flex flex-col space-y-5 pt-5">
         <Image
           src={"/faralogo.svg"}
