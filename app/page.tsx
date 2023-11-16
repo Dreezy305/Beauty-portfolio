@@ -1,7 +1,7 @@
-import Header from "./components/Header/Header";
-import Link from "next/link";
-import "./globals.css";
 import "animate.css";
+import Link from "next/link";
+import Header from "./components/Header/Header";
+import "./globals.css";
 
 export default function Home() {
   const Moon = () => {
@@ -88,7 +88,7 @@ export default function Home() {
                   </span>
                 </h4>
 
-                <p className="font-SofiaLight font-normal text-base md:text-lg lg:text-xl xl:text-xl leading-8 text-white animate__animated animate__fadeInUp">
+                <p className="font-SofiaLight font-light text-base md:text-lg lg:text-xl xl:text-xl leading-8 text-white animate__animated animate__fadeInUp">
                   My name is Ohia Beauty, i'm a minimalist designer, with an
                   adept in communicating design decisions effectively, and
                   advocating for the user's perspective throughout the design

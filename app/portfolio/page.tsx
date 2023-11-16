@@ -18,7 +18,7 @@ export default function Portfolio(): JSX.Element {
                 Case Studies
               </h5>
 
-              <p className="font-LotaThin font-normal text-xl leading-8 md:leading-8 lg:leading-9 xl:leading-9">
+              <p className="font-SofiaLight font-light text-xl leading-8 md:leading-8 lg:leading-9 xl:leading-9">
                 Oh yes, i've been busy. Here's a glimpse of what i've been
                 working on.
               </p>
